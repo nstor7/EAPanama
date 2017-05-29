@@ -1,5 +1,5 @@
 import page from 'page'
 
-require('./home')
+require('./home',)
 
 page()

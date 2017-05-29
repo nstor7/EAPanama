@@ -1,0 +1,113 @@
+gris = #939598
+rosado = #9D3973
+celeste = #02aec3
+negro = #231f20
+grisClaro = #e1e1e1
+body
+  margin 0
+  padding 0
+  background black
+.headerContainer
+  width 100%
+  height 70px
+  z-index: 2
+header
+ width 100%
+ padding 0 15px 0 15px
+ max-width: 1140px
+ height 70px
+ line-height 70px
+ top 0
+ margin auto
+ display flex
+ justify-content: space-between
+ a
+   line-height: 70px
+   text-decoration none
+   .logo
+     background url('imagenes/eapanama-logowords-normal.png')
+     background-size cover
+     repeat none
+     height 75px
+     width 140.5px
+    // @media screen and (min-resolution: 2dppx)
+    //  background url('imagenes/sumergidaLogo2x.png') cover
+    // @media screen and (min-resolution: 3dppx)
+    //  background url('imagenes/sumergidaLogo3x.png') cover
+nav
+ width 671px
+ @media(max-width: 600px)
+  top 70px
+  background grisClaro
+  width 100%
+  transition ease 1s
+ ul
+  display flex
+  justify-content: space-between
+  margin 0
+  padding 0
+  width 100%
+  @media(max-width: 600px)
+   display block
+  li
+   list-style: none
+   text-align center
+   @media(max-width: 600px)
+    margin 0
+    border-bottom: 1px solid #e1e1e1
+   a
+    color grisClaro
+    text-decoration none
+    margin 0
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem
+    padding 0.5rem
+    @media(max-width: 600px)
+     color rosado
+     width: 100%
+   a:hover
+    border 1px solid grisClaro
+    box-sizing: border-box
+    @media(max-width: 600px)
+     color grisClaro
+     background rosado
+.active
+  font-weight: bold;
+  li:last-child
+   @media(max-width: 600px)
+    border-bottom: none
+.social
+  width: 150px
+  display: flex;
+  justify-content: space-between;
+  a
+    color white
+  .fa
+    padding 0.2rem
+  .fa-facebook:hover
+    background #33579f
+  .fa-twitter:hover
+    background: #00abf3
+  .fa-google-plus:hover
+    background: #da4b2d
+  .fa-linkedin:hover
+    background: #0082c4
+  .fa-flickr:hover
+    background: #ff0988
+  .hidden
+   @media(max-width: 600px)
+    right -100vw
+    display none
+    transition ease 1s
+.navButton
+ width: 2rem
+ font-size 2rem
+ position absolute
+ top 10px
+ left 10px
+ color #e1e1e1
+ @media(min-width: 600px)
+  display none
+.scrolled
+  background white
+  opacity: 0.6
