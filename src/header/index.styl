@@ -1,19 +1,21 @@
 gris = #939598
-rosado = #9D3973
+verde = #92B41B
 celeste = #02aec3
 negro = #231f20
 grisClaro = #e1e1e1
 body
   margin 0
   padding 0
-  background black
+  background: black
 .headerContainer
   width 100%
   height 70px
   z-index: 2
+  transition: background 0.5s linear
 header
  width 100%
  padding 0 15px 0 15px
+ box-sizing: border-box
  max-width: 1140px
  height 70px
  line-height 70px
@@ -21,38 +23,43 @@ header
  margin auto
  display flex
  justify-content: space-between
+ transition: all 0.5s linear
  a
    line-height: 70px
    text-decoration none
+   transition: all 0.5s linear
    .logo
      background url('imagenes/eapanama-logowords-normal.png')
-     background-size cover
+     background-size contain
+     background-repeat: no-repeat
      repeat none
      height 75px
      width 140.5px
+     transition: all 0.5s linear
     // @media screen and (min-resolution: 2dppx)
     //  background url('imagenes/sumergidaLogo2x.png') cover
     // @media screen and (min-resolution: 3dppx)
     //  background url('imagenes/sumergidaLogo3x.png') cover
 nav
  width 671px
- @media(max-width: 600px)
+ @media(max-width: 900px)
+  position: fixed
   top 70px
   background grisClaro
   width 100%
-  transition ease 1s
+  transition all linear 1s
  ul
   display flex
   justify-content: space-between
   margin 0
   padding 0
   width 100%
-  @media(max-width: 600px)
+  @media(max-width: 900px)
    display block
   li
    list-style: none
    text-align center
-   @media(max-width: 600px)
+   @media(max-width: 900px)
     margin 0
     border-bottom: 1px solid #e1e1e1
    a
@@ -62,28 +69,29 @@ nav
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem
     padding 0.5rem
-    @media(max-width: 600px)
-     color rosado
+    @media(max-width: 900px)
+     color verde
      width: 100%
    a:hover
     border 1px solid grisClaro
     box-sizing: border-box
-    @media(max-width: 600px)
+    @media(max-width: 900px)
      color grisClaro
-     background rosado
+     background verde
 .active
   font-weight: bold;
   li:last-child
-   @media(max-width: 600px)
+   @media(max-width: 900px)
     border-bottom: none
 .social
   width: 150px
-  display: flex;
-  justify-content: space-between;
+  display: flex
+  justify-content: space-between
   a
     color white
+    transition: all 1s linear
   .fa
-    padding 0.2rem
+    padding 0.4rem
   .fa-facebook:hover
     background #33579f
   .fa-twitter:hover
@@ -94,20 +102,37 @@ nav
     background: #0082c4
   .fa-flickr:hover
     background: #ff0988
-  .hidden
-   @media(max-width: 600px)
+.hidden
+  @media(max-width: 900px)
     right -100vw
-    display none
-    transition ease 1s
+    transition all linear 1s
 .navButton
  width: 2rem
  font-size 2rem
- position absolute
- top 10px
- left 10px
  color #e1e1e1
- @media(min-width: 600px)
+ @media(min-width: 900px)
   display none
 .scrolled
   background white
   opacity: 0.6
+.blanco
+  background: rgba(255,255,255,0.90) !important
+  position: fixed
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1)
+  height: 50px
+.blancoHeader
+  height: 50px
+  line-height: 50px
+  a
+    line-height: 50px
+.blancoNav
+  a
+    color: black !important
+  a:hover
+    border: 1px solid black
+.blancoSocial
+  a
+    color grey
+.blancoLogo
+  height: 50px !important
+  width: 100px

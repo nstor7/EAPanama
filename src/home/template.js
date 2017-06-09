@@ -3,12 +3,16 @@ import portada from '../inicioPortada'
 import objetivo from '../inicioObjetivo'
 import porque from '../inicioPorque'
 import unicos from '../inicioUnicos'
+import portafolio from '../inicioPortafolio'
+import criticas from '../porqueCriticas/criticas'
+
 
 module.exports = yo`
-  <main-container>
+  <main>
     ${portada}
     ${objetivo}
-    ${porque}
+    ${porque(criticas)}
     ${unicos}
-  </main-container>
+    ${portafolio}
+  </main>
 `

@@ -1,13 +1,14 @@
+gris = #69645e
 .porque
-  position absolute
-  top 200vh
+  position relative
   z-index: 1
   background: #f3f6f8
   display block
+  padding-top 100px
+  box-sizing: border-box
   .porqueTitulo
     text-align: center
     width 100%
-    margin-top 100px
     h2
       font-size: 36px
       color: #333
@@ -18,13 +19,15 @@
       margin: 0 0 35px 0
       line-height: 1.6
       text-align: center
-      padding: 0 125px
+      padding: 0
       font-family: 'Montserrat', sans-serif
   .porqueContenido
     display flex
     justify-content: space-around
+    flex-wrap: wrap
     .porqueLista
       width 50%
+      min-width: 300px
       li
         list-style: none
         font-family: 'Open Sans', sans-serif
@@ -44,7 +47,56 @@
           font-size: 18px
           color: #666
           margin: -5px 20px 0 0
-    .porqueCriticas
-      width 415px
-      height: 280px
-      background: #e1e1e1
+.porqueCriticasContainer
+  width 30%
+  min-width: 300px
+  height: 280px
+  margin-bottom: 20px
+  position: relative
+  display: block
+  overflow: hidden
+  .fa-quote-left
+    position: absolute
+    font-size: 3rem
+    font-weight: 200
+    color white
+    left: 10px
+    top: 10px
+  .criticaPunto
+    position: absolute
+    top: 240px
+    right: 0
+    height: 20px
+    width: 70px
+    display flex
+    justify-content: space-between
+    .punto
+      width: 16px
+      height: 16px
+      border-radius: 50%
+      background: #CCCCCC
+      cursor pointer
+  .porqueCriticas
+    height: 100%
+    width: 300%
+    display: flex
+    z-index: -1
+    transition: margin-left linear 0.3s
+.posicion1
+  .porqueCriticas
+    margin-left: 0
+  .criticaPunto
+    .punto:first-child
+      background: gris
+.posicion2
+  .porqueCriticas
+    margin-left: -100%
+  .criticaPunto
+    .punto:nth-child(2)
+      background: gris
+.posicion3
+  .porqueCriticas
+    margin-left: -200%
+  .criticaPunto
+    .punto:nth-child(3)
+      background: gris

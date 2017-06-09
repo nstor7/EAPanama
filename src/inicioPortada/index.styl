@@ -6,15 +6,17 @@ h2
   width: 100%
   z-index: -2
   opacity: 0.6
+  @media(max-width: 600px)
+    display: none
 .indexPortada
-  position: absolute
+  position: relative
   display: inline-block
-  height: 309px
+  height: 90vh
+  box-sizing border-box
   padding-top 190px
   width: 100%
   top 0
   text-align: center
-  z-index: -1
   color: white
   h1
     font-family: 'Roboto Slab', serif
@@ -22,10 +24,14 @@ h2
     font-weight: 300
     vertical-align: baseline
     margin 0
+    @media(max-width: 600px)
+      font-size: 40px
   h2
     font-size 60px
     vertical-align: baseline
     margin 0 0 15px 0
+    @media(max-width: 600px)
+      font-size: 40px
   p
     font-family 'Open Sans', sans-serif
     font-size 1rem
@@ -47,3 +53,5 @@ h2
     box-shadow: 0 -3px rgba(0,0,0,0.3) inset
     font-family: 'Montserrat', sans-serif
     vertical-align: baseline
+  a:hover
+    background: #69645e
