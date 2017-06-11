@@ -13,7 +13,7 @@ module.exports = yo`
     <h1 >EA Panamá S.A.</h1>
     <h2 >CONSULTORES ACUSTICOS</h2>
     <p> ¿ Necesitas ayuda en acondicionamiento acústico o aislamiento acústico ? <br>Consulta con los profesionales del sector</p>
-    <a href="#">Contactar</a>
+    <a href="#" class="callToAction">Contactar</a>
   </div>
 </div>
 `

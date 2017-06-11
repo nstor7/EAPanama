@@ -25,7 +25,7 @@ var cabeceraDatos = {
     imagen: 'portfolio-home.png'
   },
   contactar:{
-    titulo: 'contacto',
+    titulo: 'contactar',
     subtitulo: 'Visita nuestras instalaciones para ver nuestros servicios y productos.',
     imagen: 'contactar-home.png'
   }

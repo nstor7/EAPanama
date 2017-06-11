@@ -10,8 +10,9 @@ body
 .headerContainer
   width 100%
   height 70px
-  z-index: 2
+  z-index: 5
   transition: background 0.5s linear
+  position: fixed
 header
  width 100%
  padding 0 15px 0 15px
@@ -89,7 +90,6 @@ nav
   justify-content: space-between
   a
     color white
-    transition: all 1s linear
   .fa
     padding 0.4rem
   .fa-facebook:hover
@@ -107,32 +107,28 @@ nav
     right -100vw
     transition all linear 1s
 .navButton
- width: 2rem
- font-size 2rem
- color #e1e1e1
- @media(min-width: 900px)
-  display none
-.scrolled
-  background white
-  opacity: 0.6
+  width: 2rem
+  font-size 2rem
+  color #e1e1e1
+  @media(min-width: 900px)
+    display none
 .blanco
   background: rgba(255,255,255,0.90) !important
-  position: fixed
   box-shadow: 0 1px 3px rgba(0,0,0,0.1)
   height: 50px
-.blancoHeader
-  height: 50px
-  line-height: 50px
-  a
+  header
+    height: 50px
     line-height: 50px
-.blancoNav
-  a
-    color: black !important
-  a:hover
-    border: 1px solid black
-.blancoSocial
-  a
-    color grey
-.blancoLogo
-  height: 50px !important
-  width: 100px
+    a
+      line-height: 50px
+  nav
+    a
+      color: black !important
+    a:hover
+      border: 1px solid black
+  .social
+    a
+      color grey
+  .logo
+    height: 50px !important
+    width: 100px

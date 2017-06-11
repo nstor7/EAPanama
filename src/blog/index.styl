@@ -1,0 +1,59 @@
+.tarjeta
+  width: 30%
+  min-width: 300px
+  height: 600px
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  background: white
+  text-decoration: none
+  margin-bottom: 2rem
+  padding 30px
+  box-sizing: border-box
+  &:hover
+    box-shadow: 0.5px 0.5px 30px grey
+  .tarjetaImagen
+    width: 290px
+    height: 290px
+    background: url('https://images.pexels.com/photos/431950/pexels-photo-431950.jpeg?w=940&h=650&auto=compress&cs=tinysrgb')
+    background-size: cover
+  .tarjetaTexto
+    width: 290px
+    height: 290px
+    color: black
+    position: relative
+    h3
+      font-family: 'Montserrar', sans-serif
+      font-size: 1.5rem
+      margin-bottom: 0
+    h5
+      margin: 0.5rem 0 0 0
+      font-family: 'Roboto Slab', serif
+      font-size: 0.8rem
+      font-weight: 300
+      color: #aaa
+    p
+      font-family: 'Montserrat', sans-serif
+      color: grey
+      line-height: 1.4rem
+      border-top: 1px solid #ddd
+      padding-top: 0.5rem
+      margin-top: 0.2rem
+.blogSection
+  height: auto
+  background: #E9E9E9
+  padding: 40px 40px 24px 40px
+  box-sizing: border-box
+  justify-content: space-between
+  @media(max-width: 380px)
+    padding 40px 0 24px 0
+    justify-content: center
+.socialTarjeta
+  width: 120px
+  position: absolute
+  right: 40px
+  top: 24px
+  a
+    color: grey
+  a:hover
+    color: white

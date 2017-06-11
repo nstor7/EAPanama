@@ -4,8 +4,11 @@ import footer from '../footer'
 import empty from 'empty-element'
 import template from './template'
 import backTop from '../backTop'
+import metaData from '../metaData'
+import servicioDatos from './metaData'
 
-page('/servicio', header, footer, backTop, function(){
+page('/servicio', header, backTop, footer, function(){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
+  metaData(servicioDatos.title, servicioDatos.description, servicioDatos.keywords)
 } )
