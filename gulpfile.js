@@ -5,6 +5,7 @@ var browserify = require('browserify');
 var source = require('vinyl-source-stream');
 var watchify = require('watchify')
 
+
 function compile(watch){
     var bundle = browserify('./src/index.js');
 
