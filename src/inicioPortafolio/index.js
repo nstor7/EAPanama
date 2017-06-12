@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 module.exports = yo`
   <section class="inicioPortafolio">
     <article class="portafolioTitulo">
-      <div class="portafolioIcon"></div>
+      <i class="fa fa-book sectionIcon" aria-hidden="true"></i>
       <h2>Portafolio</h2>
       <p>Éstos son algunos de nuestros proyectos...</p>
     </article>

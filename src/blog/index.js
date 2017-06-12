@@ -4,10 +4,13 @@ import footer from '../footer'
 import empty from 'empty-element'
 import template from './template'
 import backTop from '../backTop'
+import metaData from '../metaData'
+import blogDatos from './metaData'
+import articulos from './articulos'
 
 page('/blog', header, footer, backTop, function(){
-  var articulos = [1, 2, 3, 4, 5, 6, 7, 4]
-  console.log(articulos)
+  console.log(template(articulos))
   var container = document.getElementById('main-container')
   empty(container).appendChild(template(articulos))
+  metaData(blogDatos.title, blogDatos.description, blogDatos.keywords)
 })

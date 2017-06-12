@@ -13,19 +13,19 @@ module.exports = yo`
             <i class="fa fa-phone" aria-hidden="true"></i>
             <span>+507 390-9933</span>
           </div>
-          <div class="mail">
+          <a class="mail" href="mailto:info@eapanama.com">
             <i class="fa fa-envelope" aria-hidden="true"></i>
             <span>info@eapanama.com</span>
-          </div>
+          </a>
         </div>
       </div>
       <div>
         <h3>ACCESO RÁPIDO</h3>
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio & Upcoming Work</a></li>
-          <li><a href="#">Productos</a></li>
-          <li><a href="#">Contactar</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>
+          <li><a href="/productos">Productos</a></li>
+          <li><a href="/contactar">Contactar</a></li>
         </ul>
       </div>
       <div>
