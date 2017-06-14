@@ -1,5 +1,6 @@
 import yo from 'yo-yo'
 import navegacion from './navigationFunction'
+import social from '../social'
 
 module.exports = yo`
 <div class="headerContainer" id="cabeza">
@@ -21,14 +22,7 @@ module.exports = yo`
      <li><a href="/contactar" onclick=${navegacion}>CONTACTAR</a></li>
     </ul>
    </nav>
-   <div class="social" id="social">
-     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-     <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-     <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-     <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-     <a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a>
-   </div>
+   ${social()}
   </header>
 </div>
 `

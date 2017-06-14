@@ -9,5 +9,5 @@ app.get('*', function(req, res){
  res.render('index.pug')
 })
   app.listen(8000, () => {
-   console.log('EAPanama corriendo en el puerto 3000')
+   console.log('EAPanama corriendo en el puerto 8000')
   })

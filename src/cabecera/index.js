@@ -7,7 +7,7 @@ module.exports = function(datos){
         <h2>${datos.titulo}</h2>
         <p>${datos.subtitulo}</p>
       </hgroup>
-      <div class="demasPortadaImagen" style="background: url(imagenes/${datos.imagen})"></div>
+      <div class="demasPortadaImagen" style="background: url('${datos.imagen}'); background-size: cover"></div>
     </section>
   `
   return el

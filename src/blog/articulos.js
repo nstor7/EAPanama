@@ -6,6 +6,7 @@ module.exports = [
     titulo: 'Exposición a Ruido en los Carnavales',
     fecha: '10 Febrero 2016',
     descripcion: ' Si estuvo expuesto durante los Carnavales al ambiente ruidoso predominante usted podría padecer trauma acústico.',
+    imagen: 'https://static.pexels.com/photos/247135/pexels-photo-247135.jpeg',
     contenido: yo`
     <div>
       <p>Si estuvo expuesto durante los Carnavales al ambiente ruidoso predominante usted podría padecer trauma acústico.</p>

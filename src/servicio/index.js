@@ -6,6 +6,7 @@ import template from './template'
 import backTop from '../backTop'
 import metaData from '../metaData'
 import servicioDatos from './metaData'
+import scrollFunction from '../subMenu/scrollFunction'
 
 page('/servicio', header, backTop, footer, function(){
   var container = document.getElementById('main-container')

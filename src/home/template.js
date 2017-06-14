@@ -5,6 +5,7 @@ import porque from '../inicioPorque'
 import unicos from '../inicioUnicos'
 import portafolio from '../inicioPortafolio'
 import criticas from '../porqueCriticas/criticas'
+import secciones from '../servicio/secciones'
 
 
 module.exports = yo`
@@ -12,7 +13,7 @@ module.exports = yo`
     ${portada}
     ${objetivo}
     ${porque(criticas)}
-    ${unicos}
+    ${unicos(secciones)}
     ${portafolio}
   </main>
 `
