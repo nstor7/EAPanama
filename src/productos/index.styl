@@ -1,0 +1,55 @@
+.productosSeccion
+  height: auto
+.productoEstante
+  width: 100%
+  h2
+    text-align: center
+.productoEstanteria
+  width: 85%
+  margin: auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+.productoTarjeta
+  width: 340px
+  height: 360px
+  position: relative
+  text-decoration: none
+  h4
+    position: absolute
+    width: 100%
+    margin 0
+    top 1rem
+    text-align: center
+    color: #333
+    font-family: 'Open Sans', sans-serif
+    font-size: 1rem
+    z-index: 3
+  .productoOver
+    width: 100%
+    height: 100%
+    background: rgba(211, 226,112, 0.85);
+    padding-top 2rem
+    opacity: 0
+    .productoOverImagen
+      width: 215px
+      height: 90px
+      margin 20px auto 1rem
+      transition: margin-top 1s ease
+    p
+      border-top: 1px solid #eee
+      margin 0 20px
+      padding-top: 1rem
+      color: #fefefe
+      font-family: 'Open Sans', sans-serif
+      font-size: 1rem
+      line-height: 1.5rem
+      font-weight: 300
+.productoTarjeta:hover
+  .productoOver
+    opacity: 1
+    .productoOverImagen
+      margin-top: 60px
+  h4
+    color: #fefefe
+    font-weight: 300

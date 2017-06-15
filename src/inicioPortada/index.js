@@ -10,8 +10,8 @@ module.exports = yo`
     </video>
   </div>
   <div class="indexPortada">
-    <h1 >EA Panamá S.A.</h1>
-    <h2 >CONSULTORES ACUSTICOS</h2>
+    <h1>EA Panamá S.A.</h1>
+    <h2>Noise controlling & Acoustics Designs</h2>
     <p> ¿ Necesitas ayuda en acondicionamiento acústico o aislamiento acústico ? <br>Consulta con los profesionales del sector</p>
     <a href="/contactar" class="callToAction">Contactar</a>
   </div>

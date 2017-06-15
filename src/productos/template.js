@@ -1,9 +1,18 @@
 import yo from 'yo-yo'
 import portada from '../cabecera'
 import datos from '../cabecera/datos'
+import estante from './estante'
 
-module.exports = yo`
-  <main>
-    ${portada(datos.productos)}
-  </main>
-`
+module.exports = function(catalogo){
+  var el = yo`
+    <main>
+      ${portada(datos.productos)}
+      <section class="productosSeccion">
+        ${catalogo.map(function(productos){
+            return estante(productos)
+        })}
+      </section>
+    </main>
+  `
+  return el
+}
