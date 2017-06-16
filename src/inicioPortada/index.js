@@ -6,7 +6,7 @@ module.exports = yo`
     <video autoplay loop id="bgvid">
       <source src="imagenes/web-home-video.webm" type="video/webm">
       <source src="imagenes/web-home-video.mp4" type="video/mp4">
-            <source src="images-web/web-home-video.ogv" type="video/ogg">
+      <source src="images-web/web-home-video.ogv" type="video/ogg">
     </video>
   </div>
   <div class="indexPortada">

@@ -8,7 +8,7 @@ module.exports = yo`
     <section class="noHomeSection">
       <article class="mapa">
         <h2>VISITENOS EN:</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.313403012764!2d-79.4634246858236!3d9.03514899351662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca9f05e713231%3A0x23f4ae443d84416a!2sEA+Panam%C3%A1+S.A.!5e0!3m2!1ses!2ses!4v1497067862887" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id="map" class="map"></div>
       </article>
       <article class="horarios">
         <h2>Horarios:</h2>

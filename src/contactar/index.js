@@ -6,8 +6,22 @@ import template from './template'
 import backTop from '../backTop'
 import metaData from '../metaData'
 import contactoDatos from './metaData'
+import request from 'superagent'
+import initialize from './google'
 
-page('/contactar', header, footer, backTop, function(){
+function loadMap (ctx, next){
+  request
+    .get('https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg')
+    .end(function(err, res){
+      if(err) return console.log(err)
+
+      var google = res.body
+      return google
+    next()
+  })
+}
+
+page('/contactar', header, footer, backTop, initialize, function(){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(contactoDatos.title, contactoDatos.description, contactoDatos.keywords)

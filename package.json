@@ -7,6 +7,7 @@
     "express": "^4.14.0",
     "page": "^1.7.1",
     "pug": "^2.0.0-beta6",
+    "superagent": "^3.5.2",
     "yo-yo": "^1.2.2"
   },
   "scripts": {
