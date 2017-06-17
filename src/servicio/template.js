@@ -17,7 +17,7 @@ module.exports = yo`
           <a href="/servicio/${secciones[0].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
       </section>
-      <section class="noHomeSection">
+      <section class="noHomeSection servicioGris">
         <div class="serviciosTexto">
           <h2>${secciones[1].titulo}</h2>
           <p>
@@ -37,7 +37,7 @@ module.exports = yo`
           <a href="/servicio/${secciones[2].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
       </section>
-      <section class="noHomeSection">
+      <section class="noHomeSection servicioGris">
         <div class="serviciosTexto">
           <h2>${secciones[3].titulo}</h2>
           <p>

@@ -1,30 +1,109 @@
+.aboutUs
+  background: white
+  width: 100%
+  height: auto
+  p
+    line-height: 1.5
+    font-family: 'Montserrat', sans-serif
+    color #333
+  .demasPortadaImagen
+    z-index: 1
 .aboutPrimera
-  padding: 2rem 6% 2rem
-  box-sizing: border-box
+  padding: 2rem  2rem
   display: flex
   flex-wrap: wrap
   align-items: center
   height: auto
+  width: 88%
+  margin 20px auto
+  box-sizing: border-box;
+  @media(max-width: 600px)
+    justify-content: center
+    width: 100%
   .logo
     background-image: url('imagenes/eapanama-logobox-big.png')
-    background-size: cover
+    background-size: contain
+    background-repeat: no-repeat
     width: 40%
     min-width: 300px
     height: 440px
+    @media(max-width: 600px)
+      height: 300px
   .aboutPrimeraLaterales
-    width: 25%
+    width: 275px
     height: 440px
-    background: grey
+    .lateralesPartes
+      display: flex
+      justify-content: space-between
+      hgroup
+        width: 211px
+        text-align: right
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-end
+        h3
+          line-height: 1.3rem
+          color: #111
+          font-family: 'Open Sans', sans-serif
+          font-weight: normal
+          margin: 0
+          width: 60%
+        p
+          font-family: 'Open Sans', sans-serif
+          font-size: 0.9rem
+          line-height: 1.5rem
+          color: #333
+      .fa
+        font-size: 2rem
+        font-weight: 300
+        line-height: 2.6rem
 .aboutSegunda
-  padding 2rem 6% 2rem
+  padding 2rem 0 2rem
   box-sizing: border-box
   display flex
   flex-wrap: wrap
   height: auto
-  border 1px solid #ddd
+  border-top 1px solid #ddd
+  border-bottom: 1px solid #ddd
+  width: 88%
+  margin auto
+  @media(max-width: 600px)
+    justify-content: center
+    width: 100%
   .columna
     width: 340px
+.aboutInfo
+  padding 2rem 0 2rem
+  box-sizing: border-box
+  height: auto
+  border-top 1px solid #ddd
+  border-bottom: 1px solid #ddd
+  width: 88%
+  margin auto
+  @media(max-width: 600px)
+    justify-content: center
+    width: 100%
+  p
+    width: 100%
+    @media(max-width: 600px)
+      justify-content: center
+      width: 300px
+  .infoCompuesto
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    @media(max-width: 600px)
+      justify-content: center
     p
-      line-height: 1.5
-      font-family: 'Montserrat', sans-serif
-      color #333
+      width: 50%
+      min-width: 300px
+    .infoCompuestoImagen
+      width: 40%
+      min-width: 300px
+      height: 333px
+      background: url('https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?w=940&h=650&auto=compress&cs=tinysrgb')
+      background-size: contain
+      background-repeat: no-repeat
+      @media(max-width: 600px)
+        height 200px

@@ -21,8 +21,9 @@ function loadMap (ctx, next){
   })
 }
 
-page('/contactar', header, footer, backTop, loadMap, initialize, function(){
+page('/contactar', header, footer, backTop,  function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(contactoDatos.title, contactoDatos.description, contactoDatos.keywords)
-} )
+  next()
+}, loadMap, initialize)

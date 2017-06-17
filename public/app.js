@@ -4548,9 +4548,7 @@ var _backTop = require('../backTop');
 
 var _backTop2 = _interopRequireDefault(_backTop);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/about', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -4560,7 +4558,7 @@ function _interopRequireDefault(obj) {
 },{"../backTop":28,"../footer":42,"../header":44,"./template":25,"empty-element":5,"page":13}],25:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales"></article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales"></article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales"></article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales"></article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <p>Sin duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala. Ecos, reverberaci\xF3n, reflexiones, focalizaciones y muchos otros par\xE1metros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la ac\xFAstica en teatros. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que\nsuperficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n        <div class="infoCompuestoImagen"></div>\n      </article>\n    </section>\n  </main>\n'], ['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <p>Sin duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala. Ecos, reverberaci\xF3n, reflexiones, focalizaciones y muchos otros par\xE1metros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la ac\xFAstica en teatros. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que\nsuperficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n        <div class="infoCompuestoImagen"></div>\n      </article>\n    </section>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -4574,13 +4572,9 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.about));
 
@@ -4605,13 +4599,9 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(articulo), (0, _social2.default)(), articulo.fecha, articulo.contenido);
@@ -4631,13 +4621,9 @@ var _articulo = require('./articulo');
 
 var _articulo2 = _interopRequireDefault(_articulo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulos, ident) {
   var el = (0, _yoYo2.default)(_templateObject, articulos.map(function (articulo) {
@@ -4659,9 +4645,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('backTopContainer');
@@ -4678,13 +4662,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var subir = function subir() {
   window.scrollTo(0, 0);
@@ -4701,13 +4681,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = [{
   id: '1',
@@ -4757,9 +4733,7 @@ var _articulos = require('./articulos');
 
 var _articulos2 = _interopRequireDefault(_articulos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/blog', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -4788,13 +4762,9 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, articulo.titulo, articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, (0, _social2.default)());
@@ -4822,13 +4792,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.blog), articulos.map(function (articulo) {
@@ -4868,9 +4834,7 @@ var _template = require('../articulo/template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/blog/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   console.log('uff');
@@ -4925,13 +4889,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (datos) {
   var el = (0, _yoYo2.default)(_templateObject, datos.titulo, datos.subtitulo, datos.imagen);
@@ -5026,9 +4986,7 @@ var _google = require('./google');
 
 var _google2 = _interopRequireDefault(_google);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function loadMap(ctx, next) {
   _superagent2.default.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg').end(function (err, res) {
@@ -5040,11 +4998,12 @@ function loadMap(ctx, next) {
   });
 }
 
-(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, loadMap, _google2.default, function () {
+(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-});
+  next();
+}, loadMap, _google2.default);
 
 },{"../backTop":28,"../footer":42,"../header":44,"../metaData":58,"./google":38,"./metaData":40,"./template":41,"empty-element":5,"page":13,"superagent":15}],40:[function(require,module,exports){
 'use strict';
@@ -5071,13 +5030,9 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
@@ -5092,9 +5047,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function footer(ctx, next) {
   var footer = document.getElementById('footer');
@@ -5111,13 +5064,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -5136,9 +5085,7 @@ var _scrollFunction = require('../header/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -5187,13 +5134,9 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
@@ -5236,9 +5179,7 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -5292,13 +5233,9 @@ var _secciones = require('../servicio/secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), _inicioPortafolio2.default);
 
@@ -5309,9 +5246,7 @@ var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -5337,13 +5272,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -5364,13 +5295,9 @@ var _criticaMovimientoFunction = require('../porqueCriticas/criticaMovimientoFun
 
 var _criticaMovimientoFunction2 = _interopRequireDefault(_criticaMovimientoFunction);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (criticas) {
   var el = (0, _yoYo2.default)(_templateObject, _criticaMovimientoFunction2.default.posicion1, _criticaMovimientoFunction2.default.posicion2, _criticaMovimientoFunction2.default.posicion3, criticas.map(function (critica) {
@@ -5388,13 +5315,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -5407,13 +5330,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -5430,13 +5349,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -5454,13 +5369,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo, seccion.descripcion);
@@ -5475,9 +5386,7 @@ var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (title, description, keywords) {
   var metaTitle = document.getElementById('metaTitle');
@@ -5522,19 +5431,19 @@ module.exports = { posicion1: posicion1, posicion2: posicion2, posicion3: posici
 
 var criticas = [{
   autor: "Rogelio Romero",
-  titulo: "particular",
+  titulo: "Particular",
   avatar: "",
-  mensaje: "The team in missingidea has changed my life by giving me an awesome website for my home business. Thank you so much missingidea, I will tell all my friends to make a website in missingidea."
+  mensaje: "Estupendo servicio, muy atentos en todo momento, y muy cuidadosos con sus trabajos. Volvería a contratarles para aislar el ruido"
 }, {
   autor: "John Doe",
-  titulo: "Head of Traditional Market",
+  titulo: "Empresario",
   avatar: "",
-  mensaje: "Yeah, finally my website design is done and it is so cool. I really like and appreciate your work. Hope we can work together again to make another impressive website."
+  mensaje: "De las empresas que contactamos, ésta era la mejor cualificada para el trabajo. Nos sorprendieron con el conocimiento de los problemas de ruido"
 }, {
   autor: "Patricia",
   titulo: "Doctor",
   avatar: "",
-  mensaje: "I love the result of the website design you make, my grocery will be more famous and successful for having this kind of awesome website. Thank you so much missingidea, next time I’ll make another website again with you."
+  mensaje: "En mi oficina ya no existe más eco, los chicos de EA Panamá hicieron un estupendo trabajo de análisis y diseño acústico, se los agradecemos."
 }];
 module.exports = criticas;
 
@@ -5547,13 +5456,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (critica) {
   var el = (0, _yoYo2.default)(_templateObject, critica.mensaje, critica.autor, critica.titulo);
@@ -5587,9 +5492,7 @@ var _backTop = require('../backTop');
 
 var _backTop2 = _interopRequireDefault(_backTop);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/portafolio', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -5613,13 +5516,9 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.portafolio));
 
@@ -5636,22 +5535,65 @@ module.exports = [{
   }, {
     titulo: 'LANA MINERAL DE ROCA',
     descripcion: 'La lana mineral de roca es un producto a base de rocas basáltica para aplicaciones en aislamiento térmico y aislamiento acústico, tanto en edificación como en industria.',
-    interna: 'imagenes/rockwool.png',
-    externa: 'imagenes/rockwool-install.png'
+    interna: 'imagenes/producto-lana.png',
+    externa: ''
   }, {
     titulo: 'CFAB PANEl DE CELULOSA',
-    descripcion: 'La lana mineral de roca es un producto a base de rocas basáltica para aplicaciones en aislamiento térmico y aislamiento acústico, tanto en edificación como en industria.',
-    interna: 'imagenes/rockwool.png',
-    externa: 'imagenes/rockwool-install.png'
+    descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
+    interna: 'imagenes/producto-cfab.png',
+    externa: ''
   }, {
     titulo: 'PAC POLYESTER ACOUSTIC CEILING',
-    descripcion: 'La lana mineral de roca es un producto a base de rocas basáltica para aplicaciones en aislamiento térmico y aislamiento acústico, tanto en edificación como en industria.',
-    interna: 'imagenes/rockwool.png',
-    externa: 'imagenes/rockwool-install.png'
+    descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
+    interna: 'imagenes/producto-pac.png',
+    externa: ''
+  }, {
+    titulo: 'REVCLOUD',
+    descripcion: 'Islas acústicas flotantes de color sólido. Ideal para reducir tiempos de reverberación y otorgar un diseño moderno a su instalación. Posibilidad de instalación en techo y pared. ',
+    interna: 'imagenes/producto-revcloud.png',
+    externa: ''
+  }, {
+    titulo: 'REVCLOUD FP',
+    descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
+    interna: 'imagenes/revcloudfo-retina.png',
+    externa: ''
+  }, {
+    titulo: 'SONEX ONE',
+    descripcion: 'Material absorbente de alto rendimiento acústico en rangos de ruido de media-alta frecuencia. Aplicaciones industriales, oficinas, estudios de radiodifusión y de grabación para control de reverberación y  sonido reflejado.',
+    interna: 'imagenes/producto-sonex.png',
+    externa: ''
   }]
 }, {
   estante: 'AISLANTES ACÚSTICOS',
-  productos: []
+  productos: [{
+    titulo: 'MGB',
+    descripcion: 'Placa de magnesio de alta densidad (>1200 kg/m3). En el mismo espesor que un Gypsum corriente se consigue un alto aislamiento, STC = 36 dB. Ideal para dividir recintos y medianeras nuevas.',
+    interna: 'imagenes/producto-mgb.png',
+    externa: ''
+  }, {
+    titulo: 'RUBBER 2M',
+    descripcion: 'Impermeable acústico a base de cauchos reciclados. ',
+    interna: 'imagenes/producto-rubber.png',
+    externa: ''
+  }, {
+    titulo: 'PROYECTADOS',
+    descripcion: 'Material plástico empleado como aislante térmico y acústico y como impermeabilizante tanto en edificación como en la industria. Una vez rociado el producto es totalmente inocuo para el trabajador.',
+    interna: 'imagenes/rockwool.png',
+    externa: ''
+  }]
+}, {
+  estante: 'AISLANTES A VIBRACIONES',
+  productos: [{
+    titulo: 'ACOUSTIK',
+    descripcion: 'Manto aislante de suelos 100 % reciclado de cauchos. Su estructura permite el amortiguamiento de los ruidos de impacto. Ideal para zonas con cargas medias. ',
+    interna: 'imagenes/producto-acoustik.png',
+    externa: ''
+  }, {
+    titulo: 'QUIETFLOORNP',
+    descripcion: 'El lado inferior acanalado minimiza el contacto de la base entre los materiales terminados y el subsuelo. Reduce la rotura de la baldosa cerámica causada por el agrietamiento y la fisuración del hormigón. Excelente insonorización a ruido de impacto piso a piso.',
+    interna: 'imagenes/rockwool.png',
+    externa: ''
+  }]
 }];
 
 },{}],65:[function(require,module,exports){
@@ -5667,13 +5609,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, catalogo.estante, catalogo.productos.map(function (producto) {
@@ -5713,9 +5651,7 @@ var _catalogo = require('./catalogo');
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/productos', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -5725,19 +5661,15 @@ function _interopRequireDefault(obj) {
 },{"../backTop":28,"../footer":42,"../header":44,"./catalogo":64,"./template":68,"empty-element":5,"page":13}],67:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\')" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\')" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: cover;" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: cover;" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (producto) {
   var el = (0, _yoYo2.default)(_templateObject, producto.interna, producto.titulo, producto.externa, producto.descripcion);
@@ -5765,13 +5697,9 @@ var _estante = require('./estante');
 
 var _estante2 = _interopRequireDefault(_estante);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.productos), catalogo.map(function (productos) {
@@ -5819,9 +5747,7 @@ var _scrollFunction = require('../subMenu/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/servicio', _header2.default, _backTop2.default, _footer2.default, function () {
   var container = document.getElementById('main-container');
@@ -5853,13 +5779,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = [{
   titulo: 'ACONDICIONAMIENTO ACÚSTICO',
@@ -5902,7 +5824,7 @@ module.exports = [{
 },{"yo-yo":22}],72:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: cover"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'imagenes/servicios-venta.png\')"></div>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: cover"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'imagenes/servicios-venta.png\')"></div>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: cover"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'imagenes/servicios-venta.png\')"></div>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: cover"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'imagenes/servicios-venta.png\')"></div>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -5924,13 +5846,9 @@ var _secciones = require('./secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo, _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo, _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo, _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo, _secciones2.default[3].ilustracion);
 
@@ -5965,9 +5883,7 @@ var _template = require('../articulo/template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/servicio/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -5983,13 +5899,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject);
@@ -6009,13 +5921,9 @@ var _plantilla = require('./plantilla');
 
 var _plantilla2 = _interopRequireDefault(_plantilla);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -6033,13 +5941,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.icono, seccion.titulo);
