@@ -7,23 +7,21 @@ import backTop from '../backTop'
 import metaData from '../metaData'
 import contactoDatos from './metaData'
 import request from 'superagent'
-import initialize from './google'
+import initMap from './google'
 
-function loadMap (ctx, next){
+function loadUser (ctx, next){
   request
-    .get('https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg')
+    .get('https://maps.googleapis.com/maps/api/js?key=AIzaSyBeYDiRIlaMlaRUBjOqnuRlvp69Hi-78IQ')
     .end(function(err, res){
       if(err) return console.log(err)
 
-      var google = res.body
-      return google
-    next()
+      next()
   })
 }
 
-page('/contactar', header, footer, backTop,  function(ctx, next){
+page('/contactar', header, footer, backTop, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(contactoDatos.title, contactoDatos.description, contactoDatos.keywords)
   next()
-}, loadMap, initialize)
+})

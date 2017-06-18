@@ -35,7 +35,7 @@ module.exports = [
       {
         titulo: 'REVCLOUD FP',
         descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
-        interna: 'imagenes/revcloudfo-retina.png',
+        interna: 'imagenes/revcloudfp-retina.png',
         externa: ''
       },
       {
@@ -64,7 +64,7 @@ module.exports = [
       {
         titulo: 'PROYECTADOS',
         descripcion: 'Material plástico empleado como aislante térmico y acústico y como impermeabilizante tanto en edificación como en la industria. Una vez rociado el producto es totalmente inocuo para el trabajador.',
-        interna: 'imagenes/rockwool.png',
+        interna: 'imagenes/producto-poliuretano.png',
         externa: ''
       }
     ]
@@ -81,7 +81,7 @@ module.exports = [
       {
         titulo: 'QUIETFLOORNP',
         descripcion: 'El lado inferior acanalado minimiza el contacto de la base entre los materiales terminados y el subsuelo. Reduce la rotura de la baldosa cerámica causada por el agrietamiento y la fisuración del hormigón. Excelente insonorización a ruido de impacto piso a piso.',
-        interna: 'imagenes/rockwool.png',
+        interna: 'imagenes/producto-quiet.png',
         externa: ''
       }
     ]
