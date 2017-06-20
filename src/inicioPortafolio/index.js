@@ -14,7 +14,6 @@ module.exports = function(proyectos){
           return tarjeta(proyecto)
         })}
       </article>
-      <a href="" class="masProyectos">Más Proyectos</a>
     </section>
   `
   return el

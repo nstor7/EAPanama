@@ -5,24 +5,24 @@ module.exports = [
     nombre: 'SENACYT',
     area: ' SALON COIBA',
     servicio: 'ACONDICIONAMIENTO ACÚSTICO',
-    imagen: ''
+    imagen: 'imagenes/portfolio1.jpg'
   },
   {
     nombre: 'CSS',
     area: ' 5 DE MAYO',
     servicio: 'AISLAMIENTO ACÚSTICO',
-    imagen: ''
+    imagen: 'imagenes/portfolio2.jpg'
   },
   {
-    nombre: 'REGENCY REAL STATE',
-    area: ' DULIC 1',
+    nombre: 'COASSA',
+    area: ' OIL TANKING SERVICES',
     servicio: 'CONTROL DE RUIDO INDUSTRIAL',
-    imagen: ''
+    imagen: 'imagenes/portfolio4.jpg'
   },
   {
-    nombre: 'MICROSOFT',
-    area: ' OFICINAS CENTRALES',
+    nombre: 'XIELO',
+    area: ' SALA DE ENSAYOS',
     servicio: 'INTEGRACION DE AUDIO Y VIDEO',
-    imagen: ''
+    imagen: 'imagenes/portfolio3.jpg'
   }
 ]

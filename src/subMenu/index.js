@@ -1,13 +1,8 @@
-import yo from 'yo-yo'
-import plantilla from './plantilla'
+import empty from 'empty-element'
+import template from './template'
+import secciones from '../servicio/secciones'
 
-module.exports = function(secciones){
-  var el = yo`
-  <div class="subMenu" id="subMenu">
-    ${secciones.map(function(seccion){
-      return plantilla(seccion)
-    })}
-  </div>
-  `
-  return el
+module.exports = function(ctx, next){
+  var container = document.getElementById('subMenu')
+  empty(container).appendChild(template(secciones))
 }

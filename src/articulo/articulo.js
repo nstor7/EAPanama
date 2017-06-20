@@ -16,6 +16,7 @@ module.exports = function(articulo){
         ${articulo.contenido}
       </article>
     </section>
+    <div class="subMenu" id="subMenu"></div>
   </div>
   `
   return el

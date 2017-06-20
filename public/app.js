@@ -4557,10 +4557,10 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"./template":25,"empty-element":5,"page":13}],25:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"./template":25,"empty-element":5,"page":13}],25:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <p>Sin duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala. Ecos, reverberaci\xF3n, reflexiones, focalizaciones y muchos otros par\xE1metros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la ac\xFAstica en teatros. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que\nsuperficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n        <div class="infoCompuestoImagen"></div>\n      </article>\n    </section>\n  </main>\n'], ['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <p>Sin duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala. Ecos, reverberaci\xF3n, reflexiones, focalizaciones y muchos otros par\xE1metros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la ac\xFAstica en teatros. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que\nsuperficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n        <div class="infoCompuestoImagen"></div>\n      </article>\n    </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <span class="dropcap">S</span>\n        <p>in duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala. Ecos, reverberaci\xF3n, reflexiones, focalizaciones y muchos otros par\xE1metros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la ac\xFAstica en teatros. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que\nsuperficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n        <div class="infoCompuestoImagen"></div>\n      </article>\n      <article class="infoIcons">\n        <div>\n          <i class="fa fa-phone" aria-hidden="true"></i>\n          <h5>Contacta con nosotros y exp\xF3n tu problema</h5>\n        </div>\n        <div>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <h5>An\xE1lisis de campo y estudio de soluciones</h5>\n        </div>\n        <div>\n          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>\n          <h5>Ejecuci\xF3n del proyecto ac\xFAstico</h5>\n        </div>\n      </article>\n    </section>\n  </main>\n'], ['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <span class="dropcap">S</span>\n        <p>in duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala. Ecos, reverberaci\xF3n, reflexiones, focalizaciones y muchos otros par\xE1metros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la ac\xFAstica en teatros. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que\nsuperficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n        <div class="infoCompuestoImagen"></div>\n      </article>\n      <article class="infoIcons">\n        <div>\n          <i class="fa fa-phone" aria-hidden="true"></i>\n          <h5>Contacta con nosotros y exp\xF3n tu problema</h5>\n        </div>\n        <div>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <h5>An\xE1lisis de campo y estudio de soluciones</h5>\n        </div>\n        <div>\n          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>\n          <h5>Ejecuci\xF3n del proyecto ac\xFAstico</h5>\n        </div>\n      </article>\n    </section>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -4587,7 +4587,7 @@ module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_d
 },{"../cabecera":37,"../cabecera/datos":36,"yo-yo":22}],26:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido">\n        ', '\n      </article>\n    </section>\n  </div>\n  '], ['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido">\n        ', '\n      </article>\n    </section>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div class="subMenu" id="subMenu"></div>\n  </div>\n  '], ['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div class="subMenu" id="subMenu"></div>\n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -4618,7 +4618,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../cabecera":37,"../cabecera/datos":36,"../social":76,"yo-yo":22}],27:[function(require,module,exports){
+},{"../cabecera":37,"../cabecera/datos":36,"../social":77,"yo-yo":22}],27:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n', '\n  </main>\n  '], ['\n  <main>\n', '\n  </main>\n  ']);
@@ -4767,7 +4767,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"../metaData":60,"./articulos":30,"./metaData":32,"./template":34,"empty-element":5,"page":13}],32:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"../metaData":61,"./articulos":30,"./metaData":32,"./template":34,"empty-element":5,"page":13}],32:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -4801,7 +4801,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../social":76,"yo-yo":22}],34:[function(require,module,exports){
+},{"../social":77,"yo-yo":22}],34:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -4878,7 +4878,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_articulos2.default, ctx.params.titulo));
 });
 
-},{"../articulo/template":27,"../backTop":28,"../blog/articulos":30,"../footer":42,"../header":44,"empty-element":5,"page":13}],36:[function(require,module,exports){
+},{"../articulo/template":27,"../backTop":28,"../blog/articulos":30,"../footer":43,"../header":45,"empty-element":5,"page":13}],36:[function(require,module,exports){
 'use strict';
 
 var cabeceraDatos = {
@@ -4941,76 +4941,24 @@ module.exports = function (datos) {
 },{"yo-yo":22}],38:[function(require,module,exports){
 'use strict';
 
-module.exports = function initMap() {
-  var uluru = { lat: 9.0354163, lng: -79.4638468 };
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 15,
-    center: uluru
-  });
-  var marker = new google.maps.Marker({
-    position: uluru,
-    map: map
+var _superagent = require('superagent');
+
+var _superagent2 = _interopRequireDefault(_superagent);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+module.exports = function (ctx, next) {
+  _superagent2.default.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg').end(function (err, res) {
+    if (err) return console.log(err);
+
+    console.log('conectado a google.Maps');
+    next();
   });
 };
 
-// module.exports = function initialize(google) {
-// 			var latlng = new google.maps.LatLng(9.0354163,-79.4638468);
-//
-// 			var settings = {
-// 				zoom: 15,
-// 				center: latlng,
-// 				scroll:false,
-// 				scrollwheel: false,
-// 				mapTypeControl: false,
-// 				mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-// 				navigationControl: false,
-// 				navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
-// 				mapTypeId: google.maps.MapTypeId.ROADMAP};
-//
-// 			var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
-//
-// 			var contentString = '<div id="content">'+
-// 				'<div id="siteNotice">'+
-// 				'</div>'+
-// 				'<h1 id="firstHeading" class="firstHeading">EA Panamá S.A.</h1>'+
-// 				'<div id="bodyContent">'+
-// 				'<p> Esto sería la descripción de la etiqueta en el sitio. PUede ser nuestra dirección o nuestro resumen.</p>'+
-// 				'</div>'+
-// 				'</div>';
-//
-// 			var infowindow = new google.maps.InfoWindow({
-// 				content: contentString
-// 			});
-//
-// 			var companyImage = new google.maps.MarkerImage('images-iconos/eapanama-geo.png',
-// 				new google.maps.Size(77,86),
-// 				new google.maps.Point(10,10),
-// 				new google.maps.Point(50,50)
-// 			);
-//
-// 			var companyShadow = new google.maps.MarkerImage('images-iconos/eapanama_office.png',
-// 				new google.maps.Size(130,50),
-// 				new google.maps.Point(0,0),
-// 				new google.maps.Point(65, 50));
-//
-//
-// 			var companyPos = new google.maps.LatLng(9.035165, -79.46120);
-// 			var companyMarker = new google.maps.Marker({
-// 				position: companyPos,
-// 				map: map,
-// 				icon: companyImage,
-// 				shadow: companyShadow,
-// 				title:"EA Panamá S.A.",
-// 				zIndex: 3});
-//
-// 			google.maps.event.addListener(companyMarker, 'click', function() {
-// 				infowindow.open(map,companyMarker);
-//
-//          next()
-// 			});
-// 		}
-
-},{}],39:[function(require,module,exports){
+},{"superagent":15}],39:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -5045,34 +4993,70 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-var _superagent = require('superagent');
+var _googleApi = require('./googleApi');
 
-var _superagent2 = _interopRequireDefault(_superagent);
+var _googleApi2 = _interopRequireDefault(_googleApi);
 
-var _google = require('./google');
+var _mapa = require('./mapa');
 
-var _google2 = _interopRequireDefault(_google);
+var _mapa2 = _interopRequireDefault(_mapa);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-function loadUser(ctx, next) {
-  _superagent2.default.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyBeYDiRIlaMlaRUBjOqnuRlvp69Hi-78IQ').end(function (err, res) {
-    if (err) return console.log(err);
-
-    next();
-  });
-}
-
-(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
+(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, _googleApi2.default, _mapa2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-  next();
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"../metaData":60,"./google":38,"./metaData":40,"./template":41,"empty-element":5,"page":13,"superagent":15}],40:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"../metaData":61,"./googleApi":38,"./mapa":40,"./metaData":41,"./template":42,"empty-element":5,"page":13}],40:[function(require,module,exports){
+'use strict';
+
+module.exports = function initialize(google) {
+         var latlng = new google.maps.LatLng(9.0354163, -79.4638468);
+
+         var settings = {
+                  zoom: 15,
+                  center: latlng,
+                  scroll: false,
+                  scrollwheel: false,
+                  mapTypeControl: false,
+                  mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
+                  navigationControl: false,
+                  navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
+                  mapTypeId: google.maps.MapTypeId.ROADMAP };
+
+         var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+
+         var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h1 id="firstHeading" class="firstHeading">EA Panamá S.A.</h1>' + '<div id="bodyContent">' + '<p> Esto sería la descripción de la etiqueta en el sitio. PUede ser nuestra dirección o nuestro resumen.</p>' + '</div>' + '</div>';
+
+         var infowindow = new google.maps.InfoWindow({
+                  content: contentString
+         });
+
+         var companyImage = new google.maps.MarkerImage('images-iconos/eapanama-geo.png', new google.maps.Size(77, 86), new google.maps.Point(10, 10), new google.maps.Point(50, 50));
+
+         var companyShadow = new google.maps.MarkerImage('images-iconos/eapanama_office.png', new google.maps.Size(130, 50), new google.maps.Point(0, 0), new google.maps.Point(65, 50));
+
+         var companyPos = new google.maps.LatLng(9.035165, -79.46120);
+         var companyMarker = new google.maps.Marker({
+                  position: companyPos,
+                  map: map,
+                  icon: companyImage,
+                  shadow: companyShadow,
+                  title: "EA Panamá S.A.",
+                  zIndex: 3 });
+
+         google.maps.event.addListener(companyMarker, 'click', function () {
+                  infowindow.open(map, companyMarker);
+
+                  next();
+         });
+};
+
+},{}],41:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -5080,10 +5064,10 @@ module.exports = {
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.' };
 
-},{}],41:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n          <iframe src="https://www.google.com/maps/place/EA+Panam%C3%A1+S.A./@9.035149,-79.4634247,17z/data=!4m12!1m6!3m5!1s0x8faca9f05e713231:0x23f4ae443d84416a!2sEA+Panam%C3%A1+S.A.!8m2!3d9.035149!4d-79.461236!3m4!1s0x8faca9f05e713231:0x23f4ae443d84416a!8m2!3d9.035149!4d-79.461236" frameborder="0"></iframe>\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>Horarios:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mensaje" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n          <iframe src="https://www.google.com/maps/place/EA+Panam%C3%A1+S.A./@9.035149,-79.4634247,17z/data=!4m12!1m6!3m5!1s0x8faca9f05e713231:0x23f4ae443d84416a!2sEA+Panam%C3%A1+S.A.!8m2!3d9.035149!4d-79.461236!3m4!1s0x8faca9f05e713231:0x23f4ae443d84416a!8m2!3d9.035149!4d-79.461236" frameborder="0"></iframe>\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>Horarios:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mensaje" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -5107,7 +5091,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":37,"../cabecera/datos":36,"yo-yo":22}],42:[function(require,module,exports){
+},{"../cabecera":37,"../cabecera/datos":36,"yo-yo":22}],43:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -5128,7 +5112,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":43,"empty-element":5}],43:[function(require,module,exports){
+},{"./template":44,"empty-element":5}],44:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContenido">\n          <p>En EA Panam\xE1 ofrecemos soluciones ac\xFAsticas de calidad respaldado por un equipo t\xE9cnico altamente cualificado.</p>\n        </div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="#">MGB Board</a></li>\n          <li><a href="#">Rubber Ac\xFAstico</a></li>\n          <li><a href="#">Lana de Roca</a></li>\n          <li><a href="#">RevCloud</a></li>\n          <li><a href="#">Pyramid PU FOAM</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <div></div>\n        <div></div>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n'], ['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContenido">\n          <p>En EA Panam\xE1 ofrecemos soluciones ac\xFAsticas de calidad respaldado por un equipo t\xE9cnico altamente cualificado.</p>\n        </div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="#">MGB Board</a></li>\n          <li><a href="#">Rubber Ac\xFAstico</a></li>\n          <li><a href="#">Lana de Roca</a></li>\n          <li><a href="#">RevCloud</a></li>\n          <li><a href="#">Pyramid PU FOAM</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <div></div>\n        <div></div>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n']);
@@ -5147,7 +5131,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":22}],44:[function(require,module,exports){
+},{"yo-yo":22}],45:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -5173,7 +5157,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"../header/scrollFunction":46,"./template":47,"empty-element":5}],45:[function(require,module,exports){
+},{"../header/scrollFunction":47,"./template":48,"empty-element":5}],46:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -5181,7 +5165,7 @@ module.exports = function () {
   nav.classList.toggle('hidden');
 };
 
-},{}],46:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -5196,7 +5180,7 @@ module.exports = function () {
   }
 };
 
-},{}],47:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PRODUCTOS</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n'], ['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PRODUCTOS</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n']);
@@ -5223,7 +5207,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
-},{"../social":76,"./navigationFunction":45,"yo-yo":22}],48:[function(require,module,exports){
+},{"../social":77,"./navigationFunction":46,"yo-yo":22}],49:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -5273,7 +5257,7 @@ function _interopRequireDefault(obj) {
   _criticaMovimientoFunction2.default.movimiento();
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"../metaData":60,"../porqueCriticas/criticaMovimientoFunction":61,"./metaData":49,"./template":50,"empty-element":5,"page":13}],49:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"../metaData":61,"../porqueCriticas/criticaMovimientoFunction":62,"./metaData":50,"./template":51,"empty-element":5,"page":13}],50:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -5281,7 +5265,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.' };
 
-},{}],50:[function(require,module,exports){
+},{}],51:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n'], ['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n']);
@@ -5332,7 +5316,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), (0, _inicioPortafolio2.default)(_proyectos2.default));
 
-},{"../inicioObjetivo":52,"../inicioPorque":53,"../inicioPortada":54,"../inicioPortafolio":55,"../inicioPortafolio/proyectos":56,"../inicioUnicos":58,"../porqueCriticas/criticas":62,"../servicio/secciones":73,"yo-yo":22}],51:[function(require,module,exports){
+},{"../inicioObjetivo":53,"../inicioPorque":54,"../inicioPortada":55,"../inicioPortafolio":56,"../inicioPortafolio/proyectos":57,"../inicioUnicos":59,"../porqueCriticas/criticas":63,"../servicio/secciones":74,"yo-yo":22}],52:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -5358,7 +5342,7 @@ require('./blogArticulo');
 require('./servicioArticulo');
 (0, _page2.default)();
 
-},{"./about":24,"./blog":31,"./blogArticulo":35,"./contactar":39,"./home":48,"./portafolio":64,"./productos":68,"./servicio":71,"./servicioArticulo":75,"page":13}],52:[function(require,module,exports){
+},{"./about":24,"./blog":31,"./blogArticulo":35,"./contactar":39,"./home":49,"./portafolio":65,"./productos":69,"./servicio":72,"./servicioArticulo":76,"page":13}],53:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto comfort ac\xFAstico seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n'], ['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto comfort ac\xFAstico seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n']);
@@ -5377,7 +5361,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":22}],53:[function(require,module,exports){
+},{"yo-yo":22}],54:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  '], ['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  ']);
@@ -5409,7 +5393,7 @@ module.exports = function (criticas) {
   return el;
 };
 
-},{"../porqueCriticas":63,"../porqueCriticas/criticaMovimientoFunction":61,"yo-yo":22}],54:[function(require,module,exports){
+},{"../porqueCriticas":64,"../porqueCriticas/criticaMovimientoFunction":62,"yo-yo":22}],55:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n'], ['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n']);
@@ -5428,10 +5412,10 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":22}],55:[function(require,module,exports){
+},{"yo-yo":22}],56:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <section class="inicioPortafolio servicioGris">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n      <a href="" class="masProyectos">M\xE1s Proyectos</a>\n    </section>\n  '], ['\n    <section class="inicioPortafolio servicioGris">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n      <a href="" class="masProyectos">M\xE1s Proyectos</a>\n    </section>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <section class="inicioPortafolio servicioGris">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="inicioPortafolio servicioGris">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -5456,35 +5440,35 @@ module.exports = function (proyectos) {
   return el;
 };
 
-},{"./tarjeta":57,"yo-yo":22}],56:[function(require,module,exports){
+},{"./tarjeta":58,"yo-yo":22}],57:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
   nombre: 'SENACYT',
   area: ' SALON COIBA',
   servicio: 'ACONDICIONAMIENTO ACÚSTICO',
-  imagen: ''
+  imagen: 'imagenes/portfolio1.jpg'
 }, {
   nombre: 'CSS',
   area: ' 5 DE MAYO',
   servicio: 'AISLAMIENTO ACÚSTICO',
-  imagen: ''
+  imagen: 'imagenes/portfolio2.jpg'
 }, {
-  nombre: 'REGENCY REAL STATE',
-  area: ' DULIC 1',
+  nombre: 'COASSA',
+  area: ' OIL TANKING SERVICES',
   servicio: 'CONTROL DE RUIDO INDUSTRIAL',
-  imagen: ''
+  imagen: 'imagenes/portfolio4.jpg'
 }, {
-  nombre: 'MICROSOFT',
-  area: ' OFICINAS CENTRALES',
+  nombre: 'XIELO',
+  area: ' SALA DE ENSAYOS',
   servicio: 'INTEGRACION DE AUDIO Y VIDEO',
-  imagen: ''
+  imagen: 'imagenes/portfolio3.jpg'
 }];
 
-},{}],57:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <a href="#" class="proyecto">\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n      <div class="piko"></div>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="#" class="proyecto">\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n      <div class="piko"></div>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <a href="#" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="#" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -5503,7 +5487,7 @@ module.exports = function (proyecto) {
   return el;
 };
 
-},{"yo-yo":22}],58:[function(require,module,exports){
+},{"yo-yo":22}],59:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -5531,7 +5515,7 @@ module.exports = function (secciones) {
   return el;
 };
 
-},{"./tarjeta":59,"yo-yo":22}],59:[function(require,module,exports){
+},{"./tarjeta":60,"yo-yo":22}],60:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  '], ['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  ']);
@@ -5554,7 +5538,7 @@ module.exports = function (seccion) {
   return el;
 };
 
-},{"yo-yo":22}],60:[function(require,module,exports){
+},{"yo-yo":22}],61:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -5574,7 +5558,7 @@ module.exports = function (title, description, keywords) {
   (0, _emptyElement2.default)(metaKeywords).content = keywords;
 };
 
-},{"empty-element":5}],61:[function(require,module,exports){
+},{"empty-element":5}],62:[function(require,module,exports){
 'use strict';
 
 var posicion1 = function posicion1() {
@@ -5603,7 +5587,7 @@ var movimiento = function movimiento() {
 
 module.exports = { posicion1: posicion1, posicion2: posicion2, posicion3: posicion3, movimiento: movimiento };
 
-},{}],62:[function(require,module,exports){
+},{}],63:[function(require,module,exports){
 "use strict";
 
 var criticas = [{
@@ -5624,10 +5608,10 @@ var criticas = [{
 }];
 module.exports = criticas;
 
-},{}],63:[function(require,module,exports){
+},{}],64:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <div class="critica">\n      <p>', '</p>\n      <div class="criticaAutor">\n        <div class="criticaAutorAvatar"></div>\n        <hgroup>\n          <h4>', '</h2>\n          <h5>', '</h4>\n        </hgroup>\n\n      </div>\n    </div>\n  '], ['\n    <div class="critica">\n      <p>', '</p>\n      <div class="criticaAutor">\n        <div class="criticaAutorAvatar"></div>\n        <hgroup>\n          <h4>', '</h2>\n          <h5>', '</h4>\n        </hgroup>\n\n      </div>\n    </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  '], ['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -5642,11 +5626,11 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (critica) {
-  var el = (0, _yoYo2.default)(_templateObject, critica.mensaje, critica.autor, critica.titulo);
+  var el = (0, _yoYo2.default)(_templateObject, critica.mensaje);
   return el;
 };
 
-},{"yo-yo":22}],64:[function(require,module,exports){
+},{"yo-yo":22}],65:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -5682,7 +5666,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"./template":65,"empty-element":5,"page":13}],65:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"./template":66,"empty-element":5,"page":13}],66:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n  </main>\n'], ['\n  <main>\n    ', '\n  </main>\n']);
@@ -5709,7 +5693,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.portafolio));
 
-},{"../cabecera":37,"../cabecera/datos":36,"yo-yo":22}],66:[function(require,module,exports){
+},{"../cabecera":37,"../cabecera/datos":36,"yo-yo":22}],67:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -5783,10 +5767,10 @@ module.exports = [{
   }]
 }];
 
-},{}],67:[function(require,module,exports){
+},{}],68:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2>', '</h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2>', '</h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -5811,7 +5795,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"./tarjeta":69,"yo-yo":22}],68:[function(require,module,exports){
+},{"./tarjeta":70,"yo-yo":22}],69:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -5851,7 +5835,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_catalogo2.default));
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"./catalogo":66,"./template":70,"empty-element":5,"page":13}],69:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"./catalogo":67,"./template":71,"empty-element":5,"page":13}],70:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
@@ -5873,7 +5857,7 @@ module.exports = function (producto) {
   return el;
 };
 
-},{"yo-yo":22}],70:[function(require,module,exports){
+},{"yo-yo":22}],71:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -5909,7 +5893,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"../cabecera":37,"../cabecera/datos":36,"./estante":67,"yo-yo":22}],71:[function(require,module,exports){
+},{"../cabecera":37,"../cabecera/datos":36,"./estante":68,"yo-yo":22}],72:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -5958,7 +5942,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":28,"../footer":42,"../header":44,"../metaData":60,"../subMenu/scrollFunction":79,"./metaData":72,"./template":74,"empty-element":5,"page":13}],72:[function(require,module,exports){
+},{"../backTop":28,"../footer":43,"../header":45,"../metaData":61,"../subMenu/scrollFunction":80,"./metaData":73,"./template":75,"empty-element":5,"page":13}],73:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -5966,7 +5950,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'Lea nuestros servicios en Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio o Venta de materiales acústicos.' };
 
-},{}],73:[function(require,module,exports){
+},{}],74:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<i class="fa fa-deaf" aria-hidden="true"></i>'], ['<i class="fa fa-deaf" aria-hidden="true"></i>']),
@@ -6028,7 +6012,7 @@ module.exports = [{
   contenido: (0, _yoYo2.default)(_templateObject8)
 }];
 
-},{"yo-yo":22}],74:[function(require,module,exports){
+},{"yo-yo":22}],75:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: cover"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'imagenes/servicios-venta.png\')"></div>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: cover"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\')"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'imagenes/servicios-venta.png\')"></div>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
@@ -6063,7 +6047,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo, _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo, _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo, _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo, _secciones2.default[3].ilustracion);
 
-},{"../cabecera":37,"../cabecera/datos":36,"../subMenu":77,"./secciones":73,"yo-yo":22}],75:[function(require,module,exports){
+},{"../cabecera":37,"../cabecera/datos":36,"../subMenu":78,"./secciones":74,"yo-yo":22}],76:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -6094,6 +6078,10 @@ var _template = require('../articulo/template');
 
 var _template2 = _interopRequireDefault(_template);
 
+var _subMenu = require('../subMenu');
+
+var _subMenu2 = _interopRequireDefault(_subMenu);
+
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
@@ -6101,12 +6089,13 @@ function _interopRequireDefault(obj) {
 (0, _page2.default)('/servicio/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default, ctx.params.titulo));
-});
+  next();
+}, _subMenu2.default);
 
-},{"../articulo/template":27,"../backTop":28,"../footer":42,"../header":44,"../servicio/secciones":73,"empty-element":5,"page":13}],76:[function(require,module,exports){
+},{"../articulo/template":27,"../backTop":28,"../footer":43,"../header":45,"../servicio/secciones":74,"../subMenu":78,"empty-element":5,"page":13}],77:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a href="https://www.instagram.com/ea_panama/"><i class="fa fa-flickr" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a href="https://www.instagram.com/ea_panama/"><i class="fa fa-flickr" aria-hidden="true"></i></a>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -6125,7 +6114,56 @@ module.exports = function () {
   return el;
 };
 
-},{"yo-yo":22}],77:[function(require,module,exports){
+},{"yo-yo":22}],78:[function(require,module,exports){
+'use strict';
+
+var _emptyElement = require('empty-element');
+
+var _emptyElement2 = _interopRequireDefault(_emptyElement);
+
+var _template = require('./template');
+
+var _template2 = _interopRequireDefault(_template);
+
+var _secciones = require('../servicio/secciones');
+
+var _secciones2 = _interopRequireDefault(_secciones);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+module.exports = function (ctx, next) {
+  var container = document.getElementById('subMenu');
+  (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default));
+};
+
+},{"../servicio/secciones":74,"./template":81,"empty-element":5}],79:[function(require,module,exports){
+'use strict';
+
+var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = function (seccion) {
+  var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo);
+  return el;
+};
+
+},{"yo-yo":22}],80:[function(require,module,exports){
+"use strict";
+
+},{}],81:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  '], ['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  ']);
@@ -6151,31 +6189,7 @@ module.exports = function (secciones) {
     return (0, _plantilla2.default)(seccion);
   }));
   return el;
+  next();
 };
 
-},{"./plantilla":78,"yo-yo":22}],78:[function(require,module,exports){
-'use strict';
-
-var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" >\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" >\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
-
-var _yoYo = require('yo-yo');
-
-var _yoYo2 = _interopRequireDefault(_yoYo);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
-
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
-
-module.exports = function (seccion) {
-  var el = (0, _yoYo2.default)(_templateObject, seccion.icono, seccion.titulo);
-  return el;
-};
-
-},{"yo-yo":22}],79:[function(require,module,exports){
-"use strict";
-
-},{}]},{},[51]);
+},{"./plantilla":79,"yo-yo":22}]},{},[52]);

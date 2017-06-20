@@ -3,9 +3,9 @@ import yo from 'yo-yo'
 module.exports = function(proyecto){
   var el = yo`
   <a href="#" class="proyecto">
+    <div class="piko"></div>
     <div class="proyectoLugar">
       <h4><strong>${proyecto.nombre}</strong> ${proyecto.area}</h4>
-      <div class="piko"></div>
     </div>
     <div class="proyectoImagen" style="background: url('${proyecto.imagen}'); background-size: cover"></div>
     <div class="proyectoServicio">
