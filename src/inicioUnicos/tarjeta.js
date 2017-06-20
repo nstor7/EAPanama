@@ -9,6 +9,5 @@ module.exports = function(seccion){
     <p>${seccion.descripcion}</p>
   </a>
   `
-  console.log(seccion.icono)
   return el
 }

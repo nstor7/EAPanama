@@ -5005,55 +5005,54 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, _googleApi2.default, _mapa2.default, function (ctx, next) {
+(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-});
+  next();
+}, _mapa2.default);
 
 },{"../backTop":28,"../footer":43,"../header":45,"../metaData":61,"./googleApi":38,"./mapa":40,"./metaData":41,"./template":42,"empty-element":5,"page":13}],40:[function(require,module,exports){
 'use strict';
 
-module.exports = function initialize(google) {
-         var latlng = new google.maps.LatLng(9.0354163, -79.4638468);
+module.exports = function initialize() {
+  var latlng = new google.maps.LatLng(9.0354163, -79.4638468);
 
-         var settings = {
-                  zoom: 15,
-                  center: latlng,
-                  scroll: false,
-                  scrollwheel: false,
-                  mapTypeControl: false,
-                  mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
-                  navigationControl: false,
-                  navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
-                  mapTypeId: google.maps.MapTypeId.ROADMAP };
+  var settings = {
+    zoom: 15,
+    center: latlng,
+    scroll: false,
+    scrollwheel: false,
+    mapTypeControl: false,
+    mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
+    navigationControl: false,
+    navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
+    mapTypeId: google.maps.MapTypeId.ROADMAP };
 
-         var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+  var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
 
-         var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h1 id="firstHeading" class="firstHeading">EA Panamá S.A.</h1>' + '<div id="bodyContent">' + '<p> Esto sería la descripción de la etiqueta en el sitio. PUede ser nuestra dirección o nuestro resumen.</p>' + '</div>' + '</div>';
+  var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h1 id="firstHeading" class="firstHeading">EA Panamá S.A.</h1>' + '<div id="bodyContent">' + '<p> Esto sería la descripción de la etiqueta en el sitio. PUede ser nuestra dirección o nuestro resumen.</p>' + '</div>' + '</div>';
 
-         var infowindow = new google.maps.InfoWindow({
-                  content: contentString
-         });
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
 
-         var companyImage = new google.maps.MarkerImage('images-iconos/eapanama-geo.png', new google.maps.Size(77, 86), new google.maps.Point(10, 10), new google.maps.Point(50, 50));
+  var companyImage = new google.maps.MarkerImage('images-iconos/eapanama-geo.png', new google.maps.Size(77, 86), new google.maps.Point(10, 10), new google.maps.Point(50, 50));
 
-         var companyShadow = new google.maps.MarkerImage('images-iconos/eapanama_office.png', new google.maps.Size(130, 50), new google.maps.Point(0, 0), new google.maps.Point(65, 50));
+  var companyShadow = new google.maps.MarkerImage('images-iconos/eapanama_office.png', new google.maps.Size(130, 50), new google.maps.Point(0, 0), new google.maps.Point(65, 50));
 
-         var companyPos = new google.maps.LatLng(9.035165, -79.46120);
-         var companyMarker = new google.maps.Marker({
-                  position: companyPos,
-                  map: map,
-                  icon: companyImage,
-                  shadow: companyShadow,
-                  title: "EA Panamá S.A.",
-                  zIndex: 3 });
+  var companyPos = new google.maps.LatLng(9.035165, -79.46120);
+  var companyMarker = new google.maps.Marker({
+    position: companyPos,
+    map: map,
+    icon: companyImage,
+    shadow: companyShadow,
+    title: "EA Panamá S.A.",
+    zIndex: 3 });
 
-         google.maps.event.addListener(companyMarker, 'click', function () {
-                  infowindow.open(map, companyMarker);
-
-                  next();
-         });
+  google.maps.event.addListener(companyMarker, 'click', function () {
+    infowindow.open(map, companyMarker);
+  });
 };
 
 },{}],41:[function(require,module,exports){
@@ -5067,7 +5066,7 @@ module.exports = {
 },{}],42:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n    <script type=\'text/javascript\' src=\'https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg\'></script>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n    <script type=\'text/javascript\' src=\'https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg\'></script>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -5534,7 +5533,6 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo, seccion.descripcion);
-  console.log(seccion.icono);
   return el;
 };
 

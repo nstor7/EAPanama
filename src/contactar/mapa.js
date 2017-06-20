@@ -1,4 +1,4 @@
- module.exports = function initialize(google) {
+ module.exports = function initialize() {
  			var latlng = new google.maps.LatLng(9.0354163,-79.4638468);
 
  			var settings = {
@@ -50,7 +50,5 @@
 
  			google.maps.event.addListener(companyMarker, 'click', function() {
  				infowindow.open(map,companyMarker);
-
-          next()
  			});
  		}

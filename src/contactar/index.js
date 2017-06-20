@@ -9,8 +9,9 @@ import contactoDatos from './metaData'
 import googleApi from './googleApi'
 import mapa from './mapa'
 
-page('/contactar', header, footer, backTop, googleApi, mapa, function(ctx, next){
+page('/contactar', header, footer, backTop, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(contactoDatos.title, contactoDatos.description, contactoDatos.keywords)
-})
+  next()
+}, mapa)
