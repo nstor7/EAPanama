@@ -2,7 +2,7 @@ import yo from 'yo-yo'
 module.exports = [
   {
     titulo: 'ACONDICIONAMIENTO ACÚSTICO',
-    icono: yo`<i class="fa fa-deaf" aria-hidden="true"></i>`,
+    icono: yo`<span class="fa icon-sonometro"></span>`,
     posicion: '400',
     imagen: 'https://images.pexels.com/photos/337542/pexels-photo-337542.jpeg',
     ilustracion: 'imagenes/servicios-acondicionamiento-acustico.png',
