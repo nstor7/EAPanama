@@ -1,4 +1,4 @@
- module.exports = function initialize() {
+module.exports = function initialize() {
  			var latlng = new google.maps.LatLng(9.0354163,-79.4638468);
 
  			var settings = {

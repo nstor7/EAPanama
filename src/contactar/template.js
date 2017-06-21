@@ -32,6 +32,5 @@ module.exports = yo`
         <button onclick="submit" class="callToAction">Enviar</button>
       </form>
     </section>
-    <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg'></script>
   </main>
 `
