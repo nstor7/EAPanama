@@ -5,7 +5,7 @@ module.exports = [
     nombre: 'SENACYT',
     area: ' SALON COIBA',
     servicio: 'ACONDICIONAMIENTO ACÚSTICO',
-    imagen: 'imagenes/portfolio1.jpg'
+    imagen: 'imagenes/portafolio1.jpg'
   },
   {
     nombre: 'CSS',
