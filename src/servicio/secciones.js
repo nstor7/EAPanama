@@ -71,7 +71,7 @@ module.exports = [
     icono: yo`<i class="fa fa-play" aria-hidden="true"></i>`,
     posicion: '1600',
     imagen: 'https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg',
-    ilustracion: '',
+    ilustracion: 'imagenes/servicios-integracion.png',
     descripcion:'Estudio de la ubicación de los parlantes, cantidad y características técnicas tanto de los parlantes como de la sala para la perfección del sistema electroacústico.',
     explicacion:'Dedicamos una división de la empresa de manera exclusiva para la instalación de equipos de audio y vídeo tanto a particulares como a empresas. Nuestros expertos valorarán el recinto así como los equipos necesarios para obtener el mayor rendimiento de la instalación y la sala.',
     contenido: yo`

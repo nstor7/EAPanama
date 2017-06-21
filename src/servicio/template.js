@@ -8,7 +8,7 @@ module.exports = yo`
   <main>
     ${portada(datos.servicios)}
       <section class="noHomeSection">
-        <div class="serviciosImagen" style="background: url('${secciones[0].ilustracion}'); background-size: cover"></div>
+        <div class="serviciosImagen" style="background: url('${secciones[0].ilustracion}'); background-size: contain; background-repeat: no-repeat"></div>
         <div class="serviciosTexto">
           <h2>${secciones[0].titulo}</h2>
           <p>
@@ -25,10 +25,10 @@ module.exports = yo`
           </p>
           <a href="/servicio/${secciones[1].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
-        <div class="serviciosImagen" style="background: url('${secciones[1].ilustracion}')"></div>
+        <div class="serviciosImagen" style="background: url('${secciones[1].ilustracion}'); background-size: contain; background-repeat: no-repeat"></div>
       </section>
       <section class="noHomeSection">
-        <div class="serviciosImagen" style="background: url('${secciones[2].ilustracion}')"></div>
+        <div class="serviciosImagen" style="background: url('${secciones[2].ilustracion}'); background-size: contain; background-repeat: no-repeat"></div>
         <div class="serviciosTexto">
           <h2>${secciones[2].titulo}</h2>
           <p>
@@ -45,10 +45,10 @@ module.exports = yo`
           </p>
           <a href="/servicio/${secciones[3].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
-        <div class="serviciosImagen" style="background: url('${secciones[3].ilustracion}')"></div>
+        <div class="serviciosImagen" style="background: url('${secciones[3].ilustracion}'); background-size: contain; background-repeat: no-repeat"></div>
       </section>
       <section class="noHomeSection">
-        <div class="serviciosImagen" style="background: url('imagenes/servicios-venta.png')"></div>
+        <span class="serviciosImagen icon-servicios-venta"></span>
         <div class="serviciosTexto">
           <h2>VENTA DE MATERIALES</h2>
           <p>
