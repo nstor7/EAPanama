@@ -71,12 +71,23 @@ module.exports = yo`
     <section class="aboutInfo">
       <article class="infoAncho">
         <span class="dropcap">S</span>
-        <p>in duda, la continua evolución de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La población se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es aún más importante, el descanso. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una necesidad de cambio en el nivel de vida de los habitantes de la ciudad. Por ello, la base de la empresa, y su objetivo, es ofrecer soluciones efectivas a los problemas de ruido diarios. Desde ahí, la empresa en sus gabinetes de asesoría acústica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qué es lo que el cliente necesita. Por ejemplo, resultaría insensato colocar una partición de aislamiento con un STC de 55 dB si usted sólo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>
+        <p>in duda, la continua evolución de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La población se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es aún más importante, <strong>el descanso</strong>. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una <strong>necesidad de cambio</strong> en el nivel de vida de los habitantes de la ciudad.</p>
+        <span class="dropcap">E</span>
+        <p>l pilar de la empresa, y su objetivo, es <strong>ofrecer soluciones efectivas a los problemas de ruido</strong> diarios. Desde ahí, la empresa en sus gabinetes de asesoría acústica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qué es lo que el cliente necesita. Por ejemplo, resultaría insensato colocar una partición de aislamiento con un STC de 55 dB si usted sólo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>
       </article>
       <article class="infoCompuesto">
-        <p>Pero no solo el confort acústico parte del aislamiento que pueda ofrecer una partición, si no que también hay que tener en cuenta cómo se comporta el sonido en el interior de una sala. Ecos, reverberación, reflexiones, focalizaciones y muchos otros parámetros son muy importantes para conseguir el resultado esperado en cualquier tipo de local. No solo existe la acústica en teatros. Imagínese que está usted en su sala de conferencia, de cristal, y a su alrededor no hay más que
-superficies reflectantes; esto perjudicará notablemente que usted pueda mantener una conversación normal con sus compañeros de trabajo, o en la llamada internacional con su cliente. El diseño acústico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estratégicamente colocados para hacer su función correctamente. Si tenemos una mala disposición o distribución espacial la afectación puede ser máxima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>
-        <div class="infoCompuestoImagen"></div>
+        <div>
+          <p>Pero no solo el confort acústico parte del aislamiento que pueda ofrecer una partición, si no que también hay que tener en cuenta cómo se comporta el sonido en el interior de una sala, y los siguientes efectos se pueden suceder en su sala:</p>
+          <ul>
+            <li>Ecos</li>
+            <li>Reverberación</li>
+            <li>Reflexiones</li>
+            <li>Focalizaciones</li>
+          </ul>
+          <p>Éstos, y muchos otros parámetros, son muy importantes para conseguir el resultado esperado en cualquier tipo de local.</p>
+          <p><strong>No solo existe la acústica en teatros</strong>. Imagínese que está usted en su sala de conferencia, de cristal, y a su alrededor no hay más que superficies reflectantes; esto perjudicará notablemente que usted pueda mantener una conversación normal con sus compañeros de trabajo, o en la llamada internacional con su cliente. El diseño acústico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estratégicamente colocados para hacer su función correctamente. Si tenemos una mala disposición o distribución espacial la afectación puede ser máxima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>
+      </div>
+          <div class="infoCompuestoImagen"></div>
       </article>
       <article class="infoIcons">
         <div>
