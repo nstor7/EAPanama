@@ -27,13 +27,13 @@ function initialize() {
  				content: contentString
  			});
 
- 			var companyImage = new google.maps.MarkerImage('images-iconos/eapanama-geo.png',
+ 			var companyImage = new google.maps.MarkerImage('imagenes/eapanama-geo.png',
  				new google.maps.Size(77,86),
  				new google.maps.Point(10,10),
  				new google.maps.Point(50,50)
  			);
 
- 			var companyShadow = new google.maps.MarkerImage('images-iconos/eapanama_office.png',
+ 			var companyShadow = new google.maps.MarkerImage('imagenes/eapanama_office.png',
  				new google.maps.Size(130,50),
  				new google.maps.Point(0,0),
  				new google.maps.Point(65, 50));
