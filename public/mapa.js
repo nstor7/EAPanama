@@ -52,3 +52,4 @@ function initialize() {
  				infowindow.open(map,companyMarker);
  			});
  		}
+initialize()
