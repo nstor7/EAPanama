@@ -3,7 +3,7 @@ import social from '../social'
 
 module.exports  = function(articulo){
   var el = yo`
-    <a class="tarjeta" href="/blog/${articulo.titulo}">
+    <a class="tarjeta" href="/blog/${articulo.titulo.replace(/ /g, '-')}">
       <div class="tarjetaImagen" style="background: url('${articulo.imagen}'); background-size: cover"></div>
       <div class="tarjetaTexto">
         <h3>${articulo.titulo}</h3>

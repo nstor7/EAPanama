@@ -14,7 +14,7 @@ module.exports = yo`
           <p>
             ${secciones[0].explicacion}
           </p>
-          <a href="/servicio/${secciones[0].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
+          <a href="/servicio/${secciones[0].titulo.replace(/ /g, '-')}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
       </section>
       <section class="noHomeSection servicioGris">
@@ -23,7 +23,7 @@ module.exports = yo`
           <p>
             ${secciones[1].explicacion}
           </p>
-          <a href="/servicio/${secciones[1].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
+          <a href="/servicio/${secciones[1].titulo.replace(/ /g, '-')}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
         <div class="serviciosImagen" style="background: url('${secciones[1].ilustracion}'); background-size: contain; background-repeat: no-repeat"></div>
       </section>
@@ -34,7 +34,7 @@ module.exports = yo`
           <p>
             ${secciones[2].explicacion}
           </p>
-          <a href="/servicio/${secciones[2].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
+          <a href="/servicio/${secciones[2].titulo.replace(/ /g, '-')}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
       </section>
       <section class="noHomeSection servicioGris">
@@ -43,7 +43,7 @@ module.exports = yo`
           <p>
             ${secciones[3].explicacion}
           </p>
-          <a href="/servicio/${secciones[3].titulo}" class="callToAction">MÁS INFORMACIÓN</a>
+          <a href="/servicio/${secciones[3].titulo.replace(/ /g, '-')}" class="callToAction">MÁS INFORMACIÓN</a>
         </div>
         <div class="serviciosImagen" style="background: url('${secciones[3].ilustracion}'); background-size: contain; background-repeat: no-repeat"></div>
       </section>

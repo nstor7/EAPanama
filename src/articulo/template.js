@@ -7,7 +7,7 @@ module.exports = function(articulos, ident){
   var el = yo`
   <main>
 ${articulos.map(function(articulo){
-  if(articulo.titulo == ident){
+  if(articulo.titulo.replace(/ /g, '-') == ident){
     return tarjeta(articulo)
   }
 })
