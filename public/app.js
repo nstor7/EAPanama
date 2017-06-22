@@ -4988,15 +4988,14 @@ function _interopRequireDefault(obj) {
 function loadUser(ctx, next) {
   _superagent2.default.get('https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg').end(function (err, res) {
     if (err) return console.log(err);
-
-    next();
   });
 }
 
-(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, loadUser, function (ctx, next) {
+(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
+  loadUser();
   (0, _mapa2.default)();
 });
 

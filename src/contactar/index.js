@@ -14,14 +14,13 @@ function loadUser (ctx, next){
     .get('https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg')
     .end(function(err, res){
       if(err) return console.log(err)
-
-      next()
   })
 }
 
-page('/contactar', header, footer, backTop, loadUser, function(ctx, next){
+page('/contactar', header, footer, backTop,  function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(contactoDatos.title, contactoDatos.description, contactoDatos.keywords)
+  loadUser()
   initialize()
 })
