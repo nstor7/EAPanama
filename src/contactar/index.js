@@ -7,7 +7,6 @@ import backTop from '../backTop'
 import metaData from '../metaData'
 import contactoDatos from './metaData'
 
-
 page('/contactar', header, footer, backTop, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
