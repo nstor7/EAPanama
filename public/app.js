@@ -2594,16 +2594,14 @@ var _backTop = require('../backTop');
 
 var _backTop2 = _interopRequireDefault(_backTop);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/about', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"./template":17,"empty-element":4,"page":12}],17:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"./template":17,"empty-element":4,"page":12}],17:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <span class="dropcap">S</span>\n        <p>in duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, <strong>el descanso</strong>. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una <strong>necesidad de cambio</strong> en el nivel de vida de los habitantes de la ciudad.</p>\n        <span class="dropcap">E</span>\n        <p>l pilar de la empresa, y su objetivo, es <strong>ofrecer soluciones efectivas a los problemas de ruido</strong> diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <div>\n          <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala, y los siguientes efectos se pueden suceder en su sala:</p>\n          <ul>\n            <li>Ecos</li>\n            <li>Reverberaci\xF3n</li>\n            <li>Reflexiones</li>\n            <li>Focalizaciones</li>\n          </ul>\n          <p>\xC9stos, y muchos otros par\xE1metros, son muy importantes para conseguir el resultado esperado en cualquier tipo de local.</p>\n          <p><strong>No solo existe la ac\xFAstica en teatros</strong>. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que superficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n      </div>\n          <div class="infoCompuestoImagen"></div>\n      </article>\n      <article class="infoIcons">\n        <div>\n          <i class="fa fa-phone" aria-hidden="true"></i>\n          <h5>Contacta con nosotros y exp\xF3n tu problema</h5>\n        </div>\n        <div>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <h5>An\xE1lisis de campo y estudio de soluciones</h5>\n        </div>\n        <div>\n          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>\n          <h5>Ejecuci\xF3n del proyecto ac\xFAstico</h5>\n        </div>\n      </article>\n    </section>\n  </main>\n'], ['\n  <main class="aboutUs">\n    ', '\n    <section class="aboutPrimera">\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Personal Especializado</h3>\n            <p>Ingenieros t\xE9cnicos y Mag\xEDsters en Ac\xFAstica estudiar\xE1n los detalles de su proyecto</p>\n          </hgroup>\n          <i class="fa fa-check" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>T\xE9cnicas Novedosas</h3>\n            <p>Software de simulaci\xF3n propio en 2D y 3D para el desarrollo de las soluciones</p>\n          </hgroup>\n          <i class="fa fa-cubes" aria-hidden="true"></i>\n        </div>\n        <div class="lateralesPartes">\n          <hgroup>\n            <h3>Soluciones de calidad</h3>\n            <p>Estudio exhaustivo de las condiciones existentes para diagnosticar la soluci\xF3n ac\xFAstica \xF3ptima</p>\n          </hgroup>\n          <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>\n        </div>\n      </article>\n      <article class="logo"></article>\n      <article class="aboutPrimeraLaterales">\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Dise\xF1o de interiores</h3>\n            <p>Trabajos finales con los acabados profesionales que usted est\xE1 buscando</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-recycle" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Materiales Reciclados</h3>\n            <p>Preocupados por el medio-ambiente nuestros materiales no son nocivos para la salud como la fibra de vidrio</p>\n          </hgroup>\n        </div>\n        <div class="lateralesPartes derecha">\n          <i class="fa fa-clock-o" aria-hidden="true"></i>\n          <hgroup>\n            <h3>Puntualidad y limpieza</h3>\n            <p>Trabajamos con orden y disciplina para que usted no se sienta invadido durante las funciones asignadas</p>\n          </hgroup>\n        </div>\n      </article>\n    </section>\n    <section class="aboutSegunda">\n      <article class="columna">\n        <p>EA Panam\xE1 nace en la Ciudad de Panam\xE1 en el a\xF1o 2014. Formada por un grupo de j\xF3venes emprendedores Europeos y Paname\xF1os que han apostado por ofrecer una soluci\xF3n a los problemas ac\xFAsticos que se presentan en la Ciudad de Panam\xE1. El principal objetivo es brindar una alta calidad en todos nuestros servicios.</p>\n        <p>La corporaci\xF3n se compromete con el medio ambiente, preocup\xE1ndose desde el origen de sus insumos hasta el impacto ambiental de la actividad empresarial.</p>\n      </article>\n      <article class="columna">\n        <p>Esta compa\xF1\xEDa se mantiene a la vanguardia de la tecnolog\xEDa, por esto apuesta por un programa de investigaci\xF3n y desarrollo contando con especialistas con a\xF1os de experiencia dedicados a la investigaci\xF3n en el campo de la ac\xFAstica.</p>\n        <p>Brindamos soluciones de alta calidad, contando con un personal altamente capacitado y relaciones de confianza con nuestrosproveedores. Soluciones con total confidencialidad e imparcialidad, aseguran la entera confianza de nuestros clientes.</p>\n      </article>\n      <article class="columna">\n        <p>La MISI\xD3N de EA Panam\xE1 es proveer a nuestros clientes con Servicios, Productos y Tecnolog\xEDas innovadoras, a trav\xE9s de la investigaci\xF3n y desarrollo, para dar soluciones ac\xFAsticas de calidad a sus necesidades; comprometidos siempre con el medio ambiente, la sociedad y el buen servicio al cliente.</p>\n        <p>Nuestra VISI\xD3N, ser la empresa de soluciones ac\xFAsticas l\xEDder en la regi\xF3n, convirti\xE9ndonos as\xED en una referencia para el desarrollo, investigaci\xF3n, innovaci\xF3n y buen servicio.</p>\n      </article>\n    </section>\n    <section class="aboutInfo">\n      <article class="infoAncho">\n        <span class="dropcap">S</span>\n        <p>in duda, la continua evoluci\xF3n de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La poblaci\xF3n se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es a\xFAn m\xE1s importante, <strong>el descanso</strong>. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una <strong>necesidad de cambio</strong> en el nivel de vida de los habitantes de la ciudad.</p>\n        <span class="dropcap">E</span>\n        <p>l pilar de la empresa, y su objetivo, es <strong>ofrecer soluciones efectivas a los problemas de ruido</strong> diarios. Desde ah\xED, la empresa en sus gabinetes de asesor\xEDa ac\xFAstica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qu\xE9 es lo que el cliente necesita. Por ejemplo, resultar\xEDa insensato colocar una partici\xF3n de aislamiento con un STC de 55 dB si usted s\xF3lo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>\n      </article>\n      <article class="infoCompuesto">\n        <div>\n          <p>Pero no solo el confort ac\xFAstico parte del aislamiento que pueda ofrecer una partici\xF3n, si no que tambi\xE9n hay que tener en cuenta c\xF3mo se comporta el sonido en el interior de una sala, y los siguientes efectos se pueden suceder en su sala:</p>\n          <ul>\n            <li>Ecos</li>\n            <li>Reverberaci\xF3n</li>\n            <li>Reflexiones</li>\n            <li>Focalizaciones</li>\n          </ul>\n          <p>\xC9stos, y muchos otros par\xE1metros, son muy importantes para conseguir el resultado esperado en cualquier tipo de local.</p>\n          <p><strong>No solo existe la ac\xFAstica en teatros</strong>. Imag\xEDnese que est\xE1 usted en su sala de conferencia, de cristal, y a su alrededor no hay m\xE1s que superficies reflectantes; esto perjudicar\xE1 notablemente que usted pueda mantener una conversaci\xF3n normal con sus compa\xF1eros de trabajo, o en la llamada internacional con su cliente. El dise\xF1o ac\xFAstico de interiores es algo determinista para poder conseguir el resultado esperado. Materiales absorbentes, reflectantes, y difusores de sonido han de ser estudiados en profundidad y ser estrat\xE9gicamente colocados para hacer su funci\xF3n correctamente. Si tenemos una mala disposici\xF3n o distribuci\xF3n espacial la afectaci\xF3n puede ser m\xE1xima, por lo que es recomendable siempre analizar las peculiaridades de cada sala.</p>\n      </div>\n          <div class="infoCompuestoImagen"></div>\n      </article>\n      <article class="infoIcons">\n        <div>\n          <i class="fa fa-phone" aria-hidden="true"></i>\n          <h5>Contacta con nosotros y exp\xF3n tu problema</h5>\n        </div>\n        <div>\n          <i class="fa fa-pencil" aria-hidden="true"></i>\n          <h5>An\xE1lisis de campo y estudio de soluciones</h5>\n        </div>\n        <div>\n          <i class="fa fa-lightbulb-o" aria-hidden="true"></i>\n          <h5>Ejecuci\xF3n del proyecto ac\xFAstico</h5>\n        </div>\n      </article>\n    </section>\n  </main>\n']);
@@ -2620,13 +2618,9 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.about));
 
@@ -2651,20 +2645,16 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(articulo), (0, _social2.default)(), articulo.fecha, articulo.contenido);
   return el;
 };
 
-},{"../cabecera":29,"../cabecera/datos":28,"../social":68,"yo-yo":14}],19:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"../social":67,"yo-yo":14}],19:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n', '\n  </main>\n  '], ['\n  <main>\n', '\n  </main>\n  ']);
@@ -2677,13 +2667,9 @@ var _articulo = require('./articulo');
 
 var _articulo2 = _interopRequireDefault(_articulo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulos, ident) {
   var el = (0, _yoYo2.default)(_templateObject, articulos.map(function (articulo) {
@@ -2705,9 +2691,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('backTopContainer');
@@ -2724,13 +2708,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var subir = function subir() {
   window.scrollTo(0, 0);
@@ -2747,13 +2727,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = [{
   id: '1',
@@ -2803,9 +2779,7 @@ var _articulos = require('./articulos');
 
 var _articulos2 = _interopRequireDefault(_articulos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/blog', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -2813,7 +2787,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"../metaData":52,"./articulos":22,"./metaData":24,"./template":26,"empty-element":4,"page":12}],24:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"../metaData":51,"./articulos":22,"./metaData":24,"./template":26,"empty-element":4,"page":12}],24:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -2834,20 +2808,16 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, articulo.titulo, articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, (0, _social2.default)());
   return el;
 };
 
-},{"../social":68,"yo-yo":14}],26:[function(require,module,exports){
+},{"../social":67,"yo-yo":14}],26:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -2868,13 +2838,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.blog), articulos.map(function (articulo) {
@@ -2914,9 +2880,7 @@ var _template = require('../articulo/template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/blog/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   console.log('uff');
@@ -2924,7 +2888,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_articulos2.default, ctx.params.titulo));
 });
 
-},{"../articulo/template":19,"../backTop":20,"../blog/articulos":22,"../footer":34,"../header":36,"empty-element":4,"page":12}],28:[function(require,module,exports){
+},{"../articulo/template":19,"../backTop":20,"../blog/articulos":22,"../footer":33,"../header":35,"empty-element":4,"page":12}],28:[function(require,module,exports){
 'use strict';
 
 var cabeceraDatos = {
@@ -2971,13 +2935,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (datos) {
   var el = (0, _yoYo2.default)(_templateObject, datos.titulo, datos.subtitulo, datos.imagen);
@@ -3019,65 +2979,15 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-var _mapa = require('./mapa');
-
-var _mapa2 = _interopRequireDefault(_mapa);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-  (0, _mapa2.default)();
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"../metaData":52,"./mapa":31,"./metaData":32,"./template":33,"empty-element":4,"page":12}],31:[function(require,module,exports){
-'use strict';
-
-module.exports = function initialize() {
-  var latlng = new google.maps.LatLng(9.0354163, -79.4638468);
-
-  var settings = {
-    zoom: 15,
-    center: latlng,
-    scroll: false,
-    scrollwheel: false,
-    mapTypeControl: false,
-    mapTypeControlOptions: { style: google.maps.MapTypeControlStyle.DROPDOWN_MENU },
-    navigationControl: false,
-    navigationControlOptions: { style: google.maps.NavigationControlStyle.SMALL },
-    mapTypeId: google.maps.MapTypeId.ROADMAP };
-
-  var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
-
-  var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h1 id="firstHeading" class="firstHeading">EA Panamá S.A.</h1>' + '<div id="bodyContent">' + '<p> Esto sería la descripción de la etiqueta en el sitio. PUede ser nuestra dirección o nuestro resumen.</p>' + '</div>' + '</div>';
-
-  var infowindow = new google.maps.InfoWindow({
-    content: contentString
-  });
-
-  var companyImage = new google.maps.MarkerImage('images-iconos/eapanama-geo.png', new google.maps.Size(77, 86), new google.maps.Point(10, 10), new google.maps.Point(50, 50));
-
-  var companyShadow = new google.maps.MarkerImage('images-iconos/eapanama_office.png', new google.maps.Size(130, 50), new google.maps.Point(0, 0), new google.maps.Point(65, 50));
-
-  var companyPos = new google.maps.LatLng(9.035165, -79.46120);
-  var companyMarker = new google.maps.Marker({
-    position: companyPos,
-    map: map,
-    icon: companyImage,
-    shadow: companyShadow,
-    title: "EA Panamá S.A.",
-    zIndex: 3 });
-
-  google.maps.event.addListener(companyMarker, 'click', function () {
-    infowindow.open(map, companyMarker);
-  });
-};
-
-},{}],32:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"../metaData":51,"./metaData":31,"./template":32,"empty-element":4,"page":12}],31:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -3085,7 +2995,7 @@ module.exports = {
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.' };
 
-},{}],33:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form action="mailto: nstor7@hotmail.com" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <button onclick="submit" class="callToAction">Enviar</button>\n      </form>\n    </section>\n  </main>\n']);
@@ -3102,17 +3012,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":29,"../cabecera/datos":28,"yo-yo":14}],34:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"yo-yo":14}],33:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -3123,9 +3029,7 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function footer(ctx, next) {
   var footer = document.getElementById('footer');
@@ -3133,7 +3037,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":35,"empty-element":4}],35:[function(require,module,exports){
+},{"./template":34,"empty-element":4}],34:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContenido">\n          <p>En EA Panam\xE1 ofrecemos soluciones ac\xFAsticas de calidad respaldado por un equipo t\xE9cnico altamente cualificado.</p>\n        </div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="#">MGB Board</a></li>\n          <li><a href="#">Rubber Ac\xFAstico</a></li>\n          <li><a href="#">Lana de Roca</a></li>\n          <li><a href="#">RevCloud</a></li>\n          <li><a href="#">Pyramid PU FOAM</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <div></div>\n        <div></div>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n'], ['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContenido">\n          <p>En EA Panam\xE1 ofrecemos soluciones ac\xFAsticas de calidad respaldado por un equipo t\xE9cnico altamente cualificado.</p>\n        </div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="#">MGB Board</a></li>\n          <li><a href="#">Rubber Ac\xFAstico</a></li>\n          <li><a href="#">Lana de Roca</a></li>\n          <li><a href="#">RevCloud</a></li>\n          <li><a href="#">Pyramid PU FOAM</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <div></div>\n        <div></div>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n']);
@@ -3142,17 +3046,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],36:[function(require,module,exports){
+},{"yo-yo":14}],35:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -3167,9 +3067,7 @@ var _scrollFunction = require('../header/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -3178,7 +3076,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"../header/scrollFunction":38,"./template":39,"empty-element":4}],37:[function(require,module,exports){
+},{"../header/scrollFunction":37,"./template":38,"empty-element":4}],36:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -3186,7 +3084,7 @@ module.exports = function () {
   nav.classList.toggle('hidden');
 };
 
-},{}],38:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -3201,7 +3099,7 @@ module.exports = function () {
   }
 };
 
-},{}],39:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PRODUCTOS</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n'], ['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PRODUCTOS</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n']);
@@ -3218,17 +3116,13 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
-},{"../social":68,"./navigationFunction":37,"yo-yo":14}],40:[function(require,module,exports){
+},{"../social":67,"./navigationFunction":36,"yo-yo":14}],39:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3267,9 +3161,7 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -3278,7 +3170,7 @@ function _interopRequireDefault(obj) {
   _criticaMovimientoFunction2.default.movimiento();
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"../metaData":52,"../porqueCriticas/criticaMovimientoFunction":53,"./metaData":41,"./template":42,"empty-element":4,"page":12}],41:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"../metaData":51,"../porqueCriticas/criticaMovimientoFunction":52,"./metaData":40,"./template":41,"empty-element":4,"page":12}],40:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -3286,7 +3178,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.' };
 
-},{}],42:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n'], ['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n']);
@@ -3327,26 +3219,20 @@ var _proyectos = require('../inicioPortafolio/proyectos');
 
 var _proyectos2 = _interopRequireDefault(_proyectos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), (0, _inicioPortafolio2.default)(_proyectos2.default));
 
-},{"../inicioObjetivo":44,"../inicioPorque":45,"../inicioPortada":46,"../inicioPortafolio":47,"../inicioPortafolio/proyectos":48,"../inicioUnicos":50,"../porqueCriticas/criticas":54,"../servicio/secciones":65,"yo-yo":14}],43:[function(require,module,exports){
+},{"../inicioObjetivo":43,"../inicioPorque":44,"../inicioPortada":45,"../inicioPortafolio":46,"../inicioPortafolio/proyectos":47,"../inicioUnicos":49,"../porqueCriticas/criticas":53,"../servicio/secciones":64,"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
 
 var _page2 = _interopRequireDefault(_page);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('*', function (ctx, next) {
   window.scrollTo(0, 0);
@@ -3363,7 +3249,7 @@ require('./blogArticulo');
 require('./servicioArticulo');
 (0, _page2.default)();
 
-},{"./about":16,"./blog":23,"./blogArticulo":27,"./contactar":30,"./home":40,"./portafolio":56,"./productos":60,"./servicio":63,"./servicioArticulo":67,"page":12}],44:[function(require,module,exports){
+},{"./about":16,"./blog":23,"./blogArticulo":27,"./contactar":30,"./home":39,"./portafolio":55,"./productos":59,"./servicio":62,"./servicioArticulo":66,"page":12}],43:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto comfort ac\xFAstico seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n'], ['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto comfort ac\xFAstico seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n']);
@@ -3372,17 +3258,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],45:[function(require,module,exports){
+},{"yo-yo":14}],44:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  '], ['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  ']);
@@ -3399,13 +3281,9 @@ var _criticaMovimientoFunction = require('../porqueCriticas/criticaMovimientoFun
 
 var _criticaMovimientoFunction2 = _interopRequireDefault(_criticaMovimientoFunction);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (criticas) {
   var el = (0, _yoYo2.default)(_templateObject, _criticaMovimientoFunction2.default.posicion1, _criticaMovimientoFunction2.default.posicion2, _criticaMovimientoFunction2.default.posicion3, criticas.map(function (critica) {
@@ -3414,7 +3292,7 @@ module.exports = function (criticas) {
   return el;
 };
 
-},{"../porqueCriticas":55,"../porqueCriticas/criticaMovimientoFunction":53,"yo-yo":14}],46:[function(require,module,exports){
+},{"../porqueCriticas":54,"../porqueCriticas/criticaMovimientoFunction":52,"yo-yo":14}],45:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n'], ['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n']);
@@ -3423,17 +3301,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":14}],47:[function(require,module,exports){
+},{"yo-yo":14}],46:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="inicioPortafolio servicioGris">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="inicioPortafolio servicioGris">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -3446,13 +3320,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (proyectos) {
   var el = (0, _yoYo2.default)(_templateObject, proyectos.map(function (proyecto) {
@@ -3461,7 +3331,7 @@ module.exports = function (proyectos) {
   return el;
 };
 
-},{"./tarjeta":49,"yo-yo":14}],48:[function(require,module,exports){
+},{"./tarjeta":48,"yo-yo":14}],47:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -3486,7 +3356,7 @@ module.exports = [{
   imagen: 'imagenes/portfolio3.jpg'
 }];
 
-},{}],49:[function(require,module,exports){
+},{}],48:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a href="#" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="#" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
@@ -3495,20 +3365,16 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (proyecto) {
   var el = (0, _yoYo2.default)(_templateObject, proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
   return el;
 };
 
-},{"yo-yo":14}],50:[function(require,module,exports){
+},{"yo-yo":14}],49:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -3521,13 +3387,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -3536,7 +3398,7 @@ module.exports = function (secciones) {
   return el;
 };
 
-},{"./tarjeta":51,"yo-yo":14}],51:[function(require,module,exports){
+},{"./tarjeta":50,"yo-yo":14}],50:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  '], ['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  ']);
@@ -3545,29 +3407,23 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo, seccion.descripcion);
   return el;
 };
 
-},{"yo-yo":14}],52:[function(require,module,exports){
+},{"yo-yo":14}],51:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (title, description, keywords) {
   var metaTitle = document.getElementById('metaTitle');
@@ -3578,7 +3434,7 @@ module.exports = function (title, description, keywords) {
   (0, _emptyElement2.default)(metaKeywords).content = keywords;
 };
 
-},{"empty-element":4}],53:[function(require,module,exports){
+},{"empty-element":4}],52:[function(require,module,exports){
 'use strict';
 
 var posicion1 = function posicion1() {
@@ -3607,7 +3463,7 @@ var movimiento = function movimiento() {
 
 module.exports = { posicion1: posicion1, posicion2: posicion2, posicion3: posicion3, movimiento: movimiento };
 
-},{}],54:[function(require,module,exports){
+},{}],53:[function(require,module,exports){
 "use strict";
 
 var criticas = [{
@@ -3628,7 +3484,7 @@ var criticas = [{
 }];
 module.exports = criticas;
 
-},{}],55:[function(require,module,exports){
+},{}],54:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  '], ['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  ']);
@@ -3637,20 +3493,16 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (critica) {
   var el = (0, _yoYo2.default)(_templateObject, critica.mensaje);
   return el;
 };
 
-},{"yo-yo":14}],56:[function(require,module,exports){
+},{"yo-yo":14}],55:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3677,16 +3529,14 @@ var _backTop = require('../backTop');
 
 var _backTop2 = _interopRequireDefault(_backTop);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/portafolio', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"./template":57,"empty-element":4,"page":12}],57:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"./template":56,"empty-element":4,"page":12}],56:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n  </main>\n'], ['\n  <main>\n    ', '\n  </main>\n']);
@@ -3703,17 +3553,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.portafolio));
 
-},{"../cabecera":29,"../cabecera/datos":28,"yo-yo":14}],58:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"yo-yo":14}],57:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -3787,7 +3633,7 @@ module.exports = [{
   }]
 }];
 
-},{}],59:[function(require,module,exports){
+},{}],58:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
@@ -3800,13 +3646,9 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, catalogo.estante, catalogo.productos.map(function (producto) {
@@ -3815,7 +3657,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"./tarjeta":61,"yo-yo":14}],60:[function(require,module,exports){
+},{"./tarjeta":60,"yo-yo":14}],59:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3846,16 +3688,14 @@ var _catalogo = require('./catalogo');
 
 var _catalogo2 = _interopRequireDefault(_catalogo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/productos', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_catalogo2.default));
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"./catalogo":58,"./template":62,"empty-element":4,"page":12}],61:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"./catalogo":57,"./template":61,"empty-element":4,"page":12}],60:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="#">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\')"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
@@ -3864,20 +3704,16 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (producto) {
   var el = (0, _yoYo2.default)(_templateObject, producto.interna, producto.titulo, producto.externa, producto.descripcion);
   return el;
 };
 
-},{"yo-yo":14}],62:[function(require,module,exports){
+},{"yo-yo":14}],61:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -3898,13 +3734,9 @@ var _estante = require('./estante');
 
 var _estante2 = _interopRequireDefault(_estante);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.productos), catalogo.map(function (productos) {
@@ -3913,7 +3745,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"../cabecera":29,"../cabecera/datos":28,"./estante":59,"yo-yo":14}],63:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"./estante":58,"yo-yo":14}],62:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3952,9 +3784,7 @@ var _scrollFunction = require('../subMenu/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/servicio', _header2.default, _backTop2.default, _footer2.default, function () {
   var container = document.getElementById('main-container');
@@ -3962,7 +3792,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":20,"../footer":34,"../header":36,"../metaData":52,"../subMenu/scrollFunction":71,"./metaData":64,"./template":66,"empty-element":4,"page":12}],64:[function(require,module,exports){
+},{"../backTop":20,"../footer":33,"../header":35,"../metaData":51,"../subMenu/scrollFunction":70,"./metaData":63,"./template":65,"empty-element":4,"page":12}],63:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -3970,7 +3800,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'Lea nuestros servicios en Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio o Venta de materiales acústicos.' };
 
-},{}],65:[function(require,module,exports){
+},{}],64:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<span class="fa icon-sonometro"></span>'], ['<span class="fa icon-sonometro"></span>']),
@@ -3986,13 +3816,9 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = [{
   titulo: 'ACONDICIONAMIENTO ACÚSTICO',
@@ -4032,7 +3858,7 @@ module.exports = [{
   contenido: (0, _yoYo2.default)(_templateObject8)
 }];
 
-},{"yo-yo":14}],66:[function(require,module,exports){
+},{"yo-yo":14}],65:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
@@ -4057,17 +3883,13 @@ var _secciones = require('./secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo, _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo, _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo, _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo, _secciones2.default[3].ilustracion);
 
-},{"../cabecera":29,"../cabecera/datos":28,"../subMenu":69,"./secciones":65,"yo-yo":14}],67:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"../subMenu":68,"./secciones":64,"yo-yo":14}],66:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -4102,9 +3924,7 @@ var _subMenu = require('../subMenu');
 
 var _subMenu2 = _interopRequireDefault(_subMenu);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _page2.default)('/servicio/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -4112,7 +3932,7 @@ function _interopRequireDefault(obj) {
   next();
 }, _subMenu2.default);
 
-},{"../articulo/template":19,"../backTop":20,"../footer":34,"../header":36,"../servicio/secciones":65,"../subMenu":69,"empty-element":4,"page":12}],68:[function(require,module,exports){
+},{"../articulo/template":19,"../backTop":20,"../footer":33,"../header":35,"../servicio/secciones":64,"../subMenu":68,"empty-element":4,"page":12}],67:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -4121,20 +3941,16 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject);
   return el;
 };
 
-},{"yo-yo":14}],69:[function(require,module,exports){
+},{"yo-yo":14}],68:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -4149,16 +3965,14 @@ var _secciones = require('../servicio/secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('subMenu');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default));
 };
 
-},{"../servicio/secciones":65,"./template":72,"empty-element":4}],70:[function(require,module,exports){
+},{"../servicio/secciones":64,"./template":71,"empty-element":4}],69:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
@@ -4167,23 +3981,19 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo);
   return el;
 };
 
-},{"yo-yo":14}],71:[function(require,module,exports){
+},{"yo-yo":14}],70:[function(require,module,exports){
 "use strict";
 
-},{}],72:[function(require,module,exports){
+},{}],71:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  '], ['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  ']);
@@ -4196,13 +4006,9 @@ var _plantilla = require('./plantilla');
 
 var _plantilla2 = _interopRequireDefault(_plantilla);
 
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function _taggedTemplateLiteral(strings, raw) {
-  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
-}
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -4212,4 +4018,4 @@ module.exports = function (secciones) {
   next();
 };
 
-},{"./plantilla":70,"yo-yo":14}]},{},[43]);
+},{"./plantilla":69,"yo-yo":14}]},{},[42]);
