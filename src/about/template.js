@@ -70,10 +70,10 @@ module.exports = yo`
     </section>
     <section class="aboutInfo">
       <article class="infoAncho">
-        <span class="dropcap">S</span>
-        <p>in duda, la continua evolución de las grandes ciudades dan como resultado inherente un aumento de los niveles de ruido ambiental. La población se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es aún más importante, <strong>el descanso</strong>. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una <strong>necesidad de cambio</strong> en el nivel de vida de los habitantes de la ciudad.</p>
         <span class="dropcap">E</span>
-        <p>l pilar de la empresa, y su objetivo, es <strong>ofrecer soluciones efectivas a los problemas de ruido</strong> diarios. Desde ahí, la empresa en sus gabinetes de asesoría acústica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qué es lo que el cliente necesita. Por ejemplo, resultaría insensato colocar una partición de aislamiento con un STC de 55 dB si usted sólo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>
+        <p>volución. Las grandes ciudades avanzan su desarrollo y esto da como resultado inherente un aumento de los niveles de ruido ambiental. La población se ve entonces sometida a altos niveles de ruido que dificultan sus tareas diarias y cotidianas tales como estudiar, concentrarse en el trabajo, y lo que es aún más importante, <strong>el descanso</strong>. Partiendo de la base que el descanso es algo primordial y necesario para el ser humano, surge una <strong>necesidad de cambio</strong> en el nivel de vida de los habitantes de la ciudad.</p>
+        <span class="dropcap">A</span>
+        <p>l final del proceso, y el objetivo de la compañía, <strong>es ofrecer soluciones efectivas a los problemas de ruido diarios</strong>. Desde ahí, la empresa en sus gabinetes de asesoría acústica pueden analizar y estudiar en profundidad cada caso para determinar con exactitud qué es lo que el cliente necesita. Por ejemplo, resultaría insensato colocar una partición de aislamiento con un STC de 55 dB si usted sólo necesita un STC de 35 dB. Este es el pilar de la empresa, soluciones a su medida.</p>
       </article>
       <article class="infoCompuesto">
         <div>

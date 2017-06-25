@@ -30,13 +30,13 @@ module.exports = [
         titulo: 'REVCLOUD',
         descripcion: 'Islas acústicas flotantes de color sólido. Ideal para reducir tiempos de reverberación y otorgar un diseño moderno a su instalación. Posibilidad de instalación en techo y pared. ',
         interna: 'imagenes/producto-revcloud.png',
-        externa: ''
+        externa: 'imagenes/producto-revcloud-install.jpg'
       },
       {
         titulo: 'REVCLOUD FP',
         descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
         interna: 'imagenes/revcloudfp-retina.png',
-        externa: 'imagenes/revcloudfp-install.jpg'
+        externa: 'imagenes/revcloudfp-install.png'
       },
       {
         titulo: 'SONEX ONE',
@@ -65,7 +65,7 @@ module.exports = [
         titulo: 'PROYECTADOS',
         descripcion: 'Material plástico empleado como aislante térmico y acústico y como impermeabilizante tanto en edificación como en la industria. Una vez rociado el producto es totalmente inocuo para el trabajador.',
         interna: 'imagenes/producto-poliuretano.png',
-        externa: ''
+        externa: 'imagenes/producto-proyectados-install.jpg'
       }
     ]
   },
@@ -76,7 +76,7 @@ module.exports = [
         titulo: 'ACOUSTIK',
         descripcion: 'Manto aislante de suelos 100 % reciclado de cauchos. Su estructura permite el amortiguamiento de los ruidos de impacto. Ideal para zonas con cargas medias. ',
         interna: 'imagenes/producto-acoustik.png',
-        externa: ''
+        externa: 'imagenes/producto-acoustik-install.jpg'
       },
       {
         titulo: 'QUIETFLOORNP',
