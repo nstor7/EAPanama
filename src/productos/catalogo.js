@@ -12,7 +12,7 @@ module.exports = [
         titulo: 'LANA MINERAL DE ROCA',
         descripcion: 'La lana mineral de roca es un producto a base de rocas basáltica para aplicaciones en aislamiento térmico y aislamiento acústico, tanto en edificación como en industria.',
         interna: 'imagenes/producto-lana.png',
-        externa: ''
+        externa: 'imagenes/rockwool-install.png'
       },
       {
         titulo: 'CFAB PANEl DE CELULOSA',
@@ -36,13 +36,13 @@ module.exports = [
         titulo: 'REVCLOUD FP',
         descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
         interna: 'imagenes/revcloudfp-retina.png',
-        externa: ''
+        externa: 'imagenes/revcloudfp-install.png'
       },
       {
         titulo: 'SONEX ONE',
         descripcion: 'Material absorbente de alto rendimiento acústico en rangos de ruido de media-alta frecuencia. Aplicaciones industriales, oficinas, estudios de radiodifusión y de grabación para control de reverberación y  sonido reflejado.',
         interna: 'imagenes/producto-sonex.png',
-        externa: ''
+        externa: 'imagenes/sonex-one-install.png'
       }
     ]
   },
