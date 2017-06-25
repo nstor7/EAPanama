@@ -3025,7 +3025,7 @@ module.exports = {
 },{}],33:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction">\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p>Lunes a Viernes: de 8:00 am a 4:30 pm <br> S\xE1bados: de 8:00 am a 12:00 pm <br> Ll\xE1manos al 390-9933 <br> WhatsApp : 6541-1203</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction">\n      </form>\n    </section>\n  </main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    S\xE1bados: de 8:00 am a 12:00 pm <br>\n<i class="fa fa-phone" aria-hidden="true"></i> Ll\xE1manos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i>WhatsApp : 6541-1203</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction">\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>HORARIOS:</h2>\n        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    S\xE1bados: de 8:00 am a 12:00 pm <br>\n<i class="fa fa-phone" aria-hidden="true"></i> Ll\xE1manos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i>WhatsApp : 6541-1203</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction">\n      </form>\n    </section>\n  </main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -3648,7 +3648,7 @@ module.exports = [{
   productos: [{
     titulo: 'PYRAMID PU FOAM',
     descripcion: 'Material acústico de alto rendimiento compuesto por espuma de poliuretano. Pyramid Pu Foam es utilizado en salas donde se requiere el control acústico de eco y reverberación.',
-    interna: 'imagenes/pu-foam.png',
+    interna: 'imagenes/pu-foam-retina.png',
     externa: 'imagenes/pu-foam-install.png'
   }, {
     titulo: 'LANA MINERAL DE ROCA',
@@ -3659,12 +3659,12 @@ module.exports = [{
     titulo: 'CFAB PANEL DE CELULOSA',
     descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
     interna: 'imagenes/producto-cfab.png',
-    externa: ''
+    externa: 'imagenes/producto-cfab-install.jpg'
   }, {
     titulo: 'PAC POLYESTER ACOUSTIC CEILING',
     descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
     interna: 'imagenes/producto-pac.png',
-    externa: ''
+    externa: 'imagenes/producto-pac-install.jpg'
   }, {
     titulo: 'REVCLOUD',
     descripcion: 'Islas acústicas flotantes de color sólido. Ideal para reducir tiempos de reverberación y otorgar un diseño moderno a su instalación. Posibilidad de instalación en techo y pared. ',
@@ -3674,7 +3674,7 @@ module.exports = [{
     titulo: 'REVCLOUD FP',
     descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
     interna: 'imagenes/revcloudfp-retina.png',
-    externa: 'imagenes/revcloudfp-install.png'
+    externa: 'imagenes/revcloudfp-install.jpg'
   }, {
     titulo: 'SONEX ONE',
     descripcion: 'Material absorbente de alto rendimiento acústico en rangos de ruido de media-alta frecuencia. Aplicaciones industriales, oficinas, estudios de radiodifusión y de grabación para control de reverberación y  sonido reflejado.',
@@ -3687,12 +3687,12 @@ module.exports = [{
     titulo: 'MGB',
     descripcion: 'Placa de magnesio de alta densidad (>1200 kg/m3). En el mismo espesor que un Gypsum corriente se consigue un alto aislamiento, STC = 36 dB. Ideal para dividir recintos y medianeras nuevas.',
     interna: 'imagenes/producto-mgb.png',
-    externa: ''
+    externa: 'imagenes/producto-mgb-install.jpg'
   }, {
     titulo: 'RUBBER 2M',
     descripcion: 'Impermeable acústico a base de cauchos reciclados. ',
     interna: 'imagenes/producto-rubber.png',
-    externa: ''
+    externa: 'imagenes/producto-rubber-install.jpg'
   }, {
     titulo: 'PROYECTADOS',
     descripcion: 'Material plástico empleado como aislante térmico y acústico y como impermeabilizante tanto en edificación como en la industria. Una vez rociado el producto es totalmente inocuo para el trabajador.',

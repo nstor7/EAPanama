@@ -5,7 +5,7 @@ module.exports = [
       {
         titulo: 'PYRAMID PU FOAM',
         descripcion: 'Material acústico de alto rendimiento compuesto por espuma de poliuretano. Pyramid Pu Foam es utilizado en salas donde se requiere el control acústico de eco y reverberación.',
-        interna: 'imagenes/pu-foam.png',
+        interna: 'imagenes/pu-foam-retina.png',
         externa: 'imagenes/pu-foam-install.png'
       },
       {
@@ -18,13 +18,13 @@ module.exports = [
         titulo: 'CFAB PANEL DE CELULOSA',
         descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
         interna: 'imagenes/producto-cfab.png',
-        externa: ''
+        externa: 'imagenes/producto-cfab-install.jpg'
       },
       {
         titulo: 'PAC POLYESTER ACOUSTIC CEILING',
         descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
         interna: 'imagenes/producto-pac.png',
-        externa: ''
+        externa: 'imagenes/producto-pac-install.jpg'
       },
       {
         titulo: 'REVCLOUD',
@@ -36,7 +36,7 @@ module.exports = [
         titulo: 'REVCLOUD FP',
         descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
         interna: 'imagenes/revcloudfp-retina.png',
-        externa: 'imagenes/revcloudfp-install.png'
+        externa: 'imagenes/revcloudfp-install.jpg'
       },
       {
         titulo: 'SONEX ONE',
@@ -53,13 +53,13 @@ module.exports = [
         titulo: 'MGB',
         descripcion: 'Placa de magnesio de alta densidad (>1200 kg/m3). En el mismo espesor que un Gypsum corriente se consigue un alto aislamiento, STC = 36 dB. Ideal para dividir recintos y medianeras nuevas.',
         interna: 'imagenes/producto-mgb.png',
-        externa: ''
+        externa: 'imagenes/producto-mgb-install.jpg'
       },
       {
         titulo: 'RUBBER 2M',
         descripcion: 'Impermeable acústico a base de cauchos reciclados. ',
         interna: 'imagenes/producto-rubber.png',
-        externa: ''
+        externa: 'imagenes/producto-rubber-install.jpg'
       },
       {
         titulo: 'PROYECTADOS',
