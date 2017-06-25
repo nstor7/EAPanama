@@ -12,19 +12,22 @@ module.exports = [
         titulo: 'LANA MINERAL DE ROCA',
         descripcion: 'La lana mineral de roca es un producto a base de rocas basáltica para aplicaciones en aislamiento térmico y aislamiento acústico, tanto en edificación como en industria.',
         interna: 'imagenes/producto-lana.png',
-        externa: 'imagenes/rockwool-install.png'
+        externa: 'imagenes/rockwool-install.png',
+        ficha: 'pdf/rockwool.pdf'
       },
       {
         titulo: 'CFAB PANEL DE CELULOSA',
         descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
         interna: 'imagenes/producto-cfab.png',
-        externa: 'imagenes/producto-cfab-install.jpg'
+        externa: 'imagenes/producto-cfab-install.jpg',
+        ficha: 'pdf/CFAB.pdf'
       },
       {
-        titulo: 'PAC POLYESTER ACOUSTIC CEILING',
+        titulo: 'POLYESTER ACOUSTIC CEILING',
         descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
         interna: 'imagenes/producto-pac.png',
-        externa: 'imagenes/producto-pac-install.jpg'
+        externa: 'imagenes/producto-pac-install.jpg',
+        ficha: 'pdf/PAC.pdf'
       },
       {
         titulo: 'REVCLOUD',
@@ -36,7 +39,8 @@ module.exports = [
         titulo: 'REVCLOUD FP',
         descripcion: 'Isla acústica flotante Full Printed. De igual características que el RevCloud. Ideal para ocultarse bajo un diseño vanguardista de su elección.',
         interna: 'imagenes/revcloudfp-retina.png',
-        externa: 'imagenes/revcloudfp-install.png'
+        externa: 'imagenes/revcloudfp-install.png',
+        ficha: 'pdf/revcloudfp.pdf'
       },
       {
         titulo: 'SONEX ONE',
@@ -53,13 +57,15 @@ module.exports = [
         titulo: 'MGB',
         descripcion: 'Placa de magnesio de alta densidad (>1200 kg/m3). En el mismo espesor que un Gypsum corriente se consigue un alto aislamiento, STC = 36 dB. Ideal para dividir recintos y medianeras nuevas.',
         interna: 'imagenes/producto-mgb.png',
-        externa: 'imagenes/producto-mgb-install.jpg'
+        externa: 'imagenes/producto-mgb-install.jpg',
+        ficha: 'pdf/MGB.pdf'
       },
       {
         titulo: 'RUBBER 2M',
         descripcion: 'Impermeable acústico a base de cauchos reciclados. ',
         interna: 'imagenes/producto-rubber.png',
-        externa: 'imagenes/producto-rubber-install.jpg'
+        externa: 'imagenes/producto-rubber-install.jpg',
+        ficha: 'pdf/Rubber3M.pdf'
       },
       {
         titulo: 'PROYECTADOS',

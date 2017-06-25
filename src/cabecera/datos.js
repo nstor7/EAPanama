@@ -27,7 +27,7 @@ var cabeceraDatos = {
   contactar:{
     titulo: 'contactar',
     subtitulo: 'Visita nuestras instalaciones para ver nuestros servicios y productos.',
-    imagen: 'imagenes/contactar-home.png'
+    imagen: 'imagenes/contactar-home.jpg'
   }
 }
 

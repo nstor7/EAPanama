@@ -5,9 +5,6 @@ module.exports = yo`
     <article class="footerCuerpo">
       <div>
         <div class="footerLogo"></div>
-        <div class="footerContenido">
-          <p>En EA Panamá ofrecemos soluciones acústicas de calidad respaldado por un equipo técnico altamente cualificado.</p>
-        </div>
         <div class="footerContacto">
           <div class="telefono">
             <i class="fa fa-phone" aria-hidden="true"></i>

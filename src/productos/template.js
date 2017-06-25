@@ -8,6 +8,7 @@ module.exports = function(catalogo){
     <main>
       ${portada(datos.productos)}
       <section class="productosSeccion">
+        <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>
         ${catalogo.map(function(productos){
             return estante(productos)
         })}

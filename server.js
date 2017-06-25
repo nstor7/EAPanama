@@ -15,20 +15,20 @@ app.get('*', function(req, res){
 })
 
 mailer.extend(app, {
-  host: 'smtp.gmail.com',
+  host: 'wo08@wiroos.com',
   secureConnection: true, // use SSL
   port: 465, // port for secure SMTP
   transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
   auth: {
-    user: 'nstor777@gmail.com',
-    pass: 'violin507celloS'
+    user: 'aparedes@eapanama.com',
+    pass: `wufUi2EgVP'"2XA`
   }
 })
 
 app.post('/contactar/send', function (req, res, next) {
   console.log(req.body)
   app.mailer.send('email', {
-    to: 'nstor777@gmail.com',
+    to: 'info@eapanama.com',
     subject: 'email enviado desde la pagina de contacto',
     mensaje: {
       name: req.body.nombre,
