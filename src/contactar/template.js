@@ -30,7 +30,7 @@ module.exports = yo`
         <div class="formLine"><p>Mensaje:</p>
           <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>
         </div>
-        <input type="submit" value="Enviar" class="callToAction">
+        <input type="submit" value="Enviar" class="callToAction formButton">
       </form>
     </section>
   </main>

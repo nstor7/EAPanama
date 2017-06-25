@@ -21,7 +21,7 @@ mailer.extend(app, {
   transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
   auth: {
     user: 'aparedes@eapanama.com',
-    pass: `wufUi2EgVP'"2XA`
+    pass: 'wufUi2EgVP'+'"2XA'
   }
 })
 

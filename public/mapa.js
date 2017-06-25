@@ -19,7 +19,9 @@ function initialize() {
  				'</div>'+
  				'<h1 id="firstHeading" class="firstHeading">EA Panamá S.A.</h1>'+
  				'<div id="bodyContent">'+
- 				'<p> Esto sería la descripción de la etiqueta en el sitio. PUede ser nuestra dirección o nuestro resumen.</p>'+
+ 				'<p> Puede llegar a nuestras oficinas desde:</p>'+
+        '<p><strong>Corredor Sur:</strong> Tomamos rutas a corredor sur dirección Tocumen. Nos fijamos después de Costa del Este la salida de Llano Bonito. Subimos por la principal de Llano Bonito, por el carril izquierdo como si fuéramos a retornar hacia corredor sur de nuevo. Bajando por la calle 124 este encontraremos a mano derecha las fábricas de Pascual (galletas), Ingelmec (eléctricos), y justo nada más pasar Ingelmec gire la primera calle a mano derecha. Al fondo, Galera TecnoPro encontrará las oficinas de EA Panamá Ingenieros Acústicos.</p>'+
+        '<p> <strong>Juan Díaz: </strong>Tomamos rutas hasta llegar al estadio de fútbol Rommel Fernández, dirección Tocumen. Una vez allí, vamos rectos hasta llegar al semáforo que hace esquina con el tabernáculo de la fe giramos a la derecha. Bajando por la calle 124 este encontraremos a mano derecha las fábricas de Pascual (galletas), Ingelmec (eléctricos), y justo nada más pasar Ingelmec gire la primera calle a mano derecha. Al fondo, Galera TecnoPro encontrará las oficinas de EA Panamá Ingenieros Acústicos.</p>'+
  				'</div>'+
  				'</div>';
 
