@@ -15,7 +15,7 @@ module.exports = [
         externa: 'imagenes/rockwool-install.png'
       },
       {
-        titulo: 'CFAB PANEl DE CELULOSA',
+        titulo: 'CFAB PANEL DE CELULOSA',
         descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
         interna: 'imagenes/producto-cfab.png',
         externa: ''
