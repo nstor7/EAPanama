@@ -47,6 +47,6 @@ app.post('/contactar/send', function (req, res, next) {
   });
 })
 
-  app.listen(443, () => {
-   console.log('EAPanama corriendo en el puerto 443')
+  app.listen(80, () => {
+   console.log('EAPanama corriendo en el puerto 80')
   })
