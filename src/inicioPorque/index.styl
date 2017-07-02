@@ -1,11 +1,11 @@
 gris = #69645e
 .porque
-  position relative
   z-index: 1
   background: #f3f6f8
-  display block
-  padding-top 100px
-  box-sizing: border-box
+  position relative
+  display: flex
+  justify-content: center
+  align-items: center
   .porqueTitulo
     text-align: center
     width 100%
@@ -27,7 +27,8 @@ gris = #69645e
     flex-wrap: wrap
     .porqueLista
       width 50%
-      min-width: 300px
+      @media(max-width: 800px)
+        width: 90vw
       li
         list-style: none
         font-family: 'Open Sans', sans-serif
@@ -48,13 +49,14 @@ gris = #69645e
           color: #666
           margin: -5px 20px 0 0
 .porqueCriticasContainer
-  width 30%
-  min-width: 300px
+  width 30vw
   height: 280px
   margin-bottom: 20px
   position: relative
   display: block
   overflow: hidden
+  @media(max-width: 800px)
+    width: 90vw
   .fa-quote-left
     position: absolute
     font-size: 3rem
