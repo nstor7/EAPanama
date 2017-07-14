@@ -1,0 +1,55 @@
+.portafolio
+  width: 90vw
+  height: 36vw
+  background: black
+  display: flex
+  flex-wrap: wrap
+  margin-left: 5vw
+  .portafolioLibraries
+    height: 36vw
+    width: 26vw
+    background: #1F1F1F
+    box-sizing: border-box
+    .tabButton
+      display: flex
+      justify-content: flex-start
+      color: #505050
+      padding-left: 1vw
+      border none
+      height: 3vw
+      width: 100%
+      line-height: 3vw
+      background: none
+      &:hover
+        background: rgba(80, 80, 80, 0.6)
+        color: #ddd
+        cursor: pointer
+      &:focus
+        border none
+        background: rgba(80, 80, 80, 0.6)
+        color: #ddd
+      .fa
+        margin-right: 2rem
+        font-size: 1rem
+        line-height: 3vw
+      h4
+        margin: 0
+    .tabEspacio
+      height: 21vw
+      background: #505050
+      width: 100
+      box-shadow: 1px 1px 10px inset
+      display: none
+    .active
+      display: flex
+      justify-content: space-between
+      padding: 2vw
+      box-sizing: border-box
+      .miniatura
+        height: 80px
+        width: 100px
+        cursor: pointer
+  .portafolioViewer
+    height: 36vw
+    width: 64vw
+    background: #555

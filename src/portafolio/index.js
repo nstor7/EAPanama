@@ -4,8 +4,9 @@ import footer from '../footer'
 import empty from 'empty-element'
 import template from './template'
 import backTop from '../backTop'
+import portfolio from './portfolio'
 
 page('/portafolio', header, footer, backTop, function(){
   var container = document.getElementById('main-container')
-  empty(container).appendChild(template)
+  empty(container).appendChild(template(portfolio))
 } )
