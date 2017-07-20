@@ -1,5 +1,5 @@
 {
-  "name": "EAPanamaWeb",
+  "name": "ea-panama-web",
   "version": "2.1.0",
   "repository": "https://github.com/nstor7/EAPanama",
   "dependencies": {
@@ -10,8 +10,10 @@
     "express-mailer": "^0.3.1",
     "forever": "^0.15.3",
     "forever-monitor": "^1.7.1",
+    "mongoose": "^4.11.3",
     "page": "^1.7.1",
     "pug": "^2.0.0-beta6",
+    "request": "^2.81.0",
     "superagent": "^3.5.2",
     "yo-yo": "^1.2.2"
   },

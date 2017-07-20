@@ -1,52 +1,17 @@
-const express = require('express')
-const app = express()
-const mailer = require('express-mailer')
-const bodyParser = require('body-parser')
+'use strict'
 
-app.use(bodyParser.urlencoded({ extended: false}))
-app.use(bodyParser.json())
 
-app.set('view engine', 'pug')
+const mongoose = require('mongoose')
+const config = require('./config')
+const app = require('./app')
 
-app.use(express.static('public'))
-
-app.get('*', function(req, res){
- res.render('index.pug')
-})
-
-mailer.extend(app, {
-  host: 'wo08@wiroos.com',
-  secureConnection: true, // use SSL
-  port: 465, // port for secure SMTP
-  transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
-  auth: {
-    user: 'aparedes@eapanama.com',
-    pass: 'violin507cello'
+mongoose.connect(config.db, (err, res) => {
+  if(err) {
+    console.log('error al conectar a la base de datos')
   }
-})
+  console.log('Conexión a la base de datos establecida...')
 
-app.post('/contactar/send', function (req, res, next) {
-  console.log(req.body)
-  app.mailer.send('email', {
-    to: 'info@eapanama.com',
-    subject: 'email enviado desde la pagina de contacto',
-    mensaje: {
-      name: req.body.nombre,
-      email: req.body.email,
-      phone: req.body.telefono,
-      subject: req.body.message
-    }
-  }, function (err) {
-    if (err) {
-      // handle error
-      console.log(err);
-      res.redirect('/email-error');
-      return
-    }
-    res.redirect('/email-confirmacion');
-  });
-})
-
-  app.listen(8000, () => {
-   console.log('EAPanama corriendo en el puerto 8000')
+  app.listen(config.port, () => {
+   console.log(`Api Rest corriendo en el puerto ${config.port}`)
   })
+})
