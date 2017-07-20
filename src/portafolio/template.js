@@ -14,7 +14,7 @@ module.exports = function(portfolio){
             return tab(archivos)
           })}
         </article>
-        <article class="portafolioViewer"></article>
+        <article class="portafolioViewer" id="portafolioViewer" style="background-size: cover;"></article>
       </section>
     </main>
   `

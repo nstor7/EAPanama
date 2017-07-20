@@ -1,5 +1,3 @@
-import activar from './tabFunction'
-
 module.exports = [
   {
     id: 'aislamiento',
@@ -8,7 +6,6 @@ module.exports = [
       {
         nombre: 'primero',
         miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
-        imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
       },
       {
         nombre: 'segundo'
@@ -32,12 +29,12 @@ module.exports = [
     titulo: 'Control de Ruido Industrial',
     elementos: [
       {
-        nombre: 'primero',
-        miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
-        imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
+        nombre: 'portafolio1',
+        miniatura: 'imagenes/portafolio1.jpg',
       },
       {
-        nombre: 'segundo'
+        nombre: 'portfolio2',
+        miniatura: 'imagenes/portfolio2.jpg'
       }
     ]
   },
@@ -46,12 +43,13 @@ module.exports = [
     titulo: 'Integración de Audio y Video',
     elementos: [
       {
-        nombre: 'primero',
-        miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
+        nombre: 'portfolio3',
+        miniatura: 'imagenes/portfolio3.jpg',
         imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
       },
       {
-        nombre: 'segundo'
+        nombre: 'portfolio4',
+        miniatura: 'imagenes/portfolio4.jpg'
       }
     ]
   },

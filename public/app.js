@@ -2664,7 +2664,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../cabecera":29,"../cabecera/datos":28,"../social":74,"yo-yo":14}],19:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"../social":75,"yo-yo":14}],19:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n', '\n  </main>\n  '], ['\n  <main>\n', '\n  </main>\n  ']);
@@ -2847,7 +2847,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../social":74,"yo-yo":14}],26:[function(require,module,exports){
+},{"../social":75,"yo-yo":14}],26:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -3270,7 +3270,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
-},{"../social":74,"./navigationFunction":39,"yo-yo":14}],42:[function(require,module,exports){
+},{"../social":75,"./navigationFunction":39,"yo-yo":14}],42:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3379,7 +3379,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), (0, _inicioPortafolio2.default)(_proyectos2.default));
 
-},{"../inicioObjetivo":46,"../inicioPorque":47,"../inicioPortada":48,"../inicioPortafolio":49,"../inicioPortafolio/proyectos":50,"../inicioUnicos":52,"../porqueCriticas/criticas":56,"../servicio/secciones":71,"yo-yo":14}],45:[function(require,module,exports){
+},{"../inicioObjetivo":46,"../inicioPorque":47,"../inicioPortada":48,"../inicioPortafolio":49,"../inicioPortafolio/proyectos":50,"../inicioUnicos":52,"../porqueCriticas/criticas":56,"../servicio/secciones":72,"yo-yo":14}],45:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -3406,7 +3406,7 @@ require('./servicioArticulo');
 require('./contactoConfirmacion');
 (0, _page2.default)();
 
-},{"./about":16,"./blog":23,"./blogArticulo":27,"./contactar":31,"./contactoConfirmacion":34,"./home":42,"./portafolio":58,"./productos":66,"./servicio":69,"./servicioArticulo":73,"page":12}],46:[function(require,module,exports){
+},{"./about":16,"./blog":23,"./blogArticulo":27,"./contactar":31,"./contactoConfirmacion":34,"./home":42,"./portafolio":58,"./productos":67,"./servicio":70,"./servicioArticulo":74,"page":12}],46:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n'], ['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n']);
@@ -3736,11 +3736,15 @@ function _interopRequireDefault(obj) {
 },{"../backTop":20,"../footer":36,"../header":38,"./portfolio":60,"./template":63,"empty-element":4,"page":12}],59:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <a class="miniatura" style="background: url(\'', '\'); background-size: cover;"></a>\n  '], ['\n    <a class="miniatura" style="background: url(\'', '\'); background-size: cover;"></a>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <a class="miniatura" onclick=', ' id="', '" style="background: url(\'', '\'); background-size: cover;"></a>\n  '], ['\n    <a class="miniatura" onclick=', ' id="', '" style="background: url(\'', '\'); background-size: cover;"></a>\n  ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
+
+var _viewerFunction = require('./viewerFunction');
+
+var _viewerFunction2 = _interopRequireDefault(_viewerFunction);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -3751,28 +3755,19 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (elemento) {
-  var el = (0, _yoYo2.default)(_templateObject, elemento.miniatura);
+  var el = (0, _yoYo2.default)(_templateObject, _viewerFunction2.default, elemento.nombre, elemento.miniatura);
   return el;
 };
 
-},{"yo-yo":14}],60:[function(require,module,exports){
+},{"./viewerFunction":64,"yo-yo":14}],60:[function(require,module,exports){
 'use strict';
-
-var _tabFunction = require('./tabFunction');
-
-var _tabFunction2 = _interopRequireDefault(_tabFunction);
-
-function _interopRequireDefault(obj) {
-  return obj && obj.__esModule ? obj : { default: obj };
-}
 
 module.exports = [{
   id: 'aislamiento',
   titulo: 'Aislamiento Acústico',
   elementos: [{
     nombre: 'primero',
-    miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
-    imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
+    miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
   }, {
     nombre: 'segundo'
   }]
@@ -3788,21 +3783,22 @@ module.exports = [{
   id: 'industrial',
   titulo: 'Control de Ruido Industrial',
   elementos: [{
-    nombre: 'primero',
-    miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
-    imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
+    nombre: 'portafolio1',
+    miniatura: 'imagenes/portafolio1.jpg'
   }, {
-    nombre: 'segundo'
+    nombre: 'portfolio2',
+    miniatura: 'imagenes/portfolio2.jpg'
   }]
 }, {
   id: 'integracion',
   titulo: 'Integración de Audio y Video',
   elementos: [{
-    nombre: 'primero',
-    miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
+    nombre: 'portfolio3',
+    miniatura: 'imagenes/portfolio3.jpg',
     imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
   }, {
-    nombre: 'segundo'
+    nombre: 'portfolio4',
+    miniatura: 'imagenes/portfolio4.jpg'
   }]
 }, {
   id: 'productos',
@@ -3816,7 +3812,7 @@ module.exports = [{
   }]
 }];
 
-},{"./tabFunction":62}],61:[function(require,module,exports){
+},{}],61:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="portafolioTab">\n      <a class="tabButton" onclick=', ' id="', 'Tab">\n        <i class="fa fa-folder" aria-hidden="true"></i>\n        <h4>', '</h4>\n      </a>\n      <div id="miniaturas', '" class="tabEspacio">\n        ', '\n      </div>\n    </div>\n  '], ['\n    <div class="portafolioTab">\n      <a class="tabButton" onclick=', ' id="', 'Tab">\n        <i class="fa fa-folder" aria-hidden="true"></i>\n        <h4>', '</h4>\n      </a>\n      <div id="miniaturas', '" class="tabEspacio">\n        ', '\n      </div>\n    </div>\n  ']);
@@ -3842,7 +3838,6 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (archivo) {
-  console.log('agragar focus');
   var el = (0, _yoYo2.default)(_templateObject, _tabFunction2.default, archivo.id, archivo.titulo, archivo.id, archivo.elementos.map(function (elemento) {
     return (0, _miniatura2.default)(elemento);
   }));
@@ -3869,7 +3864,7 @@ module.exports = function () {
 },{}],63:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer"></article>\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer"></article>\n      </section>\n    </main>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer" id="portafolioViewer" style="background-size: cover;"></article>\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer" id="portafolioViewer" style="background-size: cover;"></article>\n      </section>\n    </main>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -3907,6 +3902,14 @@ module.exports = function (portfolio) {
 };
 
 },{"../cabecera":29,"../cabecera/datos":28,"./tab":61,"./tabFunction":62,"yo-yo":14}],64:[function(require,module,exports){
+"use strict";
+
+module.exports = function () {
+  var viewer = document.getElementById('portafolioViewer');
+  viewer.style.background = "url('imagenes/" + this.id + ".jpg')";
+};
+
+},{}],65:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -3986,7 +3989,7 @@ module.exports = [{
   }]
 }];
 
-},{}],65:[function(require,module,exports){
+},{}],66:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
@@ -4014,7 +4017,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"./tarjeta":67,"yo-yo":14}],66:[function(require,module,exports){
+},{"./tarjeta":68,"yo-yo":14}],67:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -4054,7 +4057,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_catalogo2.default));
 });
 
-},{"../backTop":20,"../footer":36,"../header":38,"./catalogo":64,"./template":68,"empty-element":4,"page":12}],67:[function(require,module,exports){
+},{"../backTop":20,"../footer":36,"../header":38,"./catalogo":65,"./template":69,"empty-element":4,"page":12}],68:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
@@ -4076,7 +4079,7 @@ module.exports = function (producto) {
   return el;
 };
 
-},{"yo-yo":14}],68:[function(require,module,exports){
+},{"yo-yo":14}],69:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  ']);
@@ -4112,7 +4115,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"../cabecera":29,"../cabecera/datos":28,"./estante":65,"yo-yo":14}],69:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"./estante":66,"yo-yo":14}],70:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -4161,7 +4164,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":20,"../footer":36,"../header":38,"../metaData":54,"../subMenu/scrollFunction":77,"./metaData":70,"./template":72,"empty-element":4,"page":12}],70:[function(require,module,exports){
+},{"../backTop":20,"../footer":36,"../header":38,"../metaData":54,"../subMenu/scrollFunction":78,"./metaData":71,"./template":73,"empty-element":4,"page":12}],71:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -4169,7 +4172,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'Lea nuestros servicios en Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio o Venta de materiales acústicos.' };
 
-},{}],71:[function(require,module,exports){
+},{}],72:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<span class="fa icon-sonometro"></span>'], ['<span class="fa icon-sonometro"></span>']),
@@ -4231,7 +4234,7 @@ module.exports = [{
   contenido: (0, _yoYo2.default)(_templateObject8)
 }];
 
-},{"yo-yo":14}],72:[function(require,module,exports){
+},{"yo-yo":14}],73:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
@@ -4266,7 +4269,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo.replace(/ /g, '-'), _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo.replace(/ /g, '-'), _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo.replace(/ /g, '-'), _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo.replace(/ /g, '-'), _secciones2.default[3].ilustracion);
 
-},{"../cabecera":29,"../cabecera/datos":28,"../subMenu":75,"./secciones":71,"yo-yo":14}],73:[function(require,module,exports){
+},{"../cabecera":29,"../cabecera/datos":28,"../subMenu":76,"./secciones":72,"yo-yo":14}],74:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -4311,7 +4314,7 @@ function _interopRequireDefault(obj) {
   next();
 }, _subMenu2.default);
 
-},{"../articulo/template":19,"../backTop":20,"../footer":36,"../header":38,"../servicio/secciones":71,"../subMenu":75,"empty-element":4,"page":12}],74:[function(require,module,exports){
+},{"../articulo/template":19,"../backTop":20,"../footer":36,"../header":38,"../servicio/secciones":72,"../subMenu":76,"empty-element":4,"page":12}],75:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -4333,7 +4336,7 @@ module.exports = function () {
   return el;
 };
 
-},{"yo-yo":14}],75:[function(require,module,exports){
+},{"yo-yo":14}],76:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -4357,7 +4360,7 @@ module.exports = function (ctx, next) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default));
 };
 
-},{"../servicio/secciones":71,"./template":78,"empty-element":4}],76:[function(require,module,exports){
+},{"../servicio/secciones":72,"./template":79,"empty-element":4}],77:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
@@ -4379,10 +4382,10 @@ module.exports = function (seccion) {
   return el;
 };
 
-},{"yo-yo":14}],77:[function(require,module,exports){
+},{"yo-yo":14}],78:[function(require,module,exports){
 "use strict";
 
-},{}],78:[function(require,module,exports){
+},{}],79:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  '], ['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  ']);
@@ -4411,4 +4414,4 @@ module.exports = function (secciones) {
   next();
 };
 
-},{"./plantilla":76,"yo-yo":14}]},{},[45]);
+},{"./plantilla":77,"yo-yo":14}]},{},[45]);

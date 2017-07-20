@@ -3,7 +3,6 @@ import activar from './tabFunction'
 import miniatura from './miniatura'
 
 module.exports = function(archivo){
-  console.log('agragar focus')
   var el = yo`
     <div class="portafolioTab">
       <a class="tabButton" onclick=${activar} id="${archivo.id}Tab">
