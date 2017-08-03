@@ -1,5 +1,18 @@
 'use strict'
 const Articulo = require('./modelo')
+const yo = require('yo-yo')
+const ext = require('file-extension')
+const multer = require('multer')
+var storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, './public/imagenes/blog')
+  },
+  filename: function (req, file, cb) {
+    cb(null, file.originalname)
+  }
+})
+ 
+var upload = multer({ storage: storage }).single('imagen')
 
  function getArticulos (req, res){
    Articulo.find({}, (err, articulos) => {
@@ -18,25 +31,36 @@ function getArticulo (req, res){
      res.status(200).send({articulo})
    })
  }
- function saveArticulo (req, res) {
-    console.log('POST /api/product')
-    console.log(req.body)
-
+ function saveArticulo (req, res, next) {
     let articulo = new Articulo()
     articulo.titulo = req.body.titulo
-    articulo.fecha = new Date()
+    articulo.fecha = new Date().toDateString()
     articulo.descripcion = req.body.descripcion
-    articulo.imagen1 = req.body.imagen1
-    articulo.imagen2 = req.body.imagen2
-    articulo.imagen3 = req.body.imagen3
-    articulo.contenido = req.body.contenido
+    articulo.contenido = JSON.parse(req.body.contenido)
+    articulo.imagen = "imagenes/blog/" + req.file.filename
 
     articulo.save((err, articuloStored) => {
 
       if (err) res.status(500).send({message: `Error al salvar en la base de datos: ${err}`})
-      res.status(200).send({articulo: articuloStored})
+      
+        res.status(200).send({articulo: articuloStored})
      })
    }
+function updateArticulo (req, res){
+   let articuloId = req.params.articuloId
+    let update = req.body
+    update.contenido = JSON.parse(req.body.contenido)
+    if(req.file){
+      update.imagen = "imagenes/blog/" + req.file.filename
+    }
+   Articulo.findByIdAndUpdate(articuloId, update, (err, articuloUpdate) => {
+     if (err) return res.status(500).send({message: `error al actualizar el articulo`})
+
+
+       res.status(200).send({articulo: articuloUpdate})
+   })
+ }
+
 function deleteArticulo (req, res){
 
    let articuloId = req.params.articuloId
@@ -50,4 +74,15 @@ function deleteArticulo (req, res){
      })
    })
  }
-module.exports = {getArticulos, getArticulo, saveArticulo, deleteArticulo}
+function uploadPictures (req, res, next){
+  upload(req, res, function(err){
+    if(err){
+      return res.status(500).send("Error Subiendo Imagen")
+    }
+
+    res.status(200)
+    console.log(res)
+    next()
+  })
+}
+module.exports = {getArticulos, getArticulo, saveArticulo, updateArticulo, deleteArticulo, uploadPictures}

@@ -6,8 +6,7 @@ import backTop from '../backTop'
 import articulos from '../blog/articulos'
 import template from '../articulo/template'
 
-page('/blog/:titulo', header, footer, backTop, function(ctx, next){
-  console.log('uff')
+page('/blog/:titulo', header, footer, backTop, articulos, function(ctx, next){
   var container = document.getElementById('main-container')
-  empty(container).appendChild(template(articulos, ctx.params.titulo))
+  empty(container).appendChild(template(ctx.articulos, ctx.params.titulo))
 })

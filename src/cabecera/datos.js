@@ -28,6 +28,16 @@ var cabeceraDatos = {
     titulo: 'contactar',
     subtitulo: 'Visita nuestras instalaciones para ver nuestros servicios y productos.',
     imagen: 'imagenes/contactar-home.jpg'
+  },
+  admin:{
+    titulo: 'Consola de Administración',
+    subtitulo: '',
+    imagen: 'imagenes/portfolio-home.png'
+  },
+  editor:{
+    titulo: 'Editor de Artículos',
+    subtitulo: '',
+    imagen: 'imagenes/portfolio-home.png'
   }
 }
 

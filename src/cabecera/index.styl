@@ -4,6 +4,7 @@
   background: none
   display: flex
   justify-content: space-between
+  align-items: center
   @media(max-width: 900px)
     width: 100vw
     height: 63vw
@@ -17,30 +18,34 @@
       width: 100vw
       height: 63vw
       opacity: 0.5
-  hgroup
+  .demasPortadaFondo
     background: linear-gradient(to bottom, #404347, #050506)
     height: 35vw
     width: 45vw
-    display: block
-    padding: 15vw 0 0 8vw
+    padding-left: 85px
     box-sizing: border-box
-    @media(max-width: 900px)
-      position absolute
-      width: 100%
-      background: none
-      text-align: center
-      box-sizing: border-box
-    h2
-      color: white
-      font-family: 'Montserrat', sans-serif
-      font-size: 4rem
-      text-transform: uppercase
-      margin 0
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    div
+      height: auto
       @media(max-width: 900px)
-        font-size: 2rem
-    p
-      color: white
-      font-family: 'Open Sans', sans-serif
-      font-weight: 300
-      font-size: 1rem
-      margin 0
+        position absolute
+        width: 100%
+        background: none
+        text-align: center
+        box-sizing: border-box
+      h2
+        color: white
+        font-family: 'Montserrat', sans-serif
+        font-size: 4rem
+        text-transform: uppercase
+        margin 0
+        @media(max-width: 900px)
+          font-size: 2rem
+      p
+        color: white
+        font-family: 'Open Sans', sans-serif
+        font-weight: 300
+        font-size: 1rem
+        margin 0

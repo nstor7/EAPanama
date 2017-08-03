@@ -3,6 +3,9 @@ const app = express()
 const mailer = require('express-mailer')
 const bodyParser = require('body-parser')
 const api = require('./blog')
+const admin = require('./admin')
+const servicio = require('./servicios')
+const blog = require('./articulos')
 
 app.use(bodyParser.urlencoded({ extended: false}))
 
@@ -14,19 +17,17 @@ app.use(express.static('public'))
 
 app.use('/api', api)
 
+app.use('/admin', admin)
+
+app.use('/servicio', servicio)
+
+app.use('/blog', blog)
+
 app.get('/', function(req, res){
  res.render('index.pug')
 })
 
 app.get('/about', function(req, res){
- res.render('index.pug')
-})
-
-app.get('/blog', function(req, res){
- res.render('index.pug')
-})
-
-app.get('/servicio', function(req, res){
  res.render('index.pug')
 })
 
@@ -42,18 +43,14 @@ app.get('/contactar', function(req, res){
  res.render('index.pug')
 })
 
-app.get('/blog/:titulo', function(req, res){
-  var titulo = res.titulo
+app.get('/confirmacion', function(req, res){
  res.render('index.pug')
 })
 
-app.get('/servicioArticulo', function(req, res){
- res.render('index.pug')
+app.get('/error', function(req, res){
+  res.render('index.pug')
 })
 
-app.get('/contactoConfirmacion', function(req, res){
- res.render('index.pug')
-})
 
 mailer.extend(app, {
   host: 'smtp.gmail.com',
@@ -81,10 +78,9 @@ app.post('/contactar/send', function (req, res, next) {
     if (err) {
       // handle error
       console.log(err);
-      res.redirect('/email-error');
-      return
+      return res.redirect('/error')
     }
-    res.redirect('/email-confirmacion');
+    res.redirect('/confirmacion');
   });
 })
 
