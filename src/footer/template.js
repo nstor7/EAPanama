@@ -28,11 +28,10 @@ module.exports = yo`
       <div>
         <h3>PRODUCTOS POPULARES</h3>
         <ul>
-          <li><a href="#">MGB Board</a></li>
-          <li><a href="#">Rubber Acústico</a></li>
-          <li><a href="#">Lana de Roca</a></li>
-          <li><a href="#">RevCloud</a></li>
-          <li><a href="#">Pyramid PU FOAM</a></li>
+          <li><a href="/pdf/MGB.pdf">MGB Board</a></li>
+          <li><a href="/pdf/Rubber3M.pdf">Rubber Acústico</a></li>
+          <li><a href="pdf/rockwool.pdf">Lana de Roca</a></li>
+          <li><a href="/pdf/CFAB.pdf">CFAB Panel de Celulosa</a></li>
         </ul>
       </div>
       <div>
