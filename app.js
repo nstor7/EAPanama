@@ -50,6 +50,14 @@ app.get('/confirmacion', function(req, res){
 app.get('/error', function(req, res){
   res.render('index.pug')
 })
+app.get('/404', function(reg, res){
+  res.render('index.pug')
+})
+
+app.use(function(reg, res){
+  res.status(404).redirect('/404')
+})
+
 
 mailer.extend(app, {
   host: 'smtp.gmail.com',
@@ -81,6 +89,14 @@ app.post('/contactar/send', function (req, res, next) {
     }
     res.redirect('/confirmacion');
   });
+})
+
+app.get('/404', function(reg, res){
+  res.render('index.pug')
+})
+
+app.use(function(reg, res){
+  res.status(404).redirect('/404')
 })
 
 module.exports = app
