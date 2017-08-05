@@ -51,7 +51,6 @@ app.get('/error', function(req, res){
   res.render('index.pug')
 })
 
-
 mailer.extend(app, {
   host: 'smtp.gmail.com',
   secureConnection: true, // use SSL

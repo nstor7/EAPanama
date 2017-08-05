@@ -11,11 +11,18 @@ module.exports = yo`
         </div>
       </article>
     </section>
+    <section className="noHomeSection mapLinks">
+      <h2>ABRIR CON:</h2>
+      <div>
+        <a href="waze://?ll=9.0354163,-79.4638468" target="_blank" className="callToAction">WAZE</a>
+        <a href="http://maps.apple.com/?q=9.0354163,-79.4638468" className="callToAction">Google Maps</a>
+      </div>
+    </section>
     <section class="noHomeSection arriba">
       <article class="horarios">
         <h2>HORARIOS:</h2>
         <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    Sábados: de 8:00 am a 12:00 pm <br>
-<i class="fa fa-phone" aria-hidden="true"></i> Llámanos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i>WhatsApp : 6144-2899</p>
+<i class="fa fa-phone" aria-hidden="true"></i> Llámanos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : 6144-2899</p>
       </article>
       <form method="post" action="contactar/send" class="formulario">
         <h2>ENVÍANOS UN MENSAJE:</h2>
