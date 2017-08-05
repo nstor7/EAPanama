@@ -66,7 +66,7 @@ mailer.extend(app, {
 app.post('/contactar/send', function (req, res, next) {
   console.log(req.body)
   app.mailer.send('email', {
-    to: 'nstor777@gmail.com',
+    to: process.env.MAILADDRESS,
     subject: 'email enviado desde la pagina de contacto',
     mensaje: {
       name: req.body.nombre,
