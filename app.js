@@ -54,9 +54,9 @@ app.get('/404', function(reg, res){
   res.render('index.pug')
 })
 
-// app.use(function(reg, res){
-//   res.status(404).redirect('/404')
-// })
+app.use(function(reg, res){
+  res.status(404).redirect('/404')
+})
 
 
 mailer.extend(app, {
