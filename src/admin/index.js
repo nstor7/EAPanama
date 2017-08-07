@@ -4,7 +4,6 @@ import header from '../header'
 import footer from '../footer'
 import backTop from '../backTop'
 import template from './template'
-import autenticar from './authFunction'
 
 page('/admin', header, footer, backTop, function(){
  var container = document.getElementById('main-container')
