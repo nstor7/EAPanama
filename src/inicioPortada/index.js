@@ -3,7 +3,7 @@ import yo from 'yo-yo'
 module.exports = yo`
 <div class="portada">
   <div id="video-container">
-    <video autoplay loop id="bgvid">
+    <video autoplay loop="loop" id="bgvid">
       <source src="imagenes/web-home-video.webm" type="video/webm">
       <source src="imagenes/web-home-video.mp4" type="video/mp4">
       <source src="images-web/web-home-video.ogv" type="video/ogg">

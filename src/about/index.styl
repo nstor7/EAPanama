@@ -1,5 +1,4 @@
 .aboutUs
-  background: white
   width: 100%
   height: auto
   p
@@ -14,8 +13,8 @@
   flex-wrap: wrap
   align-items: center
   height: auto
-  width: 88%
-  margin 20px auto
+  width: 8vw
+  margin 20px auto 0
   box-sizing: border-box;
   @media(max-width: 600px)
     justify-content: center
@@ -63,6 +62,7 @@
         text-align: left
         justify-content: flex-start
 .aboutSegunda
+  background: white
   padding 2rem 0 2rem
   box-sizing: border-box
   display flex
@@ -70,11 +70,10 @@
   height: auto
   border-top 1px solid #ddd
   border-bottom: 1px solid #ddd
-  width: 88%
+  width: 100%
   margin auto
   @media(max-width: 600px)
     justify-content: center
-    width: 100%
   .columna
     width: 340px
 .aboutInfo
@@ -83,16 +82,17 @@
   height: auto
   border-top 1px solid #ddd
   border-bottom: 1px solid #ddd
-  width: 88%
-  margin auto
+  width: 100%
   @media(max-width: 600px)
     justify-content: center
     width: 100%
   p
-    width: 100%
+    width: 88%
+    margin: auto
+    margin-bottom: 1rem
     @media(max-width: 600px)
       justify-content: center
-      width: 300px
+      width: 88%
   .infoCompuesto
     display: flex
     flex-wrap: wrap
@@ -109,14 +109,15 @@
         min-width: 300px
       ul
         width: 100%
-        min-width: 300px
+        min-width:300px
+        box-sizing: border-box
         line-height: 1.5
         font-family: 'Montserrat', sans-serif
         color #333
     .infoCompuestoImagen
       width: 42vw
       height: 28vw
-      background: url('https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?w=940&h=650&auto=compress&cs=tinysrgb')
+      background: url('imagenes/about-segunda.jpg')
       background-size: cover
       background-repeat: no-repeat
       box-shadow: 5px 5px 20px grey
@@ -133,6 +134,8 @@
       justify-content: center
     div
       text-align: center
+      @media(max-width: 400px)
+        width: 100%
     .fa
       font-size: 4rem
       color: #333
