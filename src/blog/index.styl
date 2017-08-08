@@ -1,6 +1,6 @@
 .tarjeta
   width: 30%
-  min-width: 300px
+  min-width: 400px
   height: 600px
   display: flex
   flex-wrap: wrap
@@ -10,13 +10,15 @@
   margin-bottom: 2rem
   padding 30px
   box-sizing: border-box
+  @media(max-width: 800px)
+    width: 90vw
   &:hover
     box-shadow: 0.5px 0.5px 30px grey
   .tarjetaImagen
-    width: 290px
+    width: 90%
     height: 290px
   .tarjetaTexto
-    width: 290px
+    width: 90%
     height: 290px
     color: black
     position: relative
