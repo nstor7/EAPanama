@@ -9,8 +9,8 @@ admin.get('/', function(req, res){
 
 admin.get('/auth', function(req, res){
  user = {
-  nombre: 'nstor7',
-  contraseña: 'violin'
+  nombre: 'pablo',
+  contraseña: 'eapanama'
  }
  res.send(user)
 })
