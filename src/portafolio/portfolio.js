@@ -4,11 +4,12 @@ module.exports = [
     titulo: 'Aislamiento Acústico',
     elementos: [
       {
-        nombre: 'primero',
-        miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
+        nombre: 'portafolio1',
+        miniatura: 'imagenes/portafolio1.jpg',
       },
       {
-        nombre: 'segundo'
+        nombre: 'portfolio2',
+        miniatura: 'imagenes/portfolio2.jpg'
       }
     ]
   },

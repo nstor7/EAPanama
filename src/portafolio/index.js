@@ -9,4 +9,7 @@ import portfolio from './portfolio'
 page('/portafolio', header, footer, backTop, function(){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template(portfolio))
+  document.getElementsByClassName('tabEspacio')[0].classList.add('active')
+  document.getElementById('portafolioViewer').style.background = "url('imagenes/" + portfolio[0].elementos[0].nombre + ".jpg')"
+  document.getElementById('portafolioViewer').style.backgroundSize = "contain"
 } )

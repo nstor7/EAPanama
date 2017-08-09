@@ -1,0 +1,22 @@
+upstream EAPanama{
+ server 127.0.0.1:8000
+}
+
+server {
+ listen: 80;
+ server_name eapanama.com
+ 
+}
+# HTTPS server
+#
+#server {
+#       listen 443;
+#       server_name localhost;
+#
+#       root html;
+#       index index.html index.htm;
+#
+#       ssl on;
+#       ssl_certificate cert.pem;
+#       ssl_certificate_key cert.key;
+#}

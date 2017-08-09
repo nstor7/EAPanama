@@ -18,7 +18,7 @@ module.exports = yo`
    <div class="formLine"><p>Contraseña:</p>
     <input type="password" name="password" id="password">
    </div>
-   <input type="submit" class="callToAction" onclick=${ctrl.autenticar} value="Autenticar">
+   <a class="callToAction" onclick=${ctrl.autenticar}>Autenticar</a>
   </form>
  </section>
 </main>

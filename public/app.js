@@ -12559,7 +12559,7 @@ function _interopRequireDefault(obj) {
 },{"../backTop":48,"../footer":68,"../header":70,"./template":30,"empty-element":5,"page":14}],30:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <input type="submit" class="callToAction" onclick=', ' value="Autenticar">\n  </form>\n </section>\n</main>\n'], ['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <input type="submit" class="callToAction" onclick=', ' value="Autenticar">\n  </form>\n </section>\n</main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <a class="callToAction" onclick=', '>Autenticar</a>\n  </form>\n </section>\n</main>\n'], ['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <a class="callToAction" onclick=', '>Autenticar</a>\n  </form>\n </section>\n</main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -12590,7 +12590,7 @@ module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_d
 },{"../cabecera":57,"../cabecera/datos":56,"./autenticar":28,"yo-yo":23}],31:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n'], ['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n']),
+var _templateObject = _taggedTemplateLiteral(['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords" value="', '"/>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n'], ['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords" value="', '"/>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n']),
     _templateObject2 = _taggedTemplateLiteral(['<h2>', '</h2>'], ['<h2>', '</h2>']),
     _templateObject3 = _taggedTemplateLiteral(['<p>\n              ', '\n            </p>'], ['<p>\n              ', '\n            </p>']),
     _templateObject4 = _taggedTemplateLiteral(['', ''], ['', '']),
@@ -12642,7 +12642,7 @@ module.exports = function (articulo) {
     esconderse();
   };
 
-  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo, articulo.descripcion, escogerImagen, articulo.imagen, cancelarImagen, _textFunction2.default, articulo.contenido.map(function (tag) {
+  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo, articulo.descripcion, articulo.keywords, escogerImagen, articulo.imagen, cancelarImagen, _textFunction2.default, articulo.contenido.map(function (tag) {
     if (tag.name === 'H2') {
       return (0, _yoYo2.default)(_templateObject2, tag.content);
     }if (tag.name === 'P') {
@@ -12793,7 +12793,7 @@ function _interopRequireDefault(obj) {
 },{"../admin/autenticar":28,"../backTop":48,"../footer":68,"../header":70,"./template":35,"empty-element":5,"page":14}],35:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n'], ['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords"/>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n'], ['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords"/>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -14483,6 +14483,9 @@ function _interopRequireDefault(obj) {
 (0, _page2.default)('/portafolio', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_portfolio2.default));
+  document.getElementsByClassName('tabEspacio')[0].classList.add('active');
+  document.getElementById('portafolioViewer').style.background = "url('imagenes/" + _portfolio2.default[0].elementos[0].nombre + ".jpg')";
+  document.getElementById('portafolioViewer').style.backgroundSize = "contain";
 });
 
 },{"../backTop":48,"../footer":68,"../header":70,"./portfolio":92,"./template":95,"empty-element":5,"page":14}],91:[function(require,module,exports){
@@ -14508,6 +14511,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = function (elemento) {
   var el = (0, _yoYo2.default)(_templateObject, _viewerFunction2.default, elemento.nombre, elemento.miniatura);
+
   return el;
 };
 
@@ -14518,10 +14522,11 @@ module.exports = [{
   id: 'aislamiento',
   titulo: 'Aislamiento Acústico',
   elementos: [{
-    nombre: 'primero',
-    miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
+    nombre: 'portafolio1',
+    miniatura: 'imagenes/portafolio1.jpg'
   }, {
-    nombre: 'segundo'
+    nombre: 'portfolio2',
+    miniatura: 'imagenes/portfolio2.jpg'
   }]
 }, {
   id: 'acondicionamiento',
@@ -14616,7 +14621,7 @@ module.exports = function () {
 },{}],95:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer" id="portafolioViewer" style="background-size: cover;"></article>\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer" id="portafolioViewer" style="background-size: cover;"></article>\n      </section>\n    </main>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer" id="portafolioViewer"></article>\n      </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer" id="portafolioViewer"></article>\n      </section>\n    </main>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -14647,7 +14652,7 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (portfolio) {
-  var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.portafolio), portfolio.map(function (archivos) {
+  var el = (0, _yoYo2.default)(_templateObject, portfolio.map(function (archivos) {
     return (0, _tab2.default)(archivos);
   }));
   return el;
@@ -14659,6 +14664,7 @@ module.exports = function (portfolio) {
 module.exports = function () {
   var viewer = document.getElementById('portafolioViewer');
   viewer.style.background = "url('imagenes/" + this.id + ".jpg')";
+  viewer.style.backgroundSize = "contain";
 };
 
 },{}],97:[function(require,module,exports){

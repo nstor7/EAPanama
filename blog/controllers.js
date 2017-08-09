@@ -36,6 +36,7 @@ function getArticulo (req, res){
     articulo.titulo = req.body.titulo
     articulo.fecha = new Date().toDateString()
     articulo.descripcion = req.body.descripcion
+    articulo.keywords = req.body.keywords
     articulo.contenido = JSON.parse(req.body.contenido)
     articulo.imagen = "imagenes/blog/" + req.file.filename
 

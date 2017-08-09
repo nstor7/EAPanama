@@ -18,6 +18,10 @@ module.exports = yo`
         <h2>Descripción:</h2>
         <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>
       </div>
+      <div className="editorTitulo">
+        <h2>Keywords:</h2>
+        <input name="keywords" type="text" id="keywords"/>
+      </div>
       ${imagenes}
       ${texto}
       ${boton}

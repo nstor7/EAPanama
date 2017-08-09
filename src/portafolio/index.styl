@@ -1,45 +1,66 @@
+.portfolio 
+  background: white
+.negro
+  width: 100vw
+  height: 67px
+  background: black
 .portafolio
+  padding: 40px 0 40px
   width: 90vw
   height: 36vw
-  background: black
   display: flex
   flex-wrap: wrap
   margin-left: 5vw
+  @media(max-width: 900px)
+    height: auto
   .portafolioLibraries
     height: 36vw
     width: 26vw
     background: #1F1F1F
     box-sizing: border-box
+    @media(max-width: 900px)
+      width: 90vw
+      height: auto
+      order: 2
     .tabButton
       display: flex
       justify-content: flex-start
-      color: #505050
+      color: #ddd
       padding-left: 1vw
       border none
       height: 3vw
       width: 100%
       line-height: 3vw
       background: none
+      box-sizing: border-box
+      @media(max-width: 900px)
+        height: 50px
+        padding-left: 1rem
       &:hover
         background: rgba(80, 80, 80, 0.6)
-        color: #ddd
         cursor: pointer
       &:focus
         border none
         background: rgba(80, 80, 80, 0.6)
-        color: #ddd
       .fa
         margin-right: 2rem
         font-size: 1rem
         line-height: 3vw
+        @media(max-width: 900px)
+          line-height: 50px
       h4
         margin: 0
+        @media(max-width: 900px)
+          line-height: 50px
     .tabEspacio
       height: 21vw
       background: #505050
       width: 100%
-      box-shadow: 1px 1px 10px inset
+      box-shadow: 1px 1px 10px #333 inset
       display: none
+      overflow: scroll
+      @media(max-width: 900px)
+          height: auto
     .active
       display: flex
       justify-content: space-between
@@ -49,9 +70,14 @@
         height: 8vw
         width: 10vw
         cursor: pointer
+        @media(max-width: 900px)
+          height: 32vw
+          width: 40vw
   .portafolioViewer
     height: 36vw
     width: 64vw
-    background: #555
-#portafolioViewer
-  background-size: cover
+    background-size: contain
+    @media(max-width: 900px)
+      width: 96vw
+      height: 54vw
+      order: 1

@@ -8,9 +8,8 @@ const ArticuloSchema = Schema({
   titulo: String,
   fecha: String,
   descripcion: String,
+  keywords: String,
   imagen: String,
-  imagen2: String,
-  imagen3: String,
   contenido: Array
 })
 

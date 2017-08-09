@@ -30,6 +30,10 @@ var cancelarImagen = function(){
         <h2>Descripción:</h2>
         <textarea name="descripcion" id="descripcion" cols="30" rows="10">${articulo.descripcion}</textarea>
       </div>
+      <div className="editorTitulo">
+        <h2>Keywords:</h2>
+        <input name="keywords" type="text" id="keywords" value="${articulo.keywords}"/>
+      </div>
       <div className="editorImagenes">
         <a id="imagenChoose" className="callToAction" onclick=${escogerImagen}>
           <i class="fa fa-camera" aria-hidden="true"></i>
