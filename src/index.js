@@ -1,6 +1,7 @@
 import page from 'page'
+import articulos from './blog/articulos'
 
-page('*', function(ctx, next){
+page('*', articulos, function(ctx, next){
   window.scrollTo(0,0)
   next()
 })

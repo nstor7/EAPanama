@@ -5,20 +5,30 @@ verdeEa = #92b41b
   height: 80vh
   border 1px solid #e1e1e1
 .mapLinks
+  margin-left: 10vw
+  width: 15vw
+  display: flex
   height: auto
-  align-items: flex-start
-  flex-wrap: wrap
-  p
-    text-align: right
-    margin 0
-    padding: 0
-  div
-    width: 40vw
-    min-width: 320px
-    display: flex
-    justify-content: space-between
-    a 
-      margin: 2rem 
+  justify-content: space-between
+  @media(max-width: 900px)
+    width: 50vw
+  a
+    .wazeImg
+      background: url('/imagenes/waze-image.png')
+      background-size: contain
+      width: 4vw
+      height: 4vw
+      @media(max-width: 900px)
+        width: 20vw
+        height: 20vw
+    .gmapsImg
+      background: url('/imagenes/gmaps.png')
+      background-size: contain
+      width: 4vw
+      height: 4vw
+      @media(max-width: 900px)
+        width: 20vw
+        height: 20vw
 .horarios
   width: 40%
   @media(max-width: 800px)
@@ -50,5 +60,6 @@ verdeEa = #92b41b
     align-items: flex-start
   .formButton
     height: auto
+    width: 250px
 .arriba
   align-items: flex-start

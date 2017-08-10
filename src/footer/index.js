@@ -3,6 +3,6 @@ import template from './template'
 
 module.exports = function footer (ctx, next){
   var footer = document.getElementById('footer')
-  empty(footer).appendChild(template)
+  empty(footer).appendChild(template(ctx.articulos))
   next()
 }

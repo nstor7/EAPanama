@@ -1,6 +1,7 @@
 import yo from 'yo-yo'
 
-module.exports = yo`
+module.exports = function(articulos){
+  var el = yo`
   <footer>
     <article class="footerCuerpo">
       <div>
@@ -36,8 +37,11 @@ module.exports = yo`
       </div>
       <div>
         <h3>ÚLTIMAS ENTRADAS</h3>
-        <div></div>
-        <div></div>
+        <ul>
+          <li>
+            <a href="/blog/${articulos[articulos.length - 1].titulo.replace(/ /g, '-')}">${articulos[articulos.length - 1].titulo}</a>
+          </li>
+        </ul>
       </div>
     </article>
     <article class="footerPie">
@@ -48,3 +52,5 @@ module.exports = yo`
     </article>
   </footer>
 `
+return el
+}

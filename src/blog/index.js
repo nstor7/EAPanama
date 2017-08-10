@@ -10,7 +10,6 @@ import articulos from './articulos'
 
 page('/blog', header, footer, backTop, articulos, function(ctx, next){
   var container = document.getElementById('main-container')
-  console.log(ctx.articulos)
   empty(container).appendChild(template(ctx.articulos))
   metaData(blogDatos.title, blogDatos.description, blogDatos.keywords)
 })
