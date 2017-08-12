@@ -13,4 +13,5 @@ page('/', header, footer, backTop, function(ctx, next){
   empty(main).appendChild(template)
   metaData(homeDatos.title, homeDatos.description, homeDatos.keywords)
   funcion.movimiento()
+  document.getElementById('bgvid').play()
 })

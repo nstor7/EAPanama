@@ -39,7 +39,10 @@ module.exports = function(articulos){
         <h3>ÚLTIMAS ENTRADAS</h3>
         <ul>
           <li>
-            <a href="/blog/${articulos[articulos.length - 1].titulo.replace(/ /g, '-')}">${articulos[articulos.length - 1].titulo}</a>
+            <a href="/blog/${articulos[articulos.length - 1].titulo.replace(/ /g, '-')}">
+              <div class="imgVlog" style="background: url(${articulos[articulos.length - 1].imagen}); background-size: cover;"></div>
+              ${articulos[articulos.length - 1].titulo}
+            </a>
           </li>
         </ul>
       </div>
