@@ -22,7 +22,7 @@ module.exports = [
   {
     nombre: 'XIELO',
     area: ' SALA DE ENSAYOS',
-    servicio: 'INTEGRACION DE AUDIO Y VIDEO',
+    servicio: 'INTEGRACIÓN DE AUDIO Y VIDEO',
     imagen: 'imagenes/portfolio3.jpg'
   }
 ]

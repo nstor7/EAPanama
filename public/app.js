@@ -14284,14 +14284,14 @@ module.exports = [{
 }, {
   nombre: 'XIELO',
   area: ' SALA DE ENSAYOS',
-  servicio: 'INTEGRACION DE AUDIO Y VIDEO',
+  servicio: 'INTEGRACIÓN DE AUDIO Y VIDEO',
   imagen: 'imagenes/portfolio3.jpg'
 }];
 
 },{}],83:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <a href="#" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="#" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <a href="/servicio/', '" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="/servicio/', '" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -14306,7 +14306,7 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (proyecto) {
-  var el = (0, _yoYo2.default)(_templateObject, proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
+  var el = (0, _yoYo2.default)(_templateObject, proyecto.servicio.replace(/ /g, '-'), proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
   return el;
 };
 
