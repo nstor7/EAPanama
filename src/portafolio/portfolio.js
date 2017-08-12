@@ -6,6 +6,11 @@ module.exports = [
       {
         nombre: 'portafolio1',
         miniatura: 'imagenes/portafolio1.jpg',
+        imagenes: [
+          'portafolio1.jpg',
+          'portfolio2.jpg',
+          'portfolio3.jpg'
+        ]
       },
       {
         nombre: 'portfolio2',

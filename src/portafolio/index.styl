@@ -75,8 +75,83 @@
   .portafolioViewer
     height: 40vw
     width: 68vw
-    background-size: contain
+    overflow: hidden
+    position: relative
     @media(max-width: 900px)
       width: 96vw
       height: 54vw
       order: 1
+    .portfolioRiel
+      width: 204vw
+      height: 54vw
+      display flex
+      flex-wrap: nowrap
+      z-index: 0
+      position: absolute
+      .portfolioImagen
+        height: 40vw
+        width: 68vw
+        @media(max-width: 900px)
+          width: 96vw
+          height: 54vw
+    .portfolioPunto
+      position: absolute
+      bottom 20px
+      right: 34vw
+      height: 20px
+      width: 70px
+      display flex
+      justify-content: space-between
+      z-index: 1
+      .punto
+        width: 16px
+        height: 16px
+        border-radius: 50%
+        background: #ddd
+        cursor pointer
+    .controles
+      width: 25px
+      height: 64px
+      position absolute
+      top 20vw
+      cursor pointer
+      z-index: 1
+      .fa
+        font-size: 4rem
+        color #ddd
+        margin: 0
+    .imagenBackward
+      left: 10px
+      display: none
+    .imagenFordward
+      right: 10px
+.position1
+  .portfolioRiel
+    left 0
+  .portfolioPunto
+    .punto:first-child
+      background: gris
+.position2
+  .portfolioRiel
+    left: -68vw
+  .portfolioPunto
+    .punto:nth-child(2)
+      background: gris
+.position3
+  .portfolioRiel
+    left: -136vw
+  .portfolioPunto
+    .punto:nth-child(3)
+      background: gris
+.position4
+  .portfolioRiel
+    left: -204vw
+  .portfolioPunto
+    .punto:nth-child(3)
+      background: gris
+.position5
+  .portfolioRiel
+    left: -272vw
+  .portfolioPunto
+    .punto:nth-child(3)
+      background: gris
