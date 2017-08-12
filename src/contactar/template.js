@@ -16,7 +16,7 @@ module.exports = yo`
         <h2>ABRIR CON:</h2>
         <div class="mapLinks">
           <a href="waze://?ll=9.0354163,-79.4638468" target="_blank"><div className="wazeImg"></div></a>
-          <a href="http://maps.apple.com/?q=9.0354163,-79.4638468" target="_blank"><div className="gmapsImg"></div></a>
+          <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>
         </div>
         <h2>HORARIOS:</h2>
         <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    Sábados: de 8:00 am a 12:00 pm <br>
