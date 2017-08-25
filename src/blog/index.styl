@@ -10,6 +10,7 @@
   margin-bottom: 2rem
   padding 30px
   box-sizing: border-box
+  position relative
   @media(max-width: 800px)
     width: 90vw
   &:hover
@@ -19,7 +20,7 @@
     height: 290px
   .tarjetaTexto
     width: 90%
-    height: 290px
+    height: 250px
     color: black
     position: relative
     h3
@@ -39,17 +40,18 @@
       border-top: 1px solid #ddd
       padding-top: 0.5rem
       margin-top: 0.2rem
-    .social
-      flex-wrap: wrap
-      justify-content: space-between
-      width: 140px
-      position: absolute
-      right: 0
-      bottom: 40px
-      a
-        color: grey
-      a:hover
-        color: white
+.social
+  flex-wrap: wrap
+  justify-content: space-between
+  width: 140px
+  position absolute
+  right: 10%
+  bottom: 40px
+  a
+    color: grey
+  a:hover
+    color: white
+    cursor pointer
 .blogSection
   height: auto
   background: #E9E9E9
