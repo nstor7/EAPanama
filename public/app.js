@@ -85260,7 +85260,9 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/about', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -85294,9 +85296,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.about));
 
@@ -85307,7 +85313,9 @@ var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 var autenticar = function autenticar(ev) {
   ev.preventDefault();
@@ -85363,9 +85371,11 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/admin', _header2.default, _footer2.default, _backTop2.default, function () {
+(0, _page2.default)('/admin', _header2.default, _backTop2.default, _footer2.default, function () {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
@@ -85391,9 +85401,13 @@ var _autenticar = require('./autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.admin), _autenticar2.default.autenticar);
 
@@ -85430,9 +85444,13 @@ var _listaFunctions = require('../adminLista/listaFunctions');
 
 var _listaFunctions2 = _interopRequireDefault(_listaFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   var esconderse = function esconderse() {
@@ -85509,7 +85527,9 @@ var _autenticar = require('../admin/autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin/editor/:titulo', _autenticar2.default.restrict, _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -85537,9 +85557,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos, ident) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.editor), articulos.map(function (articulo) {
@@ -85581,7 +85605,9 @@ var _autenticar = require('../admin/autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin/editor', _autenticar2.default.restrict, _header2.default, _backTop2.default, _footer2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -85617,9 +85643,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.editor), _adminEditorImagenes2.default, _adminEditorTexto2.default, _adminEditorboton2.default);
 
@@ -85630,7 +85660,9 @@ var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ev) {
   ev.preventDefault();
@@ -85698,9 +85730,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var esconderse = function esconderse() {
   document.getElementById('imagenChoose').classList.toggle('escondido');
@@ -85730,9 +85766,13 @@ var _textFunction = require('./textFunction');
 
 var _textFunction2 = _interopRequireDefault(_textFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _textFunction2.default);
 
@@ -85743,7 +85783,9 @@ var _mediumEditor = require('medium-editor');
 
 var _mediumEditor2 = _interopRequireDefault(_mediumEditor);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function () {
   this.classList.add('escondido');
@@ -85781,9 +85823,13 @@ var _onSubmitFunction = require('./onSubmitFunction');
 
 var _onSubmitFunction2 = _interopRequireDefault(_onSubmitFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _onSubmitFunction2.default);
 
@@ -85824,7 +85870,9 @@ var _autenticar = require('../admin/autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin/lista', _autenticar2.default.restrict, _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -85838,7 +85886,9 @@ var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 var borrar = function borrar() {
   var articuloId = this.getAttribute('data-id').toString();
@@ -85923,9 +85973,13 @@ var _listaFunctions = require('./listaFunctions');
 
 var _listaFunctions2 = _interopRequireDefault(_listaFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, articulo.titulo.replace(/ /g, '-'), articulo.titulo.replace(/ /g, '-'), _listaFunctions2.default.borrar, articulo._id);
@@ -85953,9 +86007,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.admin), articulos.map(function (articulo) {
@@ -85993,9 +86051,13 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   console.log(articulo.contenido.valueof);
@@ -86024,7 +86086,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"../social":581,"yo-yo":492}],516:[function(require,module,exports){
+},{"../cabecera":528,"../cabecera/datos":527,"../social":580,"yo-yo":492}],516:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n', '\n  </main>\n  '], ['\n  <main>\n', '\n  </main>\n  ']);
@@ -86037,9 +86099,13 @@ var _articulo = require('./articulo');
 
 var _articulo2 = _interopRequireDefault(_articulo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos, ident) {
   var el = (0, _yoYo2.default)(_templateObject, articulos.map(function (articulo) {
@@ -86061,7 +86127,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('backTopContainer');
@@ -86078,9 +86146,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var subir = function subir() {
   window.scrollTo(0, 0);
@@ -86095,13 +86167,16 @@ var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   _superagent2.default.get('/api/articulos').end(function (err, res) {
     if (err) return console.log(err);
 
     ctx.articulos = res.body.articulos;
+    console.log(ctx.articulos);
     next();
   });
 };
@@ -86164,7 +86239,9 @@ var _articulos = require('./articulos');
 
 var _articulos2 = _interopRequireDefault(_articulos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/blog', _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -86183,7 +86260,7 @@ module.exports = {
 },{}],522:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social">\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social">\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -86193,9 +86270,13 @@ var _socialFunctions = require('./socialFunctions');
 
 var _socialFunctions2 = _interopRequireDefault(_socialFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject, _socialFunctions2.default.facebookShare);
@@ -86224,7 +86305,7 @@ module.exports = { facebookShare: facebookShare };
 },{"fb":282}],524:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <div class="tarjeta" href="/blog/', '">\n      <a class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></a>\n      <a class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </a>\n      ', '\n    </div>\n  '], ['\n    <div class="tarjeta" href="/blog/', '">\n      <a class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></a>\n      <a class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </a>\n      ', '\n    </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <a class="tarjeta" href="/blog/', '">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </div>\n      ', '\n    </a>\n  '], ['\n    <a class="tarjeta" href="/blog/', '">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </div>\n      ', '\n    </a>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -86234,9 +86315,13 @@ var _social = require('./social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, articulo.titulo.replace(/ /g, '-'), articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, (0, _social2.default)());
@@ -86264,9 +86349,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.blog), articulos.map(function (articulo) {
@@ -86310,7 +86399,9 @@ var _metaData = require('../metaData');
 
 var _metaData2 = _interopRequireDefault(_metaData);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/blog/:titulo', _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -86378,9 +86469,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (datos) {
   var el = (0, _yoYo2.default)(_templateObject, datos.titulo, datos.subtitulo, datos.imagen);
@@ -86397,9 +86492,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var container = document.getElementById('body');
@@ -86448,7 +86547,9 @@ var _googleApi = require('./googleApi');
 
 var _googleApi2 = _interopRequireDefault(_googleApi);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -86482,9 +86583,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
@@ -86511,7 +86616,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/confirmacion', _header2.default, _footer2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -86535,9 +86642,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
@@ -86564,7 +86675,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/error', _header2.default, _footer2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -86588,9 +86701,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
@@ -86621,7 +86738,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/404', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -86640,9 +86759,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -86657,7 +86780,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function footer(ctx, next) {
   var footer = document.getElementById('footer');
@@ -86674,9 +86799,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, articulos[articulos.length - 1].titulo.replace(/ /g, '-'), articulos[articulos.length - 1].imagen, articulos[articulos.length - 1].titulo);
@@ -86698,7 +86827,9 @@ var _scrollFunction = require('../header/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -86747,13 +86878,17 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
-},{"../social":581,"./navigationFunction":542,"yo-yo":492}],545:[function(require,module,exports){
+},{"../social":580,"./navigationFunction":542,"yo-yo":492}],545:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86792,7 +86927,9 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
@@ -86851,13 +86988,17 @@ var _proyectos = require('../inicioPortafolio/proyectos');
 
 var _proyectos2 = _interopRequireDefault(_proyectos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), (0, _inicioPortafolio2.default)(_proyectos2.default));
 
-},{"../inicioObjetivo":549,"../inicioPorque":550,"../inicioPortada":551,"../inicioPortafolio":552,"../inicioPortafolio/proyectos":553,"../inicioUnicos":555,"../porqueCriticas/criticas":559,"../servicio/secciones":578,"yo-yo":492}],548:[function(require,module,exports){
+},{"../inicioObjetivo":549,"../inicioPorque":550,"../inicioPortada":551,"../inicioPortafolio":552,"../inicioPortafolio/proyectos":553,"../inicioUnicos":555,"../porqueCriticas/criticas":559,"../servicio/secciones":577,"yo-yo":492}],548:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86868,7 +87009,9 @@ var _articulos = require('./blog/articulos');
 
 var _articulos2 = _interopRequireDefault(_articulos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('*', _articulos2.default, function (ctx, next) {
   window.scrollTo(0, 0);
@@ -86892,7 +87035,7 @@ require('./error');
 require('./admin');
 (0, _page2.default)();
 
-},{"./about":494,"./admin":498,"./adminChanger":501,"./adminEditor":503,"./adminLista":511,"./blog":520,"./blog/articulos":519,"./blogArticulo":526,"./contactar":530,"./contactoConfirmacion":533,"./contactoError":535,"./error":537,"./home":545,"./portafolio":562,"./productos":572,"./servicio":576,"./servicioArticulo":580,"page":351}],549:[function(require,module,exports){
+},{"./about":494,"./admin":498,"./adminChanger":501,"./adminEditor":503,"./adminLista":511,"./blog":520,"./blog/articulos":519,"./blogArticulo":526,"./contactar":530,"./contactoConfirmacion":533,"./contactoError":535,"./error":537,"./home":545,"./portafolio":562,"./productos":571,"./servicio":575,"./servicioArticulo":579,"page":351}],549:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n'], ['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n']);
@@ -86901,9 +87044,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -86924,9 +87071,13 @@ var _criticaMovimientoFunction = require('../porqueCriticas/criticaMovimientoFun
 
 var _criticaMovimientoFunction2 = _interopRequireDefault(_criticaMovimientoFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (criticas) {
   var el = (0, _yoYo2.default)(_templateObject, _criticaMovimientoFunction2.default.posicion1, _criticaMovimientoFunction2.default.posicion2, _criticaMovimientoFunction2.default.posicion3, criticas.map(function (critica) {
@@ -86944,9 +87095,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
@@ -86963,9 +87118,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (proyectos) {
   var el = (0, _yoYo2.default)(_templateObject, proyectos.map(function (proyecto) {
@@ -87008,9 +87167,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (proyecto) {
   var el = (0, _yoYo2.default)(_templateObject, proyecto.servicio.replace(/ /g, '-'), proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
@@ -87030,9 +87193,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -87050,9 +87217,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo, seccion.descripcion);
@@ -87066,7 +87237,9 @@ var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (title, description, keywords) {
   var metaTitle = document.getElementById('metaTitle');
@@ -87136,9 +87309,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (critica) {
   var el = (0, _yoYo2.default)(_templateObject, critica.mensaje);
@@ -87148,7 +87325,43 @@ module.exports = function (critica) {
 },{"yo-yo":492}],561:[function(require,module,exports){
 'use strict';
 
+var _templateObject = _taggedTemplateLiteral(['\n <div>\n   <div class="portfolioRiel" id="portfolioRiel">\n       ', '\n   </div>\n   <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n     <i class="fa fa-angle-left" aria-hidden="true"></i>\n   </a>\n   <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n       <i class="fa fa-angle-right" aria-hidden="true"></i>\n   </a>\n   <div class="portfolioPunto" id="portfolioPunto">\n     ', '\n   </div>\n </div>\n '], ['\n <div>\n   <div class="portfolioRiel" id="portfolioRiel">\n       ', '\n   </div>\n   <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n     <i class="fa fa-angle-left" aria-hidden="true"></i>\n   </a>\n   <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n       <i class="fa fa-angle-right" aria-hidden="true"></i>\n   </a>\n   <div class="portfolioPunto" id="portfolioPunto">\n     ', '\n   </div>\n </div>\n ']),
+    _templateObject2 = _taggedTemplateLiteral(['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: contain;"></div>'], ['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: contain;"></div>']),
+    _templateObject3 = _taggedTemplateLiteral(['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>'], ['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>']);
+
+var _emptyElement = require('empty-element');
+
+var _emptyElement2 = _interopRequireDefault(_emptyElement);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
 var posicionActual = 1;
+
+function introducirViewer() {
+  var viewer = document.getElementById('portafolioViewer');
+  var imagenes = this.getAttribute('data-imagenes').split(",");
+
+  var agregado = (0, _yoYo2.default)(_templateObject, imagenes.map(function (imagen) {
+    return (0, _yoYo2.default)(_templateObject2, imagen);
+  }), moverIzquierda, moverDerecha, imagenes.map(function (imagen, i) {
+    return (0, _yoYo2.default)(_templateObject3, i + 1, moverPunto, i + 1);
+  }));
+
+  (0, _emptyElement2.default)(viewer).appendChild(agregado);
+  removerClasses(viewer, 'position');
+  viewer.classList.add('position1');
+  posicionActual = 1;
+}
 
 function verificarIzq(posicionActual) {
   var flechaIzq = document.getElementById('flechaIzq');
@@ -87187,9 +87400,9 @@ function moverPunto() {
   posicionActual = Number(this.getAttribute('data-posicion'));
   moverRiel(posicionActual);
 }
-module.exports = { moverIzquierda: moverIzquierda, moverDerecha: moverDerecha, moverPunto: moverPunto };
+module.exports = { introducirViewer: introducirViewer, moverIzquierda: moverIzquierda, moverDerecha: moverDerecha, moverPunto: moverPunto, removerClasses: removerClasses, posicionActual: posicionActual };
 
-},{}],562:[function(require,module,exports){
+},{"empty-element":275,"yo-yo":492}],562:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87224,7 +87437,9 @@ var _killFooter = require('./killFooter');
 
 var _killFooter2 = _interopRequireDefault(_killFooter);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/portafolio', _header2.default, _backTop2.default, _killFooter2.default, function () {
   var container = document.getElementById('main-container');
@@ -87239,7 +87454,9 @@ var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   var footer = document.getElementById('footer');
@@ -87250,79 +87467,71 @@ module.exports = function (ctx, next) {
 },{"empty-element":275}],564:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <a class="miniatura" data-imagenes="', '" onclick=', ' id="', '" style="background: url(\'', '\'); background-size: cover;"></a>\n  '], ['\n    <a class="miniatura" data-imagenes="', '" onclick=', ' id="', '" style="background: url(\'', '\'); background-size: cover;"></a>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <a  class="proyecto" data-imagenes="', '" onclick=', '>\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n    <a  class="proyecto" data-imagenes="', '" onclick=', '>\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
 
 var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-var _viewerFunction = require('./viewerFunction');
+var _carruselFunctions = require('./carruselFunctions');
 
-var _viewerFunction2 = _interopRequireDefault(_viewerFunction);
+var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
-module.exports = function (elemento) {
-  var el = (0, _yoYo2.default)(_templateObject, elemento.imagenes, _viewerFunction2.default, elemento.nombre, elemento.miniatura);
+module.exports = function (proyecto) {
+  var el = (0, _yoYo2.default)(_templateObject, proyecto.imagenes, _carruselFunctions2.default.introducirViewer, proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
 
   return el;
 };
 
-},{"./viewerFunction":569,"yo-yo":492}],565:[function(require,module,exports){
+},{"./carruselFunctions":561,"yo-yo":492}],565:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
   id: 'aislamiento',
   titulo: 'Aislamiento Acústico',
   elementos: [{
-    nombre: 'portafolio1',
-    miniatura: 'imagenes/portafolio1.jpg',
-    imagenes: ['portafolio1.jpg', 'portfolio2.jpg', 'portfolio3.jpg']
-  }, {
-    nombre: 'portfolio2',
-    miniatura: 'imagenes/portfolio2.jpg'
+    nombre: 'CSS',
+    area: ' 5 DE MAYO',
+    servicio: 'AISLAMIENTO ACÚSTICO',
+    imagen: 'imagenes/css2.jpg',
+    imagenes: ['css1.jpg', 'css2.jpg', 'css3.jpg', 'css4.jpg']
   }]
 }, {
   id: 'acondicionamiento',
   titulo: 'Acondicionamiento Acústico',
   elementos: [{
-    nombre: 'tercero'
-  }, {
-    nombre: 'cuarto'
+    nombre: 'ARAPIEL CORP',
+    area: 'OFICINAS',
+    servicio: 'AISLAMIENTO ACÚSTICO',
+    imagen: 'imagenes/arapiel1.jpg',
+    imagenes: ['arapiel1.jpg', 'arapiel2.jpg', 'arapiel3.jpg', 'arapiel4.jpg']
   }]
 }, {
   id: 'industrial',
   titulo: 'Control de Ruido Industrial',
   elementos: [{
-    nombre: 'portafolio1',
-    miniatura: 'imagenes/portafolio1.jpg'
-  }, {
-    nombre: 'portfolio2',
-    miniatura: 'imagenes/portfolio2.jpg'
+    nombre: 'ODEBRECHT',
+    area: ' TOCUMEN AIRPORT',
+    servicio: 'AISLAMIENTO ACÚSTICO',
+    imagen: 'imagenes/tocumen1.jpg',
+    imagenes: ['tocumen1.jpg']
   }]
 }, {
   id: 'integracion',
   titulo: 'Integración de Audio y Video',
-  elementos: [{
-    nombre: 'portfolio3',
-    miniatura: 'imagenes/portfolio3.jpg',
-    imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
-  }, {
-    nombre: 'portfolio4',
-    miniatura: 'imagenes/portfolio4.jpg'
-  }]
+  elementos: []
 }, {
   id: 'productos',
   titulo: 'Venta de Productos',
-  elementos: [{
-    nombre: 'primero',
-    miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
-    imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
-  }, {
-    nombre: 'segundo'
-  }]
+  elementos: []
 }];
 
 },{}],566:[function(require,module,exports){
@@ -87342,9 +87551,13 @@ var _miniatura = require('./miniatura');
 
 var _miniatura2 = _interopRequireDefault(_miniatura);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (archivo) {
   var el = (0, _yoYo2.default)(_templateObject, _tabFunction2.default, archivo.id, archivo.titulo, archivo.id, archivo.elementos.map(function (elemento) {
@@ -87374,7 +87587,7 @@ module.exports = function () {
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  ']),
-    _templateObject2 = _taggedTemplateLiteral(['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: contain;"></div>'], ['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: contain;"></div>']),
+    _templateObject2 = _taggedTemplateLiteral(['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: cover;"></div>'], ['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: cover;"></div>']),
     _templateObject3 = _taggedTemplateLiteral(['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>'], ['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>']);
 
 var _yoYo = require('yo-yo');
@@ -87401,9 +87614,13 @@ var _carruselFunctions = require('./carruselFunctions');
 
 var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (portfolio) {
   var el = (0, _yoYo2.default)(_templateObject, portfolio.map(function (archivos) {
@@ -87417,42 +87634,6 @@ module.exports = function (portfolio) {
 };
 
 },{"../cabecera":528,"../cabecera/datos":527,"./carruselFunctions":561,"./tab":566,"./tabFunction":567,"yo-yo":492}],569:[function(require,module,exports){
-'use strict';
-
-var _templateObject = _taggedTemplateLiteral(['\n  <div>\n    <div class="portfolioRiel" id="portfolioRiel">\n        ', '\n    </div>\n    <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n      <i class="fa fa-angle-left" aria-hidden="true"></i>\n    </a>\n    <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n        <i class="fa fa-angle-right" aria-hidden="true"></i>\n    </a>\n    <div class="portfolioPunto" id="portfolioPunto">\n      ', '\n    </div>\n  </div>\n  '], ['\n  <div>\n    <div class="portfolioRiel" id="portfolioRiel">\n        ', '\n    </div>\n    <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n      <i class="fa fa-angle-left" aria-hidden="true"></i>\n    </a>\n    <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n        <i class="fa fa-angle-right" aria-hidden="true"></i>\n    </a>\n    <div class="portfolioPunto" id="portfolioPunto">\n      ', '\n    </div>\n  </div>\n  ']),
-    _templateObject2 = _taggedTemplateLiteral(['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: contain;"></div>'], ['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: contain;"></div>']),
-    _templateObject3 = _taggedTemplateLiteral(['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>'], ['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>']);
-
-var _emptyElement = require('empty-element');
-
-var _emptyElement2 = _interopRequireDefault(_emptyElement);
-
-var _yoYo = require('yo-yo');
-
-var _yoYo2 = _interopRequireDefault(_yoYo);
-
-var _carruselFunctions = require('./carruselFunctions');
-
-var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-module.exports = function () {
-  var viewer = document.getElementById('portafolioViewer');
-  var imagenes = this.getAttribute('data-imagenes').split(",");
-
-  var agregado = (0, _yoYo2.default)(_templateObject, imagenes.map(function (imagen) {
-    return (0, _yoYo2.default)(_templateObject2, imagen);
-  }), _carruselFunctions2.default.moverIzquierda, _carruselFunctions2.default.moverDerecha, imagenes.map(function (imagen, i) {
-    return (0, _yoYo2.default)(_templateObject3, i + 1, _carruselFunctions2.default.moverPunto, i + 1);
-  }));
-
-  (0, _emptyElement2.default)(viewer).appendChild(agregado);
-};
-
-},{"./carruselFunctions":561,"empty-element":275,"yo-yo":492}],570:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87532,7 +87713,7 @@ module.exports = [{
   }]
 }];
 
-},{}],571:[function(require,module,exports){
+},{}],570:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
@@ -87545,9 +87726,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, catalogo.estante, catalogo.productos.map(function (producto) {
@@ -87556,7 +87741,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"./tarjeta":574,"yo-yo":492}],572:[function(require,module,exports){
+},{"./tarjeta":573,"yo-yo":492}],571:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87595,7 +87780,9 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/productos', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -87603,7 +87790,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"./catalogo":570,"./metaData":573,"./template":575,"empty-element":275,"page":351}],573:[function(require,module,exports){
+},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"./catalogo":569,"./metaData":572,"./template":574,"empty-element":275,"page":351}],572:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -87612,7 +87799,7 @@ module.exports = {
    description: 'Productos acústicos de calidad y 100 % renovables para el acondicionamiento de salas. Venta de equipos de audio profesionales'
 };
 
-},{}],574:[function(require,module,exports){
+},{}],573:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '" target="_blank">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '" target="_blank">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
@@ -87621,16 +87808,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (producto) {
   var el = (0, _yoYo2.default)(_templateObject, producto.interna, producto.ficha, producto.titulo, producto.externa, producto.descripcion);
   return el;
 };
 
-},{"yo-yo":492}],575:[function(require,module,exports){
+},{"yo-yo":492}],574:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  ']);
@@ -87651,9 +87842,13 @@ var _estante = require('./estante');
 
 var _estante2 = _interopRequireDefault(_estante);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.productos), catalogo.map(function (productos) {
@@ -87662,7 +87857,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"./estante":571,"yo-yo":492}],576:[function(require,module,exports){
+},{"../cabecera":528,"../cabecera/datos":527,"./estante":570,"yo-yo":492}],575:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87701,7 +87896,9 @@ var _scrollFunction = require('../subMenu/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/servicio', _header2.default, _backTop2.default, _footer2.default, function () {
   var container = document.getElementById('main-container');
@@ -87709,7 +87906,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../subMenu/scrollFunction":584,"./metaData":577,"./template":579,"empty-element":275,"page":351}],577:[function(require,module,exports){
+},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../subMenu/scrollFunction":583,"./metaData":576,"./template":578,"empty-element":275,"page":351}],576:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -87717,7 +87914,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'Lea nuestros servicios en Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio o Venta de materiales acústicos.' };
 
-},{}],578:[function(require,module,exports){
+},{}],577:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<span class="fa icon-sonometro"></span>'], ['<span class="fa icon-sonometro"></span>']),
@@ -87729,9 +87926,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   titulo: 'ACONDICIONAMIENTO ACÚSTICO',
@@ -87861,7 +88062,7 @@ module.exports = [{
   }]
 }];
 
-},{"yo-yo":492}],579:[function(require,module,exports){
+},{"yo-yo":492}],578:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
@@ -87886,13 +88087,17 @@ var _secciones = require('./secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo.replace(/ /g, '-'), _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo.replace(/ /g, '-'), _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo.replace(/ /g, '-'), _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo.replace(/ /g, '-'), _secciones2.default[3].ilustracion);
 
-},{"../cabecera":528,"../cabecera/datos":527,"../subMenu":582,"./secciones":578,"yo-yo":492}],580:[function(require,module,exports){
+},{"../cabecera":528,"../cabecera/datos":527,"../subMenu":581,"./secciones":577,"yo-yo":492}],579:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87931,7 +88136,9 @@ var _metaData = require('../metaData');
 
 var _metaData2 = _interopRequireDefault(_metaData);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/servicio/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
@@ -87943,7 +88150,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   next();
 }, _subMenu2.default);
 
-},{"../articulo/template":516,"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../servicio/secciones":578,"../subMenu":582,"empty-element":275,"page":351}],581:[function(require,module,exports){
+},{"../articulo/template":516,"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../servicio/secciones":577,"../subMenu":581,"empty-element":275,"page":351}],580:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -87952,16 +88159,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject);
   return el;
 };
 
-},{"yo-yo":492}],582:[function(require,module,exports){
+},{"yo-yo":492}],581:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -87976,14 +88187,16 @@ var _secciones = require('../servicio/secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('subMenu');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default));
 };
 
-},{"../servicio/secciones":578,"./template":585,"empty-element":275}],583:[function(require,module,exports){
+},{"../servicio/secciones":577,"./template":584,"empty-element":275}],582:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
@@ -87992,19 +88205,23 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo.replace(/ /g, '-'), seccion.icono, seccion.titulo);
   return el;
 };
 
-},{"yo-yo":492}],584:[function(require,module,exports){
+},{"yo-yo":492}],583:[function(require,module,exports){
 "use strict";
 
-},{}],585:[function(require,module,exports){
+},{}],584:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  '], ['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  ']);
@@ -88017,9 +88234,13 @@ var _plantilla = require('./plantilla');
 
 var _plantilla2 = _interopRequireDefault(_plantilla);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -88029,4 +88250,4 @@ module.exports = function (secciones) {
   next();
 };
 
-},{"./plantilla":583,"yo-yo":492}]},{},[548]);
+},{"./plantilla":582,"yo-yo":492}]},{},[548]);

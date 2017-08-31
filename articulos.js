@@ -11,7 +11,7 @@ blog.get('/', function(req, res){
  )}
 )
 blog.get('/:titulo', function(req, res){
- res.render('index.pug', {
+ res.render('articulo.pug', {
   title: req.params.titulo,
   description: req.body.descripcion,
   keywords: req.body.keywords

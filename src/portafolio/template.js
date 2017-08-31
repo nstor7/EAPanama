@@ -19,7 +19,7 @@ module.exports = function(portfolio){
           <div>
             <div class="portfolioRiel" id="portfolioRiel">
                 ${portfolio[0].elementos[0].imagenes.map(function(imagen){
-                  return yo`<div class="portfolioImagen" style="background: url('imagenes/${imagen}'); background-size: contain;"></div>`      
+                  return yo`<div class="portfolioImagen" style="background: url('imagenes/${imagen}'); background-size: cover;"></div>`      
                 })}
             </div>
             <a onclick=${ctrl.moverIzquierda} class="controles imagenBackward" id="flechaIzq">

@@ -65,13 +65,76 @@
       justify-content: space-between
       padding: 2vw
       box-sizing: border-box
-      .miniatura
-        height: 10vw
+      .proyecto
+        cursor pointer
         width: 12.5vw
-        cursor: pointer
+        height: 17.6vw
+        background: #e1e1e1
+        margin-bottom: 20px
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2)
+        position: relative
+        text-decoration: none
         @media(max-width: 900px)
-          height: 32vw
+          height: 56.32vw
           width: 40vw
+        .proyectoLugar
+          width: 100%
+          height: 50px
+          background: white
+          margin: 0
+          position: relative
+          h4
+            margin 0
+            text-align: center
+            line-height: 50px
+            font-family: 'Montserrat', sans-serif
+            color: rgb(51, 51, 51)
+            font-size: 0.7rem
+            font-weight: 400
+        .piko
+          background: white
+          position: absolute
+          transform: rotate(45deg);
+          top: 35px
+          left: 6vw
+          width: 1.2vw
+          height: 1.2vw
+          transition: all 0.3s ease
+          opacity: 0
+        .proyectoServicio
+          width: 100%
+          height: 37px
+          background: white
+          position: absolute
+          bottom 0
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          h5
+            font-family: 'Open Sans', sans-serif
+            font-size: 0.7rem
+            font-weight: 300
+            color: rgb(153, 153, 153)
+            margin: 0 0 0 2rem
+          .fa
+            font-size: 0.7rem
+            margin: 0 0.3rem 0 1.1rem
+            line-height: 37px
+            display: none
+            color: #D2E16D
+        .proyectoImagen
+          width: 12.5vw
+          height: 12.8vw
+      .proyecto:hover
+        h4
+          color #D2E16D
+        h5
+          margin 0
+        .fa
+          display: block
+        .piko
+          opacity: 1
+          top 40px
   .portafolioViewer
     height: 40vw
     width: 68vw
@@ -82,7 +145,7 @@
       height: 54vw
       order: 1
     .portfolioRiel
-      width: 204vw
+      width: auto
       height: 54vw
       display flex
       flex-wrap: nowrap
@@ -147,11 +210,11 @@
   .portfolioRiel
     left: -204vw
   .portfolioPunto
-    .punto:nth-child(3)
+    .punto:nth-child(4)
       background: gris
 .position5
   .portfolioRiel
     left: -272vw
   .portfolioPunto
-    .punto:nth-child(3)
+    .punto:nth-child(5)
       background: gris

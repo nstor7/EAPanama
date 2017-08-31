@@ -22,13 +22,14 @@ var upload = multer({ storage: storage }).single('imagen')
      res.status(200).send({articulos})
    })
  }
-function getArticulo (req, res){
+function getArticulo (req, res, next){
    let articuloId = req.params.articuloId
    Articulo.findById(articuloId, (err, articulo) => {
      if (err) return res.status(500).send({message: `error al realizar la petición: ${err}`})
      if(!articulo) return res.status(404).send({message: 'el articulo no existe'})
 
      res.status(200).send({articulo})
+     next()
    })
  }
  function saveArticulo (req, res, next) {

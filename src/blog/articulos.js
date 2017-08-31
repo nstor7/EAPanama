@@ -7,6 +7,7 @@ module.exports = function(ctx, next){
    if (err) return console.log(err)
 
    ctx.articulos = res.body.articulos
+   console.log(ctx.articulos)
    next()
  })
 }

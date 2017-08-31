@@ -3,7 +3,7 @@ import fn from './socialFunctions'
 
 module.exports = function(){
   var el = yo`
-  <div class="social" id="social">
+  <div class="social">
     <a onclick=${fn.facebookShare}><i class="fa fa-facebook" aria-hidden="true"></i></a>
     <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>

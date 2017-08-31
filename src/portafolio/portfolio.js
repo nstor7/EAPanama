@@ -4,17 +4,16 @@ module.exports = [
     titulo: 'Aislamiento Acústico',
     elementos: [
       {
-        nombre: 'portafolio1',
-        miniatura: 'imagenes/portafolio1.jpg',
+        nombre: 'CSS',
+        area: ' 5 DE MAYO',
+        servicio: 'AISLAMIENTO ACÚSTICO',
+        imagen: 'imagenes/css2.jpg',
         imagenes: [
-          'portafolio1.jpg',
-          'portfolio2.jpg',
-          'portfolio3.jpg'
+          'css1.jpg',
+          'css2.jpg',
+          'css3.jpg',
+          'css4.jpg'
         ]
-      },
-      {
-        nombre: 'portfolio2',
-        miniatura: 'imagenes/portfolio2.jpg'
       }
     ]
   },
@@ -23,10 +22,16 @@ module.exports = [
     titulo: 'Acondicionamiento Acústico',
     elementos: [
       {
-        nombre: 'tercero'
-      },
-      {
-        nombre: 'cuarto'
+        nombre: 'ARAPIEL CORP',
+        area: 'OFICINAS',
+        servicio: 'AISLAMIENTO ACÚSTICO',
+        imagen: 'imagenes/arapiel1.jpg',
+        imagenes: [
+          'arapiel1.jpg',
+          'arapiel2.jpg',
+          'arapiel3.jpg',
+          'arapiel4.jpg'
+        ]
       }
     ]
   },
@@ -35,42 +40,24 @@ module.exports = [
     titulo: 'Control de Ruido Industrial',
     elementos: [
       {
-        nombre: 'portafolio1',
-        miniatura: 'imagenes/portafolio1.jpg',
-      },
-      {
-        nombre: 'portfolio2',
-        miniatura: 'imagenes/portfolio2.jpg'
+        nombre: 'ODEBRECHT',
+        area: ' TOCUMEN AIRPORT',
+        servicio: 'AISLAMIENTO ACÚSTICO',
+        imagen: 'imagenes/tocumen1.jpg',
+        imagenes: [
+          'tocumen1.jpg'
+        ]
       }
     ]
   },
   {
     id: 'integracion',
     titulo: 'Integración de Audio y Video',
-    elementos: [
-      {
-        nombre: 'portfolio3',
-        miniatura: 'imagenes/portfolio3.jpg',
-        imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
-      },
-      {
-        nombre: 'portfolio4',
-        miniatura: 'imagenes/portfolio4.jpg'
-      }
-    ]
+    elementos: []
   },
   {
     id: 'productos',
     titulo: 'Venta de Productos',
-    elementos: [
-      {
-        nombre: 'primero',
-        miniatura: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg',
-        imagen: 'https://static.pexels.com/photos/363584/pexels-photo-363584.jpeg'
-      },
-      {
-        nombre: 'segundo'
-      }
-    ]
+    elementos: []
   }
 ]

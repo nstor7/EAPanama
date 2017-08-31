@@ -5,7 +5,7 @@ import footer from '../footer'
 import backTop from '../backTop'
 import template from './template'
 
-page('/admin', header, footer, backTop, function(){
+page('/admin', header, backTop, footer, function(){
  var container = document.getElementById('main-container')
  empty(container).appendChild(template)
 })
