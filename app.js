@@ -6,6 +6,7 @@ const api = require('./blog')
 const admin = require('./admin')
 const servicio = require('./servicios')
 const blog = require('./articulos')
+const secret = require('../.secret')
 
 app.use(bodyParser.urlencoded({ extended: false}))
 
@@ -89,15 +90,15 @@ mailer.extend(app, {
   port: 465, // port for secure SMTP
   transportMethod: 'SMTP', // default is SMTP. Accepts anything that nodemailer accepts
   auth: {
-    user: process.env.MAILUSER,
-    pass: process.env.MAILPSW
+    user: secret.mailuser,
+    pass: secret.mailpsw
   }
 })
 
 app.post('/contactar/send', function (req, res, next) {
   console.log(req.body)
   app.mailer.send('email', {
-    to: process.env.MAILADDRESS,
+    to: secret.mailaddress,
     subject: 'email enviado desde la pagina de contacto',
     mensaje: {
       name: req.body.nombre,

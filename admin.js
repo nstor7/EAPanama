@@ -1,5 +1,6 @@
 const express = require('express')
 const admin = express.Router()
+const secret = require('../.secret')
 
 admin.use(express.static('public'))
 
@@ -9,8 +10,8 @@ admin.get('/', function(req, res){
 
 admin.get('/auth', function(req, res){
  user = {
-  nombre: 'pablo',
-  contraseña: 'eapanama'
+  nombre: secret.nombre,
+  contraseña: secret.contraseña
  }
  res.send(user)
 })

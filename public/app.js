@@ -87372,6 +87372,7 @@ function verificarDer(posicionActual) {
   var flechaDer = document.getElementById('flechaDer');
   var posicionesCantidad = carrousel.children.length;
   if (posicionActual == posicionesCantidad) flechaDer.style.display = 'none';else flechaDer.style.display = 'block';
+  setTimeout(moverAuto, 2000);
 }
 function removerClasses(element, clase) {
   element.classList.remove(clase + '1');
@@ -87400,7 +87401,18 @@ function moverPunto() {
   posicionActual = Number(this.getAttribute('data-posicion'));
   moverRiel(posicionActual);
 }
-module.exports = { introducirViewer: introducirViewer, moverIzquierda: moverIzquierda, moverDerecha: moverDerecha, moverPunto: moverPunto, removerClasses: removerClasses, posicionActual: posicionActual };
+function moverAuto() {
+  var carrousel = document.getElementById('portfolioRiel');
+  var posicionesCantidad = carrousel.children.length;
+  if (posicionActual == posicionesCantidad) {
+    posicionActual = 1;
+    moverRiel(posicionActual);
+  } else {
+    posicionActual = posicionActual + 1;
+    moverRiel(posicionActual);
+  }
+}
+module.exports = { introducirViewer: introducirViewer, moverIzquierda: moverIzquierda, moverDerecha: moverDerecha, moverPunto: moverPunto, removerClasses: removerClasses, posicionActual: posicionActual, moverAuto: moverAuto };
 
 },{"empty-element":275,"yo-yo":492}],562:[function(require,module,exports){
 'use strict';
@@ -87437,6 +87449,10 @@ var _killFooter = require('./killFooter');
 
 var _killFooter2 = _interopRequireDefault(_killFooter);
 
+var _carruselFunctions = require('./carruselFunctions');
+
+var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
+
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
@@ -87445,9 +87461,10 @@ function _interopRequireDefault(obj) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_portfolio2.default));
   document.getElementsByClassName('tabEspacio')[0].classList.add('active');
+  setTimeout(_carruselFunctions2.default.moverAuto, 2000);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"./killFooter":563,"./portfolio":565,"./template":568,"empty-element":275,"page":351}],563:[function(require,module,exports){
+},{"../backTop":517,"../footer":539,"../header":541,"./carruselFunctions":561,"./killFooter":563,"./portfolio":565,"./template":568,"empty-element":275,"page":351}],563:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
