@@ -85270,7 +85270,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"./metaData":495,"./template":496,"empty-element":275,"page":351}],495:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./metaData":495,"./template":496,"empty-element":275,"page":351}],495:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -85306,7 +85306,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.about));
 
-},{"../cabecera":528,"../cabecera/datos":527,"yo-yo":492}],497:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],497:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
@@ -85380,7 +85380,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"./template":499,"empty-element":275,"page":351}],499:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"./template":499,"empty-element":275,"page":351}],499:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <a class="callToAction" onclick=', '>Autenticar</a>\n  </form>\n </section>\n</main>\n'], ['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <a class="callToAction" onclick=', '>Autenticar</a>\n  </form>\n </section>\n</main>\n']);
@@ -85411,7 +85411,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.admin), _autenticar2.default.autenticar);
 
-},{"../cabecera":528,"../cabecera/datos":527,"./autenticar":497,"yo-yo":492}],500:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./autenticar":497,"yo-yo":492}],500:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords" value="', '"/>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n'], ['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords" value="', '"/>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n']),
@@ -85536,7 +85536,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(ctx.articulos, ctx.params.titulo));
 });
 
-},{"../admin/autenticar":497,"../backTop":517,"../blog/articulos":519,"../footer":539,"../header":541,"./template":502,"empty-element":275,"page":351}],502:[function(require,module,exports){
+},{"../admin/autenticar":497,"../backTop":519,"../blog/articulos":521,"../footer":541,"../header":543,"./template":502,"empty-element":275,"page":351}],502:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n  ', '\n', '\n  </main>\n  '], ['\n  <main>\n  ', '\n', '\n  </main>\n  ']);
@@ -85574,7 +85574,7 @@ module.exports = function (articulos, ident) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"./editor":500,"yo-yo":492}],503:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./editor":500,"yo-yo":492}],503:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -85614,7 +85614,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../admin/autenticar":497,"../backTop":517,"../footer":539,"../header":541,"./template":504,"empty-element":275,"page":351}],504:[function(require,module,exports){
+},{"../admin/autenticar":497,"../backTop":519,"../footer":541,"../header":543,"./template":504,"empty-element":275,"page":351}],504:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords"/>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n'], ['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords"/>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n']);
@@ -85653,7 +85653,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.editor), _adminEditorImagenes2.default, _adminEditorTexto2.default, _adminEditorboton2.default);
 
-},{"../adminEditorImagenes":506,"../adminEditorTexto":507,"../adminEditorboton":509,"../cabecera":528,"../cabecera/datos":527,"yo-yo":492}],505:[function(require,module,exports){
+},{"../adminEditorImagenes":506,"../adminEditorTexto":507,"../adminEditorboton":509,"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],505:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
@@ -85879,7 +85879,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(ctx.articulos));
 });
 
-},{"../admin/autenticar":497,"../backTop":517,"../blog/articulos":519,"../footer":539,"../header":541,"./template":514,"empty-element":275,"page":351}],512:[function(require,module,exports){
+},{"../admin/autenticar":497,"../backTop":519,"../blog/articulos":521,"../footer":541,"../header":543,"./template":514,"empty-element":275,"page":351}],512:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
@@ -86022,10 +86022,10 @@ module.exports = function (articulos) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"./tarjeta":513,"yo-yo":492}],515:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./tarjeta":513,"yo-yo":492}],515:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido" id="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div class="subMenu" id="subMenu"></div>\n  </div>\n  '], ['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido" id="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div class="subMenu" id="subMenu"></div>\n  </div>\n  ']),
+var _templateObject = _taggedTemplateLiteral(['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido" id="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div id="fb-root"></div>\n    <script>(function(d, s, id) {\n      var js, fjs = d.getElementsByTagName(s)[0];\n      if (d.getElementById(id)) return;\n      js = d.createElement(s); js.id = id;\n      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=675294669328144";\n      fjs.parentNode.insertBefore(js, fjs);\n    }(document, \'script\', \'facebook-jssdk\'));</script>\n  '], ['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido" id="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div id="fb-root"></div>\n    <script>(function(d, s, id) {\n      var js, fjs = d.getElementsByTagName(s)[0];\n      if (d.getElementById(id)) return;\n      js = d.createElement(s); js.id = id;\n      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=675294669328144";\n      fjs.parentNode.insertBefore(js, fjs);\n    }(document, \'script\', \'facebook-jssdk\'));</script>\n  ']),
     _templateObject2 = _taggedTemplateLiteral(['<h2>', '</h2>'], ['<h2>', '</h2>']),
     _templateObject3 = _taggedTemplateLiteral(['<p>\n              ', '\n            </p>'], ['<p>\n              ', '\n            </p>']),
     _templateObject4 = _taggedTemplateLiteral(['', ''], ['', '']),
@@ -86047,7 +86047,7 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-var _social = require('../social');
+var _social = require('./social');
 
 var _social2 = _interopRequireDefault(_social);
 
@@ -86086,7 +86086,45 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"../social":580,"yo-yo":492}],516:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./social":516,"yo-yo":492}],516:[function(require,module,exports){
+'use strict';
+
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  ']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+var _socialFunctions = require('./socialFunctions');
+
+var _socialFunctions2 = _interopRequireDefault(_socialFunctions);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = function () {
+  var el = (0, _yoYo2.default)(_templateObject, _socialFunctions2.default.compartirFace);
+  return el;
+};
+
+},{"./socialFunctions":517,"yo-yo":492}],517:[function(require,module,exports){
+'use strict';
+
+function compartirFace() {
+  FB.ui({
+    method: 'share',
+    href: 'https://developers.facebook.com/docs/'
+  }, function (response) {});
+}
+
+module.exports = { compartirFace: compartirFace };
+
+},{}],518:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n', '\n  </main>\n  '], ['\n  <main>\n', '\n  </main>\n  ']);
@@ -86116,7 +86154,7 @@ module.exports = function (articulos, ident) {
   return el;
 };
 
-},{"./articulo":515,"yo-yo":492}],517:[function(require,module,exports){
+},{"./articulo":515,"yo-yo":492}],519:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -86137,7 +86175,7 @@ module.exports = function (ctx, next) {
   next();
 };
 
-},{"./template":518,"empty-element":275}],518:[function(require,module,exports){
+},{"./template":520,"empty-element":275}],520:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a href="" id="backTop" class="backTop" onclick=', '>\n    <i class="fa fa-angle-up" aria-hidden="true"></i>\n    <p>top</p>\n  </a>\n'], ['\n  <a href="" id="backTop" class="backTop" onclick=', '>\n    <i class="fa fa-angle-up" aria-hidden="true"></i>\n    <p>top</p>\n  </a>\n']);
@@ -86160,7 +86198,7 @@ var subir = function subir() {
 
 module.exports = (0, _yoYo2.default)(_templateObject, subir);
 
-},{"yo-yo":492}],519:[function(require,module,exports){
+},{"yo-yo":492}],521:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
@@ -86200,7 +86238,7 @@ module.exports = function (ctx, next) {
 //   }
 // ]
 
-},{"superagent":461}],520:[function(require,module,exports){
+},{"superagent":461}],522:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86249,7 +86287,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"./articulos":519,"./metaData":521,"./template":525,"empty-element":275,"page":351}],521:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./articulos":521,"./metaData":523,"./template":527,"empty-element":275,"page":351}],523:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -86257,10 +86295,10 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.' };
 
-},{}],522:[function(require,module,exports){
+},{}],524:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="social">\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social">\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -86279,11 +86317,11 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function () {
-  var el = (0, _yoYo2.default)(_templateObject, _socialFunctions2.default.facebookShare);
+  var el = (0, _yoYo2.default)(_templateObject);
   return el;
 };
 
-},{"./socialFunctions":523,"yo-yo":492}],523:[function(require,module,exports){
+},{"./socialFunctions":525,"yo-yo":492}],525:[function(require,module,exports){
 'use strict';
 
 var _fb = require('fb');
@@ -86302,7 +86340,7 @@ function facebookShare() {
 }
 module.exports = { facebookShare: facebookShare };
 
-},{"fb":282}],524:[function(require,module,exports){
+},{"fb":282}],526:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="tarjeta" href="/blog/', '">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </div>\n      ', '\n    </a>\n  '], ['\n    <a class="tarjeta" href="/blog/', '">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </div>\n      ', '\n    </a>\n  ']);
@@ -86328,7 +86366,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"./social":522,"yo-yo":492}],525:[function(require,module,exports){
+},{"./social":524,"yo-yo":492}],527:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -86364,7 +86402,7 @@ module.exports = function (articulos) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"./tarjeta":524,"yo-yo":492}],526:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./tarjeta":526,"yo-yo":492}],528:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86412,7 +86450,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(ctx.params.titulo, articulo.descripcion, articulo.keywords);
 });
 
-},{"../articulo/template":516,"../backTop":517,"../blog/articulos":519,"../footer":539,"../header":541,"../metaData":557,"empty-element":275,"page":351}],527:[function(require,module,exports){
+},{"../articulo/template":518,"../backTop":519,"../blog/articulos":521,"../footer":541,"../header":543,"../metaData":559,"empty-element":275,"page":351}],529:[function(require,module,exports){
 'use strict';
 
 var cabeceraDatos = {
@@ -86460,7 +86498,7 @@ var cabeceraDatos = {
 
 module.exports = cabeceraDatos;
 
-},{}],528:[function(require,module,exports){
+},{}],530:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="demasPortada">\n      <div class="demasPortadaFondo">\n        <div>\n          <h2>', '</h2>\n          <p>', '</p>\n        </div>\n      </div>\n      <div class="demasPortadaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    </section>\n  '], ['\n    <section class="demasPortada">\n      <div class="demasPortadaFondo">\n        <div>\n          <h2>', '</h2>\n          <p>', '</p>\n        </div>\n      </div>\n      <div class="demasPortadaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    </section>\n  ']);
@@ -86482,7 +86520,7 @@ module.exports = function (datos) {
   return el;
 };
 
-},{"yo-yo":492}],529:[function(require,module,exports){
+},{"yo-yo":492}],531:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<script type=\'text/javascript\' src=\'https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg\'></script>'], ['<script type=\'text/javascript\' src=\'https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg\'></script>']),
@@ -86508,7 +86546,7 @@ module.exports = function () {
   container.appendChild(script2);
 };
 
-},{"yo-yo":492}],530:[function(require,module,exports){
+},{"yo-yo":492}],532:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86558,7 +86596,7 @@ function _interopRequireDefault(obj) {
   (0, _googleApi2.default)();
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"./googleApi":529,"./metaData":531,"./template":532,"empty-element":275,"page":351}],531:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./googleApi":531,"./metaData":533,"./template":534,"empty-element":275,"page":351}],533:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -86566,7 +86604,7 @@ module.exports = {
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.' };
 
-},{}],532:[function(require,module,exports){
+},{}],534:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>ABRIR CON:</h2>\n        <div class="mapLinks">\n          <a href="waze://?ll=9.0354163,-79.4638468" target="_blank"><div className="wazeImg"></div></a>\n          <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>\n        </div>\n        <h2>HORARIOS:</h2>\n        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    S\xE1bados: de 8:00 am a 12:00 pm <br>\n<i class="fa fa-phone" aria-hidden="true"></i> Ll\xE1manos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : 6144-2899</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction formButton">\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>ABRIR CON:</h2>\n        <div class="mapLinks">\n          <a href="waze://?ll=9.0354163,-79.4638468" target="_blank"><div className="wazeImg"></div></a>\n          <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>\n        </div>\n        <h2>HORARIOS:</h2>\n        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    S\xE1bados: de 8:00 am a 12:00 pm <br>\n<i class="fa fa-phone" aria-hidden="true"></i> Ll\xE1manos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : 6144-2899</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction formButton">\n      </form>\n    </section>\n  </main>\n']);
@@ -86593,7 +86631,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":528,"../cabecera/datos":527,"yo-yo":492}],533:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],535:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86625,7 +86663,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../footer":539,"../header":541,"./template":534,"empty-element":275,"page":351}],534:[function(require,module,exports){
+},{"../footer":541,"../header":543,"./template":536,"empty-element":275,"page":351}],536:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionInfo">\n      <i class="fa fa-check" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha sido enviado</h2>\n      <h5>Puedes hechar un vistazo a nuestros servicios</h5>\n      <a href="/servicio" class="callToAction">Servicios</a>\n    </div>\n  </section>\n</main>\n'], ['\n<main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionInfo">\n      <i class="fa fa-check" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha sido enviado</h2>\n      <h5>Puedes hechar un vistazo a nuestros servicios</h5>\n      <a href="/servicio" class="callToAction">Servicios</a>\n    </div>\n  </section>\n</main>\n']);
@@ -86652,7 +86690,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":528,"../cabecera/datos":527,"yo-yo":492}],535:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],537:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86684,7 +86722,7 @@ function _interopRequireDefault(obj) {
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../footer":539,"../header":541,"./template":536,"empty-element":275,"page":351}],536:[function(require,module,exports){
+},{"../footer":541,"../header":543,"./template":538,"empty-element":275,"page":351}],538:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha no ha sido enviado</h2>\n      <h5>Puedes volver a intentar</h5>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n'], ['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha no ha sido enviado</h2>\n      <h5>Puedes volver a intentar</h5>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n']);
@@ -86711,7 +86749,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":528,"../cabecera/datos":527,"yo-yo":492}],537:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],539:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86750,7 +86788,7 @@ function _interopRequireDefault(obj) {
   }, 1000);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"./template":538,"empty-element":275,"page":351}],538:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"./template":540,"empty-element":275,"page":351}],540:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <section className="noHomeSection error">\n  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>\n  <div>\n   <h2>ESTA RUTA NO ES CORRECTA</h2>\n   <h3>Ser\xE1 redireccionado a nuestro home</h3>\n  </div>\n </section>\n'], ['\n <section className="noHomeSection error">\n  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>\n  <div>\n   <h2>ESTA RUTA NO ES CORRECTA</h2>\n   <h3>Ser\xE1 redireccionado a nuestro home</h3>\n  </div>\n </section>\n']);
@@ -86769,7 +86807,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":492}],539:[function(require,module,exports){
+},{"yo-yo":492}],541:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -86790,7 +86828,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":540,"empty-element":275}],540:[function(require,module,exports){
+},{"./template":542,"empty-element":275}],542:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="/pdf/MGB.pdf">MGB Board</a></li>\n          <li><a href="/pdf/Rubber3M.pdf">Rubber Ac\xFAstico</a></li>\n          <li><a href="pdf/rockwool.pdf">Lana de Roca</a></li>\n          <li><a href="/pdf/CFAB.pdf">CFAB Panel de Celulosa</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <ul>\n          <li>\n            <a href="/blog/', '">\n              <div class="imgVlog" style="background: url(', '); background-size: cover;"></div>\n              ', '\n            </a>\n          </li>\n        </ul>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n'], ['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="/pdf/MGB.pdf">MGB Board</a></li>\n          <li><a href="/pdf/Rubber3M.pdf">Rubber Ac\xFAstico</a></li>\n          <li><a href="pdf/rockwool.pdf">Lana de Roca</a></li>\n          <li><a href="/pdf/CFAB.pdf">CFAB Panel de Celulosa</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <ul>\n          <li>\n            <a href="/blog/', '">\n              <div class="imgVlog" style="background: url(', '); background-size: cover;"></div>\n              ', '\n            </a>\n          </li>\n        </ul>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n']);
@@ -86812,7 +86850,7 @@ module.exports = function (articulos) {
   return el;
 };
 
-},{"yo-yo":492}],541:[function(require,module,exports){
+},{"yo-yo":492}],543:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -86838,7 +86876,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"../header/scrollFunction":543,"./template":544,"empty-element":275}],542:[function(require,module,exports){
+},{"../header/scrollFunction":545,"./template":546,"empty-element":275}],544:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -86846,7 +86884,7 @@ module.exports = function () {
   nav.classList.toggle('hidden');
 };
 
-},{}],543:[function(require,module,exports){
+},{}],545:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -86861,7 +86899,7 @@ module.exports = function () {
   }
 };
 
-},{}],544:[function(require,module,exports){
+},{}],546:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/blog" onclick=', '>BLOG</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PRODUCTOS</a></li>\n     <li><a href="/portafolio" onclick=', '>PORTFOLIO</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n'], ['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/blog" onclick=', '>BLOG</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PRODUCTOS</a></li>\n     <li><a href="/portafolio" onclick=', '>PORTFOLIO</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n']);
@@ -86888,7 +86926,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
-},{"../social":580,"./navigationFunction":542,"yo-yo":492}],545:[function(require,module,exports){
+},{"../social":582,"./navigationFunction":544,"yo-yo":492}],547:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86939,7 +86977,7 @@ function _interopRequireDefault(obj) {
   document.getElementById('bgvid').play();
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../porqueCriticas/criticaMovimientoFunction":558,"./metaData":546,"./template":547,"empty-element":275,"page":351}],546:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"../porqueCriticas/criticaMovimientoFunction":560,"./metaData":548,"./template":549,"empty-element":275,"page":351}],548:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -86947,7 +86985,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.' };
 
-},{}],547:[function(require,module,exports){
+},{}],549:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n'], ['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n']);
@@ -86998,7 +87036,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), (0, _inicioPortafolio2.default)(_proyectos2.default));
 
-},{"../inicioObjetivo":549,"../inicioPorque":550,"../inicioPortada":551,"../inicioPortafolio":552,"../inicioPortafolio/proyectos":553,"../inicioUnicos":555,"../porqueCriticas/criticas":559,"../servicio/secciones":577,"yo-yo":492}],548:[function(require,module,exports){
+},{"../inicioObjetivo":551,"../inicioPorque":552,"../inicioPortada":553,"../inicioPortafolio":554,"../inicioPortafolio/proyectos":555,"../inicioUnicos":557,"../porqueCriticas/criticas":561,"../servicio/secciones":579,"yo-yo":492}],550:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87035,7 +87073,7 @@ require('./error');
 require('./admin');
 (0, _page2.default)();
 
-},{"./about":494,"./admin":498,"./adminChanger":501,"./adminEditor":503,"./adminLista":511,"./blog":520,"./blog/articulos":519,"./blogArticulo":526,"./contactar":530,"./contactoConfirmacion":533,"./contactoError":535,"./error":537,"./home":545,"./portafolio":562,"./productos":571,"./servicio":575,"./servicioArticulo":579,"page":351}],549:[function(require,module,exports){
+},{"./about":494,"./admin":498,"./adminChanger":501,"./adminEditor":503,"./adminLista":511,"./blog":522,"./blog/articulos":521,"./blogArticulo":528,"./contactar":532,"./contactoConfirmacion":535,"./contactoError":537,"./error":539,"./home":547,"./portafolio":564,"./productos":573,"./servicio":577,"./servicioArticulo":581,"page":351}],551:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n'], ['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n']);
@@ -87054,7 +87092,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":492}],550:[function(require,module,exports){
+},{"yo-yo":492}],552:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  '], ['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  ']);
@@ -87086,7 +87124,7 @@ module.exports = function (criticas) {
   return el;
 };
 
-},{"../porqueCriticas":560,"../porqueCriticas/criticaMovimientoFunction":558,"yo-yo":492}],551:[function(require,module,exports){
+},{"../porqueCriticas":562,"../porqueCriticas/criticaMovimientoFunction":560,"yo-yo":492}],553:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop="loop" id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n'], ['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop="loop" id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n']);
@@ -87105,7 +87143,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":492}],552:[function(require,module,exports){
+},{"yo-yo":492}],554:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="inicioPortafolio">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="inicioPortafolio">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -87133,7 +87171,7 @@ module.exports = function (proyectos) {
   return el;
 };
 
-},{"./tarjeta":554,"yo-yo":492}],553:[function(require,module,exports){
+},{"./tarjeta":556,"yo-yo":492}],555:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87158,7 +87196,7 @@ module.exports = [{
   imagen: 'imagenes/portfolio3.jpg'
 }];
 
-},{}],554:[function(require,module,exports){
+},{}],556:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a href="/servicio/', '" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="/servicio/', '" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
@@ -87180,7 +87218,7 @@ module.exports = function (proyecto) {
   return el;
 };
 
-},{"yo-yo":492}],555:[function(require,module,exports){
+},{"yo-yo":492}],557:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -87208,7 +87246,7 @@ module.exports = function (secciones) {
   return el;
 };
 
-},{"./tarjeta":556,"yo-yo":492}],556:[function(require,module,exports){
+},{"./tarjeta":558,"yo-yo":492}],558:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  '], ['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  ']);
@@ -87230,7 +87268,7 @@ module.exports = function (seccion) {
   return el;
 };
 
-},{"yo-yo":492}],557:[function(require,module,exports){
+},{"yo-yo":492}],559:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -87250,7 +87288,7 @@ module.exports = function (title, description, keywords) {
   (0, _emptyElement2.default)(metaKeywords).content = keywords;
 };
 
-},{"empty-element":275}],558:[function(require,module,exports){
+},{"empty-element":275}],560:[function(require,module,exports){
 'use strict';
 
 var posicion1 = function posicion1() {
@@ -87279,7 +87317,7 @@ var movimiento = function movimiento() {
 
 module.exports = { posicion1: posicion1, posicion2: posicion2, posicion3: posicion3, movimiento: movimiento };
 
-},{}],559:[function(require,module,exports){
+},{}],561:[function(require,module,exports){
 "use strict";
 
 var criticas = [{
@@ -87300,7 +87338,7 @@ var criticas = [{
 }];
 module.exports = criticas;
 
-},{}],560:[function(require,module,exports){
+},{}],562:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  '], ['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  ']);
@@ -87322,7 +87360,7 @@ module.exports = function (critica) {
   return el;
 };
 
-},{"yo-yo":492}],561:[function(require,module,exports){
+},{"yo-yo":492}],563:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n   <div class="portfolioRiel" id="portfolioRiel">\n       ', '\n   </div>\n   <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n     <i class="fa fa-angle-left" aria-hidden="true"></i>\n   </a>\n   <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n       <i class="fa fa-angle-right" aria-hidden="true"></i>\n   </a>\n   <div class="portfolioPunto" id="portfolioPunto">\n     ', '\n   </div>\n </div>\n '], ['\n <div>\n   <div class="portfolioRiel" id="portfolioRiel">\n       ', '\n   </div>\n   <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n     <i class="fa fa-angle-left" aria-hidden="true"></i>\n   </a>\n   <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n       <i class="fa fa-angle-right" aria-hidden="true"></i>\n   </a>\n   <div class="portfolioPunto" id="portfolioPunto">\n     ', '\n   </div>\n </div>\n ']),
@@ -87414,7 +87452,7 @@ function moverAuto() {
 }
 module.exports = { introducirViewer: introducirViewer, moverIzquierda: moverIzquierda, moverDerecha: moverDerecha, moverPunto: moverPunto, removerClasses: removerClasses, posicionActual: posicionActual, moverAuto: moverAuto };
 
-},{"empty-element":275,"yo-yo":492}],562:[function(require,module,exports){
+},{"empty-element":275,"yo-yo":492}],564:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87464,7 +87502,7 @@ function _interopRequireDefault(obj) {
   setTimeout(_carruselFunctions2.default.moverAuto, 2000);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"./carruselFunctions":561,"./killFooter":563,"./portfolio":565,"./template":568,"empty-element":275,"page":351}],563:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"./carruselFunctions":563,"./killFooter":565,"./portfolio":567,"./template":570,"empty-element":275,"page":351}],565:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -87481,7 +87519,7 @@ module.exports = function (ctx, next) {
   next();
 };
 
-},{"empty-element":275}],564:[function(require,module,exports){
+},{"empty-element":275}],566:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a  class="proyecto" data-imagenes="', '" onclick=', '>\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n    <a  class="proyecto" data-imagenes="', '" onclick=', '>\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
@@ -87508,7 +87546,7 @@ module.exports = function (proyecto) {
   return el;
 };
 
-},{"./carruselFunctions":561,"yo-yo":492}],565:[function(require,module,exports){
+},{"./carruselFunctions":563,"yo-yo":492}],567:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87551,7 +87589,7 @@ module.exports = [{
   elementos: []
 }];
 
-},{}],566:[function(require,module,exports){
+},{}],568:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="portafolioTab">\n      <a class="tabButton" onclick=', ' id="', 'Tab">\n        <i class="fa fa-folder" aria-hidden="true"></i>\n        <h4>', '</h4>\n      </a>\n      <div id="miniaturas', '" class="tabEspacio">\n        ', '\n      </div>\n    </div>\n  '], ['\n    <div class="portafolioTab">\n      <a class="tabButton" onclick=', ' id="', 'Tab">\n        <i class="fa fa-folder" aria-hidden="true"></i>\n        <h4>', '</h4>\n      </a>\n      <div id="miniaturas', '" class="tabEspacio">\n        ', '\n      </div>\n    </div>\n  ']);
@@ -87583,7 +87621,7 @@ module.exports = function (archivo) {
   return el;
 };
 
-},{"./miniatura":564,"./tabFunction":567,"yo-yo":492}],567:[function(require,module,exports){
+},{"./miniatura":566,"./tabFunction":569,"yo-yo":492}],569:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -87600,7 +87638,7 @@ module.exports = function () {
   this.firstElementChild.classList.add('fa-folder-open');
 };
 
-},{}],568:[function(require,module,exports){
+},{}],570:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  ']),
@@ -87650,7 +87688,7 @@ module.exports = function (portfolio) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"./carruselFunctions":561,"./tab":566,"./tabFunction":567,"yo-yo":492}],569:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./carruselFunctions":563,"./tab":568,"./tabFunction":569,"yo-yo":492}],571:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87730,7 +87768,7 @@ module.exports = [{
   }]
 }];
 
-},{}],570:[function(require,module,exports){
+},{}],572:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
@@ -87758,7 +87796,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"./tarjeta":573,"yo-yo":492}],571:[function(require,module,exports){
+},{"./tarjeta":575,"yo-yo":492}],573:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87807,7 +87845,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"./catalogo":569,"./metaData":572,"./template":574,"empty-element":275,"page":351}],572:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./catalogo":571,"./metaData":574,"./template":576,"empty-element":275,"page":351}],574:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -87816,7 +87854,7 @@ module.exports = {
    description: 'Productos acústicos de calidad y 100 % renovables para el acondicionamiento de salas. Venta de equipos de audio profesionales'
 };
 
-},{}],573:[function(require,module,exports){
+},{}],575:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '" target="_blank">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '" target="_blank">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
@@ -87838,7 +87876,7 @@ module.exports = function (producto) {
   return el;
 };
 
-},{"yo-yo":492}],574:[function(require,module,exports){
+},{"yo-yo":492}],576:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  ']);
@@ -87874,7 +87912,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"../cabecera":528,"../cabecera/datos":527,"./estante":570,"yo-yo":492}],575:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"./estante":572,"yo-yo":492}],577:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87923,7 +87961,7 @@ function _interopRequireDefault(obj) {
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../subMenu/scrollFunction":583,"./metaData":576,"./template":578,"empty-element":275,"page":351}],576:[function(require,module,exports){
+},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"../subMenu/scrollFunction":585,"./metaData":578,"./template":580,"empty-element":275,"page":351}],578:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -87931,7 +87969,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'Lea nuestros servicios en Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio o Venta de materiales acústicos.' };
 
-},{}],577:[function(require,module,exports){
+},{}],579:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<span class="fa icon-sonometro"></span>'], ['<span class="fa icon-sonometro"></span>']),
@@ -88079,7 +88117,7 @@ module.exports = [{
   }]
 }];
 
-},{"yo-yo":492}],578:[function(require,module,exports){
+},{"yo-yo":492}],580:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
@@ -88114,7 +88152,7 @@ function _taggedTemplateLiteral(strings, raw) {
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo.replace(/ /g, '-'), _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo.replace(/ /g, '-'), _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo.replace(/ /g, '-'), _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo.replace(/ /g, '-'), _secciones2.default[3].ilustracion);
 
-},{"../cabecera":528,"../cabecera/datos":527,"../subMenu":581,"./secciones":577,"yo-yo":492}],579:[function(require,module,exports){
+},{"../cabecera":530,"../cabecera/datos":529,"../subMenu":583,"./secciones":579,"yo-yo":492}],581:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -88167,7 +88205,7 @@ function _interopRequireDefault(obj) {
   next();
 }, _subMenu2.default);
 
-},{"../articulo/template":516,"../backTop":517,"../footer":539,"../header":541,"../metaData":557,"../servicio/secciones":577,"../subMenu":581,"empty-element":275,"page":351}],580:[function(require,module,exports){
+},{"../articulo/template":518,"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"../servicio/secciones":579,"../subMenu":583,"empty-element":275,"page":351}],582:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -88189,7 +88227,7 @@ module.exports = function () {
   return el;
 };
 
-},{"yo-yo":492}],581:[function(require,module,exports){
+},{"yo-yo":492}],583:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -88213,7 +88251,7 @@ module.exports = function (ctx, next) {
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default));
 };
 
-},{"../servicio/secciones":577,"./template":584,"empty-element":275}],582:[function(require,module,exports){
+},{"../servicio/secciones":579,"./template":586,"empty-element":275}],584:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
@@ -88235,10 +88273,10 @@ module.exports = function (seccion) {
   return el;
 };
 
-},{"yo-yo":492}],583:[function(require,module,exports){
+},{"yo-yo":492}],585:[function(require,module,exports){
 "use strict";
 
-},{}],584:[function(require,module,exports){
+},{}],586:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  '], ['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  ']);
@@ -88267,4 +88305,4 @@ module.exports = function (secciones) {
   next();
 };
 
-},{"./plantilla":582,"yo-yo":492}]},{},[548]);
+},{"./plantilla":584,"yo-yo":492}]},{},[550]);

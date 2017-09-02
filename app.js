@@ -75,15 +75,6 @@ app.get('/error', function(req, res){
    description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.'
  })
 })
-app.get('/404', function(reg, res){
-  res.render('index.pug')
-})
-
-app.use(function(reg, res){
-  res.status(404).redirect('/404')
-})
-
-
 mailer.extend(app, {
   host: 'smtp.gmail.com',
   secureConnection: true, // use SSL
@@ -114,6 +105,13 @@ app.post('/contactar/send', function (req, res, next) {
     }
     res.redirect('/confirmacion');
   });
+})
+app.get('/404', function(reg, res){
+  res.render('index.pug')
+})
+
+app.use(function(reg, res){
+  res.status(404).redirect('/404')
 })
 
 module.exports = app
