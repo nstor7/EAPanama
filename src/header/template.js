@@ -17,7 +17,7 @@ module.exports = yo`
      <li><a href="/about" onclick=${navegacion}>ABOUT</a></li>
      <li><a href="/blog" onclick=${navegacion}>BLOG</a></li>
      <li><a href="/servicio" onclick=${navegacion}>SERVICIOS</a></li>
-     <li><a href="/productos" onclick=${navegacion}>PRODUCTOS</a></li>
+     <li><a href="/productos" onclick=${navegacion}>CACAS y PEDOS</a></li>
      <li><a href="/portafolio" onclick=${navegacion}>PORTFOLIO</a></li>
      <li><a href="/contactar" onclick=${navegacion}>CONTACTAR</a></li>
     </ul>
