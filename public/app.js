@@ -85260,15 +85260,18 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/about', _header2.default, _footer2.default, _backTop2.default, function () {
+(0, _page2.default)('/about', _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-});
+  next();
+}, _footer2.default);
 
-},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./metaData":495,"./template":496,"empty-element":275,"page":351}],495:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"./metaData":495,"./template":496,"empty-element":275,"page":351}],495:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -85294,20 +85297,26 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.about));
 
-},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],497:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"yo-yo":492}],497:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 var autenticar = function autenticar(ev) {
   ev.preventDefault();
@@ -85363,14 +85372,16 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin', _header2.default, _backTop2.default, _footer2.default, function () {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../backTop":519,"../footer":541,"../header":543,"./template":499,"empty-element":275,"page":351}],499:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"./template":499,"empty-element":275,"page":351}],499:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <a class="callToAction" onclick=', '>Autenticar</a>\n  </form>\n </section>\n</main>\n'], ['\n<main>\n ', '\n <section className="noHomeSection confirmacion">\n  <form class="formulario">\n   <h2>PERMITENOS DARTE ACCESO A LA CONSOLA DE ADMINISTRACION</h2>\n   <div id="noAuth">\n   </div>\n   <div class="formLine">\n     <p>Nombre:</p>\n     <input type="text" name="username" id="nombre">\n   </div>\n   <div class="formLine"><p>Contrase\xF1a:</p>\n    <input type="password" name="password" id="password">\n   </div>\n   <a class="callToAction" onclick=', '>Autenticar</a>\n  </form>\n </section>\n</main>\n']);
@@ -85391,13 +85402,17 @@ var _autenticar = require('./autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.admin), _autenticar2.default.autenticar);
 
-},{"../cabecera":530,"../cabecera/datos":529,"./autenticar":497,"yo-yo":492}],500:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./autenticar":497,"yo-yo":492}],500:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords" value="', '"/>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n'], ['\n  <section class="editor">\n    <form id="form" name="formulario" enctype="multipart/form-data">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo" value="', '"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10">', '</textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords" value="', '"/>\n      </div>\n      <div className="editorImagenes">\n        <a id="imagenChoose" className="callToAction" onclick=', '>\n          <i class="fa fa-camera" aria-hidden="true"></i>\n          <input defaultValue="', '" id="imagenUpload" name="imagen" type="file"/>\n        </a>\n        <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n          <i class="fa fa-times-circle" aria-hidden="true"></i>\n        </a>\n      </div>\n      <article className="textEditor">\n        <div id="editorMenu" class="editorMenu">\n          <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n        </div>\n        <div id="editorArea" className="editorArea">\n         ', '\n        </div>\n      </article>\n      <div className="editorboton">\n        <input className="callToAction" type="submit" value="Subir" onclick=', ' data-id="', '">\n      </div>\n    </form>\n  </section>\n']),
@@ -85430,9 +85445,13 @@ var _listaFunctions = require('../adminLista/listaFunctions');
 
 var _listaFunctions2 = _interopRequireDefault(_listaFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   var esconderse = function esconderse() {
@@ -85474,7 +85493,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../adminEditorBoton/onSubmitFunction":505,"../adminEditorTexto/textFunction":508,"../adminLista/listaFunctions":512,"../articulo/articulo":515,"yo-yo":492}],501:[function(require,module,exports){
+},{"../adminEditorBoton/onSubmitFunction":506,"../adminEditorTexto/textFunction":509,"../adminLista/listaFunctions":511,"../articulo/articulo":514,"yo-yo":492}],501:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -85509,14 +85528,16 @@ var _autenticar = require('../admin/autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin/editor/:titulo', _autenticar2.default.restrict, _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(ctx.articulos, ctx.params.titulo));
 });
 
-},{"../admin/autenticar":497,"../backTop":519,"../blog/articulos":521,"../footer":541,"../header":543,"./template":502,"empty-element":275,"page":351}],502:[function(require,module,exports){
+},{"../admin/autenticar":497,"../backTop":518,"../blog/articulos":520,"../footer":540,"../header":542,"./template":502,"empty-element":275,"page":351}],502:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n  ', '\n', '\n  </main>\n  '], ['\n  <main>\n  ', '\n', '\n  </main>\n  ']);
@@ -85537,9 +85558,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos, ident) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.editor), articulos.map(function (articulo) {
@@ -85550,7 +85575,7 @@ module.exports = function (articulos, ident) {
   return el;
 };
 
-},{"../cabecera":530,"../cabecera/datos":529,"./editor":500,"yo-yo":492}],503:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./editor":500,"yo-yo":492}],503:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -85581,14 +85606,16 @@ var _autenticar = require('../admin/autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin/editor', _autenticar2.default.restrict, _header2.default, _backTop2.default, _footer2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
 });
 
-},{"../admin/autenticar":497,"../backTop":519,"../footer":541,"../header":543,"./template":504,"empty-element":275,"page":351}],504:[function(require,module,exports){
+},{"../admin/autenticar":497,"../backTop":518,"../footer":540,"../header":542,"./template":504,"empty-element":275,"page":351}],504:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords"/>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n'], ['\n<main>\n  ', '\n  <section class="editor">\n    <form id="form" name="formulario">\n      <div className="editorTitulo">\n        <h2>T\xEDtulo:</h2>\n        <input name="titulo" type="text" id="titulo"/>\n      </div>\n      <div className="editorTitulo">\n        <h2>Descripci\xF3n:</h2>\n        <textarea name="descripcion" id="descripcion" cols="30" rows="10"></textarea>\n      </div>\n      <div className="editorTitulo">\n        <h2>Keywords:</h2>\n        <input name="keywords" type="text" id="keywords"/>\n      </div>\n      ', '\n      ', '\n      ', '\n    </form>\n  </section>\n</main>\n']);
@@ -85605,9 +85632,9 @@ var _adminEditorImagenes = require('../adminEditorImagenes');
 
 var _adminEditorImagenes2 = _interopRequireDefault(_adminEditorImagenes);
 
-var _adminEditorboton = require('../adminEditorboton');
+var _adminEditorBoton = require('../adminEditorBoton');
 
-var _adminEditorboton2 = _interopRequireDefault(_adminEditorboton);
+var _adminEditorBoton2 = _interopRequireDefault(_adminEditorBoton);
 
 var _cabecera = require('../cabecera');
 
@@ -85617,20 +85644,49 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
-module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.editor), _adminEditorImagenes2.default, _adminEditorTexto2.default, _adminEditorboton2.default);
+module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.editor), _adminEditorImagenes2.default, _adminEditorTexto2.default, _adminEditorBoton2.default);
 
-},{"../adminEditorImagenes":506,"../adminEditorTexto":507,"../adminEditorboton":509,"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],505:[function(require,module,exports){
+},{"../adminEditorBoton":505,"../adminEditorImagenes":507,"../adminEditorTexto":508,"../cabecera":529,"../cabecera/datos":528,"yo-yo":492}],505:[function(require,module,exports){
+'use strict';
+
+var _templateObject = _taggedTemplateLiteral(['\n  <div className="editorboton">\n    <input className="callToAction" type="submit" value="Subir" onclick=', '>\n  </div>\n'], ['\n  <div className="editorboton">\n    <input className="callToAction" type="submit" value="Subir" onclick=', '>\n  </div>\n']);
+
+var _yoYo = require('yo-yo');
+
+var _yoYo2 = _interopRequireDefault(_yoYo);
+
+var _onSubmitFunction = require('./onSubmitFunction');
+
+var _onSubmitFunction2 = _interopRequireDefault(_onSubmitFunction);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
+
+module.exports = (0, _yoYo2.default)(_templateObject, _onSubmitFunction2.default);
+
+},{"./onSubmitFunction":506,"yo-yo":492}],506:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ev) {
   ev.preventDefault();
@@ -85689,7 +85745,7 @@ module.exports = function (ev) {
   });
 };
 
-},{"superagent":461}],506:[function(require,module,exports){
+},{"superagent":461}],507:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div className="editorImagenes">\n  <a id="imagenChoose" className="callToAction" onclick=', '>\n    <i class="fa fa-camera" aria-hidden="true"></i>\n    <input id="imagenUpload" name="imagen" type="file"/>\n  </a>\n  <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n    <i class="fa fa-times-circle" aria-hidden="true"></i>\n  </a>\n </div>\n'], ['\n <div className="editorImagenes">\n  <a id="imagenChoose" className="callToAction" onclick=', '>\n    <i class="fa fa-camera" aria-hidden="true"></i>\n    <input id="imagenUpload" name="imagen" type="file"/>\n  </a>\n  <a id="imagenCancel" className="callToAction imagenesCancel escondido" onclick=', '>\n    <i class="fa fa-times-circle" aria-hidden="true"></i>\n  </a>\n </div>\n']);
@@ -85698,9 +85754,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var esconderse = function esconderse() {
   document.getElementById('imagenChoose').classList.toggle('escondido');
@@ -85717,7 +85777,7 @@ var cancelarImagen = function cancelarImagen() {
 
 module.exports = (0, _yoYo2.default)(_templateObject, escogerImagen, cancelarImagen);
 
-},{"yo-yo":492}],507:[function(require,module,exports){
+},{"yo-yo":492}],508:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <article className="textEditor">\n    <div id="editorMenu" class="editorMenu">\n      <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n    </div>\n    <div id="editorArea" className="editorArea"></div>\n  </article>\n'], ['\n  <article className="textEditor">\n    <div id="editorMenu" class="editorMenu">\n      <a onclick=', ' id="subtitle" class="callToAction">Abri editor</a>\n    </div>\n    <div id="editorArea" className="editorArea"></div>\n  </article>\n']);
@@ -85730,20 +85790,26 @@ var _textFunction = require('./textFunction');
 
 var _textFunction2 = _interopRequireDefault(_textFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _textFunction2.default);
 
-},{"./textFunction":508,"yo-yo":492}],508:[function(require,module,exports){
+},{"./textFunction":509,"yo-yo":492}],509:[function(require,module,exports){
 'use strict';
 
 var _mediumEditor = require('medium-editor');
 
 var _mediumEditor2 = _interopRequireDefault(_mediumEditor);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function () {
   this.classList.add('escondido');
@@ -85768,28 +85834,7 @@ module.exports = function () {
   });
 };
 
-},{"medium-editor":340}],509:[function(require,module,exports){
-'use strict';
-
-var _templateObject = _taggedTemplateLiteral(['\n  <div className="editorboton">\n    <input className="callToAction" type="submit" value="Subir" onclick=', '>\n  </div>\n'], ['\n  <div className="editorboton">\n    <input className="callToAction" type="submit" value="Subir" onclick=', '>\n  </div>\n']);
-
-var _yoYo = require('yo-yo');
-
-var _yoYo2 = _interopRequireDefault(_yoYo);
-
-var _onSubmitFunction = require('./onSubmitFunction');
-
-var _onSubmitFunction2 = _interopRequireDefault(_onSubmitFunction);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-module.exports = (0, _yoYo2.default)(_templateObject, _onSubmitFunction2.default);
-
-},{"./onSubmitFunction":510,"yo-yo":492}],510:[function(require,module,exports){
-arguments[4][505][0].apply(exports,arguments)
-},{"dup":505,"superagent":461}],511:[function(require,module,exports){
+},{"medium-editor":340}],510:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -85824,21 +85869,25 @@ var _autenticar = require('../admin/autenticar');
 
 var _autenticar2 = _interopRequireDefault(_autenticar);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/admin/lista', _autenticar2.default.restrict, _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(ctx.articulos));
 });
 
-},{"../admin/autenticar":497,"../backTop":519,"../blog/articulos":521,"../footer":541,"../header":543,"./template":514,"empty-element":275,"page":351}],512:[function(require,module,exports){
+},{"../admin/autenticar":497,"../backTop":518,"../blog/articulos":520,"../footer":540,"../header":542,"./template":513,"empty-element":275,"page":351}],511:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 var borrar = function borrar() {
   var articuloId = this.getAttribute('data-id').toString();
@@ -85910,7 +85959,7 @@ var editar = function editar(ev) {
 
 module.exports = { borrar: borrar, editar: editar };
 
-},{"superagent":461}],513:[function(require,module,exports){
+},{"superagent":461}],512:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="tarjeta">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n        <a className="callToAction mitad" href="/blog/', '">Ver</a>\n        <a href="/admin/editor/', '" className="callToAction mitad">Editar</a>\n        <a onclick=', ' data-id="', '" className="callToAction mitad">Borrar</a> \n      </div>\n    </div>\n  '], ['\n    <div class="tarjeta">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n        <a className="callToAction mitad" href="/blog/', '">Ver</a>\n        <a href="/admin/editor/', '" className="callToAction mitad">Editar</a>\n        <a onclick=', ' data-id="', '" className="callToAction mitad">Borrar</a> \n      </div>\n    </div>\n  ']);
@@ -85923,16 +85972,20 @@ var _listaFunctions = require('./listaFunctions');
 
 var _listaFunctions2 = _interopRequireDefault(_listaFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, articulo.titulo.replace(/ /g, '-'), articulo.titulo.replace(/ /g, '-'), _listaFunctions2.default.borrar, articulo._id);
   return el;
 };
 
-},{"./listaFunctions":512,"yo-yo":492}],514:[function(require,module,exports){
+},{"./listaFunctions":511,"yo-yo":492}],513:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="blogSection">\n      <a href="/admin/editor" className="callToAction">\n        <i class="fa fa-plus" aria-hidden="true"></i> Agregar Art\xEDculo\n      </a>\n    </section>\n    <section class="blogSection">\n      ', '\n    </section>\n  </main>\n    \n  '], ['\n  <main>\n    ', '\n    <section class="blogSection">\n      <a href="/admin/editor" className="callToAction">\n        <i class="fa fa-plus" aria-hidden="true"></i> Agregar Art\xEDculo\n      </a>\n    </section>\n    <section class="blogSection">\n      ', '\n    </section>\n  </main>\n    \n  ']);
@@ -85953,9 +86006,13 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.admin), articulos.map(function (articulo) {
@@ -85964,7 +86021,7 @@ module.exports = function (articulos) {
   return el;
 };
 
-},{"../cabecera":530,"../cabecera/datos":529,"./tarjeta":513,"yo-yo":492}],515:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./tarjeta":512,"yo-yo":492}],514:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido" id="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div id="fb-root"></div>\n    <script>(function(d, s, id) {\n      var js, fjs = d.getElementsByTagName(s)[0];\n      if (d.getElementById(id)) return;\n      js = d.createElement(s); js.id = id;\n      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=675294669328144";\n      fjs.parentNode.insertBefore(js, fjs);\n    }(document, \'script\', \'facebook-jssdk\'));</script>\n  '], ['\n  <div>\n    ', '\n    <section class=\'sectionArticulo\'>\n      <article class="articuloIzquierda">\n        ', '\n        <h5>', '</h5>\n      </article>\n      <article class="articuloContenido" id="articuloContenido">\n        ', '\n      </article>\n    </section>\n    <div id="fb-root"></div>\n    <script>(function(d, s, id) {\n      var js, fjs = d.getElementsByTagName(s)[0];\n      if (d.getElementById(id)) return;\n      js = d.createElement(s); js.id = id;\n      js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.10&appId=675294669328144";\n      fjs.parentNode.insertBefore(js, fjs);\n    }(document, \'script\', \'facebook-jssdk\'));</script>\n  ']),
@@ -85993,9 +86050,13 @@ var _social = require('./social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   console.log(articulo.contenido.valueof);
@@ -86024,7 +86085,7 @@ module.exports = function (articulo) {
   return el;
 };
 
-},{"../cabecera":530,"../cabecera/datos":529,"./social":516,"yo-yo":492}],516:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./social":515,"yo-yo":492}],515:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -86037,16 +86098,20 @@ var _socialFunctions = require('./socialFunctions');
 
 var _socialFunctions2 = _interopRequireDefault(_socialFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject, _socialFunctions2.default.compartirFace);
   return el;
 };
 
-},{"./socialFunctions":517,"yo-yo":492}],517:[function(require,module,exports){
+},{"./socialFunctions":516,"yo-yo":492}],516:[function(require,module,exports){
 'use strict';
 
 function compartirFace() {
@@ -86058,7 +86123,7 @@ function compartirFace() {
 
 module.exports = { compartirFace: compartirFace };
 
-},{}],518:[function(require,module,exports){
+},{}],517:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n', '\n  </main>\n  '], ['\n  <main>\n', '\n  </main>\n  ']);
@@ -86071,9 +86136,13 @@ var _articulo = require('./articulo');
 
 var _articulo2 = _interopRequireDefault(_articulo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos, ident) {
   var el = (0, _yoYo2.default)(_templateObject, articulos.map(function (articulo) {
@@ -86084,7 +86153,7 @@ module.exports = function (articulos, ident) {
   return el;
 };
 
-},{"./articulo":515,"yo-yo":492}],519:[function(require,module,exports){
+},{"./articulo":514,"yo-yo":492}],518:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -86095,7 +86164,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('backTopContainer');
@@ -86103,7 +86174,7 @@ module.exports = function (ctx, next) {
   next();
 };
 
-},{"./template":520,"empty-element":275}],520:[function(require,module,exports){
+},{"./template":519,"empty-element":275}],519:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a href="" id="backTop" class="backTop" onclick=', '>\n    <i class="fa fa-angle-up" aria-hidden="true"></i>\n    <p>top</p>\n  </a>\n'], ['\n  <a href="" id="backTop" class="backTop" onclick=', '>\n    <i class="fa fa-angle-up" aria-hidden="true"></i>\n    <p>top</p>\n  </a>\n']);
@@ -86112,9 +86183,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var subir = function subir() {
   window.scrollTo(0, 0);
@@ -86122,14 +86197,16 @@ var subir = function subir() {
 
 module.exports = (0, _yoYo2.default)(_templateObject, subir);
 
-},{"yo-yo":492}],521:[function(require,module,exports){
+},{"yo-yo":492}],520:[function(require,module,exports){
 'use strict';
 
 var _superagent = require('superagent');
 
 var _superagent2 = _interopRequireDefault(_superagent);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   _superagent2.default.get('/api/articulos').end(function (err, res) {
@@ -86160,7 +86237,7 @@ module.exports = function (ctx, next) {
 //   }
 // ]
 
-},{"superagent":461}],522:[function(require,module,exports){
+},{"superagent":461}],521:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86199,15 +86276,18 @@ var _articulos = require('./articulos');
 
 var _articulos2 = _interopRequireDefault(_articulos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/blog', _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
+(0, _page2.default)('/blog', _header2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(ctx.articulos));
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-});
+  next();
+}, _footer2.default);
 
-},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./articulos":521,"./metaData":523,"./template":527,"empty-element":275,"page":351}],523:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"./articulos":520,"./metaData":522,"./template":526,"empty-element":275,"page":351}],522:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -86215,7 +86295,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.' };
 
-},{}],524:[function(require,module,exports){
+},{}],523:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -86228,16 +86308,20 @@ var _socialFunctions = require('./socialFunctions');
 
 var _socialFunctions2 = _interopRequireDefault(_socialFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject);
   return el;
 };
 
-},{"./socialFunctions":525,"yo-yo":492}],525:[function(require,module,exports){
+},{"./socialFunctions":524,"yo-yo":492}],524:[function(require,module,exports){
 'use strict';
 
 var _fb = require('fb');
@@ -86256,7 +86340,7 @@ function facebookShare() {
 }
 module.exports = { facebookShare: facebookShare };
 
-},{"fb":282}],526:[function(require,module,exports){
+},{"fb":282}],525:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="tarjeta" href="/blog/', '">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </div>\n      ', '\n    </a>\n  '], ['\n    <a class="tarjeta" href="/blog/', '">\n      <div class="tarjetaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n      <div class="tarjetaTexto">\n        <h3>', '</h3>\n        <h5>', '</h5>\n        <p>', '</p>\n      </div>\n      ', '\n    </a>\n  ']);
@@ -86269,16 +86353,20 @@ var _social = require('./social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulo) {
   var el = (0, _yoYo2.default)(_templateObject, articulo.titulo.replace(/ /g, '-'), articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, (0, _social2.default)());
   return el;
 };
 
-},{"./social":524,"yo-yo":492}],527:[function(require,module,exports){
+},{"./social":523,"yo-yo":492}],526:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="blogSection">\n        ', '\n      </section>\n    </main>\n  ']);
@@ -86299,9 +86387,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.blog), articulos.map(function (articulo) {
@@ -86310,7 +86402,7 @@ module.exports = function (articulos) {
   return el;
 };
 
-},{"../cabecera":530,"../cabecera/datos":529,"./tarjeta":526,"yo-yo":492}],528:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./tarjeta":525,"yo-yo":492}],527:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86345,18 +86437,21 @@ var _metaData = require('../metaData');
 
 var _metaData2 = _interopRequireDefault(_metaData);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/blog/:titulo', _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
+(0, _page2.default)('/blog/:titulo', _header2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(ctx.articulos, ctx.params.titulo));
   var articulo = ctx.articulos.find(function (obj) {
     return obj.titulo.replace(/ /g, '-') == ctx.params.titulo;
   });
   (0, _metaData2.default)(ctx.params.titulo, articulo.descripcion, articulo.keywords);
-});
+  next();
+}, _footer2.default);
 
-},{"../articulo/template":518,"../backTop":519,"../blog/articulos":521,"../footer":541,"../header":543,"../metaData":559,"empty-element":275,"page":351}],529:[function(require,module,exports){
+},{"../articulo/template":517,"../backTop":518,"../blog/articulos":520,"../footer":540,"../header":542,"../metaData":558,"empty-element":275,"page":351}],528:[function(require,module,exports){
 'use strict';
 
 var cabeceraDatos = {
@@ -86404,7 +86499,7 @@ var cabeceraDatos = {
 
 module.exports = cabeceraDatos;
 
-},{}],530:[function(require,module,exports){
+},{}],529:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="demasPortada">\n      <div class="demasPortadaFondo">\n        <div>\n          <h2>', '</h2>\n          <p>', '</p>\n        </div>\n      </div>\n      <div class="demasPortadaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    </section>\n  '], ['\n    <section class="demasPortada">\n      <div class="demasPortadaFondo">\n        <div>\n          <h2>', '</h2>\n          <p>', '</p>\n        </div>\n      </div>\n      <div class="demasPortadaImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    </section>\n  ']);
@@ -86413,16 +86508,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (datos) {
   var el = (0, _yoYo2.default)(_templateObject, datos.titulo, datos.subtitulo, datos.imagen);
   return el;
 };
 
-},{"yo-yo":492}],531:[function(require,module,exports){
+},{"yo-yo":492}],530:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<script type=\'text/javascript\' src=\'https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg\'></script>'], ['<script type=\'text/javascript\' src=\'https://maps.googleapis.com/maps/api/js?key=AIzaSyDMAreQT9pdjdYL-mCkj7ixSjdu3oaAxlg\'></script>']),
@@ -86432,9 +86531,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var container = document.getElementById('body');
@@ -86444,7 +86547,7 @@ module.exports = function () {
   container.appendChild(script2);
 };
 
-},{"yo-yo":492}],532:[function(require,module,exports){
+},{"yo-yo":492}],531:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86483,16 +86586,19 @@ var _googleApi = require('./googleApi');
 
 var _googleApi2 = _interopRequireDefault(_googleApi);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/contactar', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
+(0, _page2.default)('/contactar', _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
   (0, _googleApi2.default)();
-});
+  next();
+}, _footer2.default);
 
-},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./googleApi":531,"./metaData":533,"./template":534,"empty-element":275,"page":351}],533:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"./googleApi":530,"./metaData":532,"./template":533,"empty-element":275,"page":351}],532:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -86500,7 +86606,7 @@ module.exports = {
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.' };
 
-},{}],534:[function(require,module,exports){
+},{}],533:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>ABRIR CON:</h2>\n        <div class="mapLinks">\n          <a href="waze://?ll=9.0354163,-79.4638468" target="_blank"><div className="wazeImg"></div></a>\n          <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>\n        </div>\n        <h2>HORARIOS:</h2>\n        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    S\xE1bados: de 8:00 am a 12:00 pm <br>\n<i class="fa fa-phone" aria-hidden="true"></i> Ll\xE1manos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : 6144-2899</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction formButton">\n      </form>\n    </section>\n  </main>\n'], ['\n  <main>\n    ', '\n    <section class="noHomeSection">\n      <article class="mapa">\n        <div id="map_canvas" style="width:100%; height:100%">\n        </div>\n      </article>\n    </section>\n    <section class="noHomeSection arriba">\n      <article class="horarios">\n        <h2>ABRIR CON:</h2>\n        <div class="mapLinks">\n          <a href="waze://?ll=9.0354163,-79.4638468" target="_blank"><div className="wazeImg"></div></a>\n          <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>\n        </div>\n        <h2>HORARIOS:</h2>\n        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Lunes a Viernes: de 8:00 am a 4:30 pm <br>    S\xE1bados: de 8:00 am a 12:00 pm <br>\n<i class="fa fa-phone" aria-hidden="true"></i> Ll\xE1manos al 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp : 6144-2899</p>\n      </article>\n      <form method="post" action="contactar/send" class="formulario">\n        <h2>ENV\xCDANOS UN MENSAJE:</h2>\n        <div class="formLine">\n          <p>Nombre:</p>\n          <input type="text" name="nombre" value="Nombre">\n        </div>\n        <div class="formLine"><p>Email:</p>\n        <input id="email" type="email" name="email" value="Email"></div>\n        <div class="formLine"><p>Telefono:</p>\n        <input type="text" name="telefono" value="Telefono"></div>\n        <div class="formLine"><p>Mensaje:</p>\n          <textarea name="message" rows="8" cols="80" value="Escriba Un Mensaje"></textarea>\n        </div>\n        <input type="submit" value="Enviar" class="callToAction formButton">\n      </form>\n    </section>\n  </main>\n']);
@@ -86517,13 +86623,17 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],535:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"yo-yo":492}],534:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86546,14 +86656,17 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/confirmacion', _header2.default, _footer2.default, function (ctx, next) {
+(0, _page2.default)('/confirmacion', _header2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
-});
+  next();
+}, _footer2.default);
 
-},{"../footer":541,"../header":543,"./template":536,"empty-element":275,"page":351}],536:[function(require,module,exports){
+},{"../footer":540,"../header":542,"./template":535,"empty-element":275,"page":351}],535:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionInfo">\n      <i class="fa fa-check" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha sido enviado</h2>\n      <h5>Puedes hechar un vistazo a nuestros servicios</h5>\n      <a href="/servicio" class="callToAction">Servicios</a>\n    </div>\n  </section>\n</main>\n'], ['\n<main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionInfo">\n      <i class="fa fa-check" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha sido enviado</h2>\n      <h5>Puedes hechar un vistazo a nuestros servicios</h5>\n      <a href="/servicio" class="callToAction">Servicios</a>\n    </div>\n  </section>\n</main>\n']);
@@ -86570,13 +86683,17 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],537:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"yo-yo":492}],536:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86599,14 +86716,17 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/error', _header2.default, _footer2.default, function (ctx, next) {
+(0, _page2.default)('/error', _header2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
-});
+  next();
+}, _footer2.default);
 
-},{"../footer":541,"../header":543,"./template":538,"empty-element":275,"page":351}],538:[function(require,module,exports){
+},{"../footer":540,"../header":542,"./template":537,"empty-element":275,"page":351}],537:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha no ha sido enviado</h2>\n      <h5>Puedes volver a intentar</h5>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n'], ['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha no ha sido enviado</h2>\n      <h5>Puedes volver a intentar</h5>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n']);
@@ -86623,13 +86743,17 @@ var _datos = require('../cabecera/datos');
 
 var _datos2 = _interopRequireDefault(_datos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.contactar));
 
-},{"../cabecera":530,"../cabecera/datos":529,"yo-yo":492}],539:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"yo-yo":492}],538:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86656,9 +86780,11 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/404', _header2.default, _footer2.default, _backTop2.default, function () {
+(0, _page2.default)('/404', _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   setTimeout(function () {
@@ -86666,7 +86792,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   }, 1000);
 });
 
-},{"../backTop":519,"../footer":541,"../header":543,"./template":540,"empty-element":275,"page":351}],540:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"./template":539,"empty-element":275,"page":351}],539:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <section className="noHomeSection error">\n  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>\n  <div>\n   <h2>ESTA RUTA NO ES CORRECTA</h2>\n   <h3>Ser\xE1 redireccionado a nuestro home</h3>\n  </div>\n </section>\n'], ['\n <section className="noHomeSection error">\n  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>\n  <div>\n   <h2>ESTA RUTA NO ES CORRECTA</h2>\n   <h3>Ser\xE1 redireccionado a nuestro home</h3>\n  </div>\n </section>\n']);
@@ -86675,13 +86801,17 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":492}],541:[function(require,module,exports){
+},{"yo-yo":492}],540:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -86692,7 +86822,9 @@ var _template = require('./template');
 
 var _template2 = _interopRequireDefault(_template);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function footer(ctx, next) {
   var footer = document.getElementById('footer');
@@ -86700,7 +86832,7 @@ module.exports = function footer(ctx, next) {
   next();
 };
 
-},{"./template":542,"empty-element":275}],542:[function(require,module,exports){
+},{"./template":541,"empty-element":275}],541:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="/pdf/MGB.pdf">MGB Board</a></li>\n          <li><a href="/pdf/Rubber3M.pdf">Rubber Ac\xFAstico</a></li>\n          <li><a href="pdf/rockwool.pdf">Lana de Roca</a></li>\n          <li><a href="/pdf/CFAB.pdf">CFAB Panel de Celulosa</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <ul>\n          <li>\n            <a href="/blog/', '">\n              <div class="imgVlog" style="background: url(', '); background-size: cover;"></div>\n              ', '\n            </a>\n          </li>\n        </ul>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n'], ['\n  <footer>\n    <article class="footerCuerpo">\n      <div>\n        <div class="footerLogo"></div>\n        <div class="footerContacto">\n          <div class="telefono">\n            <i class="fa fa-phone" aria-hidden="true"></i>\n            <span>+507 390-9933</span>\n          </div>\n          <a class="mail" href="mailto:info@eapanama.com">\n            <i class="fa fa-envelope" aria-hidden="true"></i>\n            <span>info@eapanama.com</span>\n          </a>\n        </div>\n      </div>\n      <div>\n        <h3>ACCESO R\xC1PIDO</h3>\n        <ul>\n          <li><a href="/about">About</a></li>\n          <li><a href="/portafolio">Portfolio & Upcoming Work</a></li>\n          <li><a href="/productos">Productos</a></li>\n          <li><a href="/contactar">Contactar</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>PRODUCTOS POPULARES</h3>\n        <ul>\n          <li><a href="/pdf/MGB.pdf">MGB Board</a></li>\n          <li><a href="/pdf/Rubber3M.pdf">Rubber Ac\xFAstico</a></li>\n          <li><a href="pdf/rockwool.pdf">Lana de Roca</a></li>\n          <li><a href="/pdf/CFAB.pdf">CFAB Panel de Celulosa</a></li>\n        </ul>\n      </div>\n      <div>\n        <h3>\xDALTIMAS ENTRADAS</h3>\n        <ul>\n          <li>\n            <a href="/blog/', '">\n              <div class="imgVlog" style="background: url(', '); background-size: cover;"></div>\n              ', '\n            </a>\n          </li>\n        </ul>\n      </div>\n    </article>\n    <article class="footerPie">\n      <p class="creditos">\n        2017 EA Panam\xE1 S.A.- Galera TecnoPro, Llano Bonito, Juan D\xEDaz ,Panam\xE1\n      </p>\n      <div class="footerMenu"></div>\n    </article>\n  </footer>\n']);
@@ -86709,16 +86841,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (articulos) {
   var el = (0, _yoYo2.default)(_templateObject, articulos[articulos.length - 1].titulo.replace(/ /g, '-'), articulos[articulos.length - 1].imagen, articulos[articulos.length - 1].titulo);
   return el;
 };
 
-},{"yo-yo":492}],543:[function(require,module,exports){
+},{"yo-yo":492}],542:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -86733,7 +86869,9 @@ var _scrollFunction = require('../header/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function header(ctx, next) {
   var container = document.getElementById('header');
@@ -86742,7 +86880,7 @@ module.exports = function header(ctx, next) {
   next();
 };
 
-},{"../header/scrollFunction":545,"./template":546,"empty-element":275}],544:[function(require,module,exports){
+},{"../header/scrollFunction":544,"./template":545,"empty-element":275}],543:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -86750,7 +86888,7 @@ module.exports = function () {
   nav.classList.toggle('hidden');
 };
 
-},{}],545:[function(require,module,exports){
+},{}],544:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -86765,7 +86903,7 @@ module.exports = function () {
   }
 };
 
-},{}],546:[function(require,module,exports){
+},{}],545:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/blog" onclick=', '>BLOG</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PORTAFOLIO</a></li>\n     <li><a href="/portafolio" onclick=', '>PORTFOLIO</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n'], ['\n<div class="headerContainer" id="cabeza">\n  <header id="headerTag" class="feo">\n   <a href="#" class="navButton" onclick=', '>\n      <i class="fa fa-bars" aria-hidden="true"></i>\n    </a>\n   <a href="/">\n     <div id="logo" class="logo"></div>\n   </a>\n   <nav id="nav" class="nav hidden">\n    <ul>\n     <li><a href="/" id="navHome" onclick=', '>HOME</a></li>\n     <li><a href="/about" onclick=', '>ABOUT</a></li>\n     <li><a href="/blog" onclick=', '>BLOG</a></li>\n     <li><a href="/servicio" onclick=', '>SERVICIOS</a></li>\n     <li><a href="/productos" onclick=', '>PORTAFOLIO</a></li>\n     <li><a href="/portafolio" onclick=', '>PORTFOLIO</a></li>\n     <li><a href="/contactar" onclick=', '>CONTACTAR</a></li>\n    </ul>\n   </nav>\n   ', '\n  </header>\n</div>\n']);
@@ -86782,13 +86920,17 @@ var _social = require('../social');
 
 var _social2 = _interopRequireDefault(_social);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, _navigationFunction2.default, (0, _social2.default)());
 
-},{"../social":582,"./navigationFunction":544,"yo-yo":492}],547:[function(require,module,exports){
+},{"../social":581,"./navigationFunction":543,"yo-yo":492}],546:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86827,17 +86969,20 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
+(0, _page2.default)('/', _header2.default, _backTop2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
   _criticaMovimientoFunction2.default.movimiento();
   document.getElementById('bgvid').play();
-});
+  next();
+}, _footer2.default);
 
-},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"../porqueCriticas/criticaMovimientoFunction":560,"./metaData":548,"./template":549,"empty-element":275,"page":351}],548:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"../porqueCriticas/criticaMovimientoFunction":559,"./metaData":547,"./template":548,"empty-element":275,"page":351}],547:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -86845,7 +86990,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.' };
 
-},{}],549:[function(require,module,exports){
+},{}],548:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n'], ['\n  <main>\n    ', '\n    ', '\n    ', '\n    ', '\n    ', '\n  </main>\n']);
@@ -86886,13 +87031,17 @@ var _proyectos = require('../inicioPortafolio/proyectos');
 
 var _proyectos2 = _interopRequireDefault(_proyectos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, _inicioPortada2.default, _inicioObjetivo2.default, (0, _inicioPorque2.default)(_criticas2.default), (0, _inicioUnicos2.default)(_secciones2.default), (0, _inicioPortafolio2.default)(_proyectos2.default));
 
-},{"../inicioObjetivo":551,"../inicioPorque":552,"../inicioPortada":553,"../inicioPortafolio":554,"../inicioPortafolio/proyectos":555,"../inicioUnicos":557,"../porqueCriticas/criticas":561,"../servicio/secciones":579,"yo-yo":492}],550:[function(require,module,exports){
+},{"../inicioObjetivo":550,"../inicioPorque":551,"../inicioPortada":552,"../inicioPortafolio":553,"../inicioPortafolio/proyectos":554,"../inicioUnicos":556,"../porqueCriticas/criticas":560,"../servicio/secciones":578,"yo-yo":492}],549:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -86903,7 +87052,9 @@ var _articulos = require('./blog/articulos');
 
 var _articulos2 = _interopRequireDefault(_articulos);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('*', _articulos2.default, function (ctx, next) {
   window.scrollTo(0, 0);
@@ -86927,7 +87078,7 @@ require('./error');
 require('./admin');
 (0, _page2.default)();
 
-},{"./about":494,"./admin":498,"./adminChanger":501,"./adminEditor":503,"./adminLista":511,"./blog":522,"./blog/articulos":521,"./blogArticulo":528,"./contactar":532,"./contactoConfirmacion":535,"./contactoError":537,"./error":539,"./home":547,"./portafolio":564,"./productos":573,"./servicio":577,"./servicioArticulo":581,"page":351}],551:[function(require,module,exports){
+},{"./about":494,"./admin":498,"./adminChanger":501,"./adminEditor":503,"./adminLista":510,"./blog":521,"./blog/articulos":520,"./blogArticulo":527,"./contactar":531,"./contactoConfirmacion":534,"./contactoError":536,"./error":538,"./home":546,"./portafolio":563,"./productos":572,"./servicio":576,"./servicioArticulo":580,"page":351}],550:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n'], ['\n  <section class="objetivo">\n    <article class="objetivoTexto">\n      <h2>\n        Tu Problema Ac\xFAstico <br>\n        <span>Nuestro Objetivo</span>\n      </h2>\n      <p> <strong>EA Panam\xE1 ofrece todo lo que necesita para resolver sus problemas de ruido.</strong>  Asesor\xEDas, productos ac\xFAsticos de calidad y mano de obra especializada con el fin de asegurar el correcto confort seg\xFAn sus necesidades de acondicionamiento ac\xFAstico y aislamiento ac\xFAstico .</p>\n      <p>Adem\xE1s, puede contar con una amplia variedad de opciones de absorbentes ac\xFAsticos complementados con la asesor\xEDa t\xE9cnica de las soluciones. Ideal para para hoteles, restaurantes, colegios, teatros, cualquier sala donde el buen entendimiento y el comfort sea primordial.</p>\n      <p> <strong>No viva con problemas de ruido, cont\xE1ctenos para ofrecerle una soluci\xF3n. Recuerde que vivir sin ruido es vivir mejor.</strong> </p>\n    </article>\n    <div class="imagenObjetivo"></div>\n  </section>\n']);
@@ -86936,13 +87087,17 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":492}],552:[function(require,module,exports){
+},{"yo-yo":492}],551:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  '], ['\n    <section class="porque">\n      <article class="porqueTitulo">\n        <h2>\xBF POR QU\xC9 TRABAJAR CON NOSOTROS ?</h2>\n        <p>Como profesionales del sector ofrecemos las soluciones \xF3ptimas para cada ocasi\xF3n. Trabajamos con los \xFAltimos <br> avances tecnol\xF3gicos para ofrecer el mejor servicio a nuestros clientes.</p>\n      </article>\n      <article class="porqueContenido">\n        <div class="porqueLista">\n          <ul>\n            <li> <span>1</span> Contacta con nuestros comerciales y exp\xF3n tu problema</li>\n            <li><span>2</span> Estudio del caso y/o assesoramiento t\xE9cnico especializado</li>\n            <li><span>3</span> Elecci\xF3n de materiales ac\xFAsticos id\xF3neos</li>\n            <li><span>4</span> Ejecuci\xF3n y seguimiento de obra</li>\n            <li><span>5</span> Usted disruta del servicio</li>\n          </ol>\n        </div>\n        <div class="porqueCriticasContainer posicion1" id="criticasContainer">\n          <i class="fa fa-quote-left" aria-hidden="true"></i>\n          <div class="criticaPunto">\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n            <a class="punto" onclick=', '></a>\n          </div>\n          <article class="porqueCriticas">\n            ', '\n          </article>\n        </div>\n      </article>\n    </section>\n  ']);
@@ -86959,9 +87114,13 @@ var _criticaMovimientoFunction = require('../porqueCriticas/criticaMovimientoFun
 
 var _criticaMovimientoFunction2 = _interopRequireDefault(_criticaMovimientoFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (criticas) {
   var el = (0, _yoYo2.default)(_templateObject, _criticaMovimientoFunction2.default.posicion1, _criticaMovimientoFunction2.default.posicion2, _criticaMovimientoFunction2.default.posicion3, criticas.map(function (critica) {
@@ -86970,7 +87129,7 @@ module.exports = function (criticas) {
   return el;
 };
 
-},{"../porqueCriticas":562,"../porqueCriticas/criticaMovimientoFunction":560,"yo-yo":492}],553:[function(require,module,exports){
+},{"../porqueCriticas":561,"../porqueCriticas/criticaMovimientoFunction":559,"yo-yo":492}],552:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop="loop" id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n'], ['\n<div class="portada">\n  <div id="video-container">\n    <video autoplay loop="loop" id="bgvid">\n      <source src="imagenes/web-home-video.webm" type="video/webm">\n      <source src="imagenes/web-home-video.mp4" type="video/mp4">\n      <source src="images-web/web-home-video.ogv" type="video/ogg">\n    </video>\n  </div>\n  <div class="indexPortada">\n    <h1>EA Panam\xE1 S.A.</h1>\n    <h2>Noise controlling & Acoustics Designs</h2>\n    <p> \xBF Necesitas ayuda en acondicionamiento ac\xFAstico o aislamiento ac\xFAstico ? <br>Consulta con los profesionales del sector</p>\n    <a href="/contactar" class="callToAction">Contactar</a>\n  </div>\n</div>\n']);
@@ -86979,13 +87138,17 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject);
 
-},{"yo-yo":492}],554:[function(require,module,exports){
+},{"yo-yo":492}],553:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="inicioPortafolio">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="inicioPortafolio">\n      <article class="portafolioTitulo">\n        <i class="fa fa-book sectionIcon" aria-hidden="true"></i>\n        <h2>Portafolio</h2>\n        <p>\xC9stos son algunos de nuestros proyectos...</p>\n      </article>\n      <article class="portafolioProyectos">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -86998,9 +87161,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (proyectos) {
   var el = (0, _yoYo2.default)(_templateObject, proyectos.map(function (proyecto) {
@@ -87009,7 +87176,7 @@ module.exports = function (proyectos) {
   return el;
 };
 
-},{"./tarjeta":556,"yo-yo":492}],555:[function(require,module,exports){
+},{"./tarjeta":555,"yo-yo":492}],554:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87034,7 +87201,7 @@ module.exports = [{
   imagen: 'imagenes/portfolio3.jpg'
 }];
 
-},{}],556:[function(require,module,exports){
+},{}],555:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a href="/servicio/', '" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n  <a href="/servicio/', '" class="proyecto">\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
@@ -87043,16 +87210,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (proyecto) {
   var el = (0, _yoYo2.default)(_templateObject, proyecto.servicio.replace(/ /g, '-'), proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
   return el;
 };
 
-},{"yo-yo":492}],557:[function(require,module,exports){
+},{"yo-yo":492}],556:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  '], ['\n    <section class="unicos">\n      <article class="unicosTitulo">\n        <i class="fa fa-wrench sectionIcon" aria-hidden="true"></i>\n        <h2>Servicios \xDAnicos en Panam\xE1</h2>\n        <p>M\xFAltiples opciones para hacer un proyecto integral</p>\n      </article>\n      <article class="unicosContenido">\n        ', '\n      </article>\n    </section>\n  ']);
@@ -87065,9 +87236,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -87076,7 +87251,7 @@ module.exports = function (secciones) {
   return el;
 };
 
-},{"./tarjeta":558,"yo-yo":492}],558:[function(require,module,exports){
+},{"./tarjeta":557,"yo-yo":492}],557:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  '], ['\n  <a class="unicosServicios" href="/servicio/', '">\n    ', '\n    <h3>', '</h3>\n    <p>', '</p>\n  </a>\n  ']);
@@ -87085,23 +87260,29 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo, seccion.icono, seccion.titulo, seccion.descripcion);
   return el;
 };
 
-},{"yo-yo":492}],559:[function(require,module,exports){
+},{"yo-yo":492}],558:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (title, description, keywords) {
   var metaTitle = document.getElementById('metaTitle');
@@ -87112,7 +87293,7 @@ module.exports = function (title, description, keywords) {
   (0, _emptyElement2.default)(metaKeywords).content = keywords;
 };
 
-},{"empty-element":275}],560:[function(require,module,exports){
+},{"empty-element":275}],559:[function(require,module,exports){
 'use strict';
 
 var posicion1 = function posicion1() {
@@ -87141,7 +87322,7 @@ var movimiento = function movimiento() {
 
 module.exports = { posicion1: posicion1, posicion2: posicion2, posicion3: posicion3, movimiento: movimiento };
 
-},{}],561:[function(require,module,exports){
+},{}],560:[function(require,module,exports){
 "use strict";
 
 var criticas = [{
@@ -87162,7 +87343,7 @@ var criticas = [{
 }];
 module.exports = criticas;
 
-},{}],562:[function(require,module,exports){
+},{}],561:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  '], ['\n    <div class="critica">\n      <p>', '</p>\n    </div>\n  ']);
@@ -87171,16 +87352,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (critica) {
   var el = (0, _yoYo2.default)(_templateObject, critica.mensaje);
   return el;
 };
 
-},{"yo-yo":492}],563:[function(require,module,exports){
+},{"yo-yo":492}],562:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n <div>\n   <div class="portfolioRiel" id="portfolioRiel">\n       ', '\n   </div>\n   <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n     <i class="fa fa-angle-left" aria-hidden="true"></i>\n   </a>\n   <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n       <i class="fa fa-angle-right" aria-hidden="true"></i>\n   </a>\n   <div class="portfolioPunto" id="portfolioPunto">\n     ', '\n   </div>\n </div>\n '], ['\n <div>\n   <div class="portfolioRiel" id="portfolioRiel">\n       ', '\n   </div>\n   <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n     <i class="fa fa-angle-left" aria-hidden="true"></i>\n   </a>\n   <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n       <i class="fa fa-angle-right" aria-hidden="true"></i>\n   </a>\n   <div class="portfolioPunto" id="portfolioPunto">\n     ', '\n   </div>\n </div>\n ']),
@@ -87195,9 +87380,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 var posicionActual = 1;
 
@@ -87268,7 +87457,7 @@ function moverAuto() {
 }
 module.exports = { introducirViewer: introducirViewer, moverIzquierda: moverIzquierda, moverDerecha: moverDerecha, moverPunto: moverPunto, removerClasses: removerClasses, posicionActual: posicionActual, moverAuto: moverAuto };
 
-},{"empty-element":275,"yo-yo":492}],564:[function(require,module,exports){
+},{"empty-element":275,"yo-yo":492}],563:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87307,7 +87496,9 @@ var _carruselFunctions = require('./carruselFunctions');
 
 var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/portafolio', _header2.default, _backTop2.default, _killFooter2.default, function () {
   var container = document.getElementById('main-container');
@@ -87316,14 +87507,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   setTimeout(_carruselFunctions2.default.moverAuto, 2000);
 });
 
-},{"../backTop":519,"../footer":541,"../header":543,"./carruselFunctions":563,"./killFooter":565,"./portfolio":567,"./template":570,"empty-element":275,"page":351}],565:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"./carruselFunctions":562,"./killFooter":564,"./portfolio":566,"./template":569,"empty-element":275,"page":351}],564:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
 
 var _emptyElement2 = _interopRequireDefault(_emptyElement);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   var footer = document.getElementById('footer');
@@ -87331,7 +87524,7 @@ module.exports = function (ctx, next) {
   next();
 };
 
-},{"empty-element":275}],566:[function(require,module,exports){
+},{"empty-element":275}],565:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a  class="proyecto" data-imagenes="', '" onclick=', '>\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  '], ['\n    <a  class="proyecto" data-imagenes="', '" onclick=', '>\n    <div class="piko"></div>\n    <div class="proyectoLugar">\n      <h4><strong>', '</strong> ', '</h4>\n    </div>\n    <div class="proyectoImagen" style="background: url(\'', '\'); background-size: cover"></div>\n    <div class="proyectoServicio">\n      <i class="fa fa-circle" aria-hidden="true"></i>\n      <h5>', '</h5>\n    </div>\n  </a>\n  ']);
@@ -87344,9 +87537,13 @@ var _carruselFunctions = require('./carruselFunctions');
 
 var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (proyecto) {
   var el = (0, _yoYo2.default)(_templateObject, proyecto.imagenes, _carruselFunctions2.default.introducirViewer, proyecto.nombre, proyecto.area, proyecto.imagen, proyecto.servicio);
@@ -87354,7 +87551,7 @@ module.exports = function (proyecto) {
   return el;
 };
 
-},{"./carruselFunctions":563,"yo-yo":492}],567:[function(require,module,exports){
+},{"./carruselFunctions":562,"yo-yo":492}],566:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87397,7 +87594,7 @@ module.exports = [{
   elementos: []
 }];
 
-},{}],568:[function(require,module,exports){
+},{}],567:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <div class="portafolioTab">\n      <a class="tabButton" onclick=', ' id="', 'Tab">\n        <i class="fa fa-folder" aria-hidden="true"></i>\n        <h4>', '</h4>\n      </a>\n      <div id="miniaturas', '" class="tabEspacio">\n        ', '\n      </div>\n    </div>\n  '], ['\n    <div class="portafolioTab">\n      <a class="tabButton" onclick=', ' id="', 'Tab">\n        <i class="fa fa-folder" aria-hidden="true"></i>\n        <h4>', '</h4>\n      </a>\n      <div id="miniaturas', '" class="tabEspacio">\n        ', '\n      </div>\n    </div>\n  ']);
@@ -87414,9 +87611,13 @@ var _miniatura = require('./miniatura');
 
 var _miniatura2 = _interopRequireDefault(_miniatura);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (archivo) {
   var el = (0, _yoYo2.default)(_templateObject, _tabFunction2.default, archivo.id, archivo.titulo, archivo.id, archivo.elementos.map(function (elemento) {
@@ -87425,7 +87626,7 @@ module.exports = function (archivo) {
   return el;
 };
 
-},{"./miniatura":566,"./tabFunction":569,"yo-yo":492}],569:[function(require,module,exports){
+},{"./miniatura":565,"./tabFunction":568,"yo-yo":492}],568:[function(require,module,exports){
 'use strict';
 
 module.exports = function () {
@@ -87442,7 +87643,7 @@ module.exports = function () {
   this.firstElementChild.classList.add('fa-folder-open');
 };
 
-},{}],570:[function(require,module,exports){
+},{}],569:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  ']),
@@ -87473,9 +87674,13 @@ var _carruselFunctions = require('./carruselFunctions');
 
 var _carruselFunctions2 = _interopRequireDefault(_carruselFunctions);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (portfolio) {
   var el = (0, _yoYo2.default)(_templateObject, portfolio.map(function (archivos) {
@@ -87488,7 +87693,7 @@ module.exports = function (portfolio) {
   return el;
 };
 
-},{"../cabecera":530,"../cabecera/datos":529,"./carruselFunctions":563,"./tab":568,"./tabFunction":569,"yo-yo":492}],571:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./carruselFunctions":562,"./tab":567,"./tabFunction":568,"yo-yo":492}],570:[function(require,module,exports){
 'use strict';
 
 module.exports = [{
@@ -87568,7 +87773,7 @@ module.exports = [{
   }]
 }];
 
-},{}],572:[function(require,module,exports){
+},{}],571:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  '], ['\n    <article class="productoEstante">\n      <h2><strong>', '</strong>\n        <span></span>\n      </h2>\n      <div class="productoEstanteria">\n        ', '\n      </div>\n    </article>\n  ']);
@@ -87581,9 +87786,13 @@ var _tarjeta = require('./tarjeta');
 
 var _tarjeta2 = _interopRequireDefault(_tarjeta);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, catalogo.estante, catalogo.productos.map(function (producto) {
@@ -87592,7 +87801,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"./tarjeta":575,"yo-yo":492}],573:[function(require,module,exports){
+},{"./tarjeta":574,"yo-yo":492}],572:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87631,7 +87840,9 @@ var _metaData3 = require('./metaData');
 
 var _metaData4 = _interopRequireDefault(_metaData3);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 (0, _page2.default)('/productos', _header2.default, _footer2.default, _backTop2.default, function () {
   var container = document.getElementById('main-container');
@@ -87639,7 +87850,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
 });
 
-},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"./catalogo":571,"./metaData":574,"./template":576,"empty-element":275,"page":351}],574:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"./catalogo":570,"./metaData":573,"./template":575,"empty-element":275,"page":351}],573:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -87648,7 +87859,7 @@ module.exports = {
    description: 'Productos acústicos de calidad y 100 % renovables para el acondicionamiento de salas. Venta de equipos de audio profesionales'
 };
 
-},{}],575:[function(require,module,exports){
+},{}],574:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '" target="_blank">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  '], ['\n    <a class="productoTarjeta" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat" href="', '" target="_blank">\n      <h4>', '</h4>\n      <div class="productoOver">\n        <div class="productoOverImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <p>', '</p>\n      </div>\n    </a>\n  ']);
@@ -87657,16 +87868,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (producto) {
   var el = (0, _yoYo2.default)(_templateObject, producto.interna, producto.ficha, producto.titulo, producto.externa, producto.descripcion);
   return el;
 };
 
-},{"yo-yo":492}],576:[function(require,module,exports){
+},{"yo-yo":492}],575:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  '], ['\n    <main>\n      ', '\n      <section class="productosSeccion">\n        <div class="oficial">\n          <h5>DISTRIBUIDOR OFICIAL DE:</h5>\n          <a href="http://www.acousticalsurfaces.com" class="distribuidor"></a>\n        </div>\n        ', '\n      </section>\n    </main>\n  ']);
@@ -87687,9 +87902,13 @@ var _estante = require('./estante');
 
 var _estante2 = _interopRequireDefault(_estante);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (catalogo) {
   var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.productos), catalogo.map(function (productos) {
@@ -87698,7 +87917,7 @@ module.exports = function (catalogo) {
   return el;
 };
 
-},{"../cabecera":530,"../cabecera/datos":529,"./estante":572,"yo-yo":492}],577:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"./estante":571,"yo-yo":492}],576:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87737,15 +87956,18 @@ var _scrollFunction = require('../subMenu/scrollFunction');
 
 var _scrollFunction2 = _interopRequireDefault(_scrollFunction);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/servicio', _header2.default, _backTop2.default, _footer2.default, function () {
+(0, _page2.default)('/servicio', _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
   (0, _metaData2.default)(_metaData4.default.title, _metaData4.default.description, _metaData4.default.keywords);
-});
+  next();
+}, _footer2.default);
 
-},{"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"../subMenu/scrollFunction":585,"./metaData":578,"./template":580,"empty-element":275,"page":351}],578:[function(require,module,exports){
+},{"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"../subMenu/scrollFunction":584,"./metaData":577,"./template":579,"empty-element":275,"page":351}],577:[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -87753,7 +87975,7 @@ module.exports = {
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description: 'Lea nuestros servicios en Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio o Venta de materiales acústicos.' };
 
-},{}],579:[function(require,module,exports){
+},{}],578:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['<span class="fa icon-sonometro"></span>'], ['<span class="fa icon-sonometro"></span>']),
@@ -87765,9 +87987,13 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = [{
   titulo: 'ACONDICIONAMIENTO ACÚSTICO',
@@ -87897,7 +88123,7 @@ module.exports = [{
   }]
 }];
 
-},{"yo-yo":492}],580:[function(require,module,exports){
+},{"yo-yo":492}],579:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n'], ['\n  <main>\n    ', '\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n      </section>\n      <section class="noHomeSection servicioGris">\n        <div class="serviciosTexto">\n          <h2>', '</h2>\n          <p>\n            ', '\n          </p>\n          <a href="/servicio/', '" class="callToAction">M\xC1S INFORMACI\xD3N</a>\n        </div>\n        <div class="serviciosImagen" style="background: url(\'', '\'); background-size: contain; background-repeat: no-repeat"></div>\n      </section>\n      <section class="noHomeSection">\n        <span class="serviciosImagen icon-servicios-venta"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span></span>\n        <div class="serviciosTexto">\n          <h2>VENTA DE MATERIALES</h2>\n          <p>\n            Tenemos una amplia variedad de materiales y colores, ya sea que est\xE9 buscando reducir los niveles de ruido internos de la sala por medio de la reducci\xF3n de los tiempos de reverberaci\xF3n o bloquear la transferencia del ruido a\xE9reo o vibraciones. Contamos con packs de materiales para aislamiento ac\xFAstico y acondicionamiento ac\xFAstico seg\xFAn el nivel de sus necesidades. Disponemos de absorbentes de sonido que coincidir\xE1n con el dise\xF1o deseado. Opciones custom donde podr\xE1 elegir formas y colores. Nuestros materiales son reciclados y/o minerales, totalmente inocuos para la salud, adem\xE1s de cr\xE9ditos LEED.\n          </p>\n          <a href="/productos" class="callToAction">VER PRODUCTOS</a>\n        </div>\n      </section>\n  </main>\n']);
@@ -87922,13 +88148,17 @@ var _secciones = require('./secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(_datos2.default.servicios), _secciones2.default[0].ilustracion, _secciones2.default[0].titulo, _secciones2.default[0].explicacion, _secciones2.default[0].titulo.replace(/ /g, '-'), _secciones2.default[1].titulo, _secciones2.default[1].explicacion, _secciones2.default[1].titulo.replace(/ /g, '-'), _secciones2.default[1].ilustracion, _secciones2.default[2].ilustracion, _secciones2.default[2].titulo, _secciones2.default[2].explicacion, _secciones2.default[2].titulo.replace(/ /g, '-'), _secciones2.default[3].titulo, _secciones2.default[3].explicacion, _secciones2.default[3].titulo.replace(/ /g, '-'), _secciones2.default[3].ilustracion);
 
-},{"../cabecera":530,"../cabecera/datos":529,"../subMenu":583,"./secciones":579,"yo-yo":492}],581:[function(require,module,exports){
+},{"../cabecera":529,"../cabecera/datos":528,"../subMenu":582,"./secciones":578,"yo-yo":492}],580:[function(require,module,exports){
 'use strict';
 
 var _page = require('page');
@@ -87967,9 +88197,11 @@ var _metaData = require('../metaData');
 
 var _metaData2 = _interopRequireDefault(_metaData);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-(0, _page2.default)('/servicio/:titulo', _header2.default, _footer2.default, _backTop2.default, function (ctx, next) {
+(0, _page2.default)('/servicio/:titulo', _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default, ctx.params.titulo));
   var articulo = _secciones2.default.find(function (obj) {
@@ -87977,9 +88209,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
   });
   (0, _metaData2.default)(ctx.params.titulo, articulo.descripcion, articulo.keywords);
   next();
-}, _subMenu2.default);
+}, _subMenu2.default, _footer2.default);
 
-},{"../articulo/template":518,"../backTop":519,"../footer":541,"../header":543,"../metaData":559,"../servicio/secciones":579,"../subMenu":583,"empty-element":275,"page":351}],582:[function(require,module,exports){
+},{"../articulo/template":517,"../backTop":518,"../footer":540,"../header":542,"../metaData":558,"../servicio/secciones":578,"../subMenu":582,"empty-element":275,"page":351}],581:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/EngineeringAcousticsPanama?ref=bookmarks"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
@@ -87988,16 +88220,20 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function () {
   var el = (0, _yoYo2.default)(_templateObject);
   return el;
 };
 
-},{"yo-yo":492}],583:[function(require,module,exports){
+},{"yo-yo":492}],582:[function(require,module,exports){
 'use strict';
 
 var _emptyElement = require('empty-element');
@@ -88012,14 +88248,16 @@ var _secciones = require('../servicio/secciones');
 
 var _secciones2 = _interopRequireDefault(_secciones);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
 module.exports = function (ctx, next) {
   var container = document.getElementById('subMenu');
   (0, _emptyElement2.default)(container).appendChild((0, _template2.default)(_secciones2.default));
 };
 
-},{"../servicio/secciones":579,"./template":586,"empty-element":275}],584:[function(require,module,exports){
+},{"../servicio/secciones":578,"./template":585,"empty-element":275}],583:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  '], ['\n    <a class="subMenuSeccion" id="subMenuSeccion" href="/servicio/', '">\n      ', '\n      <h4>', '</h4>\n    </a>\n  ']);
@@ -88028,19 +88266,23 @@ var _yoYo = require('yo-yo');
 
 var _yoYo2 = _interopRequireDefault(_yoYo);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (seccion) {
   var el = (0, _yoYo2.default)(_templateObject, seccion.titulo.replace(/ /g, '-'), seccion.icono, seccion.titulo);
   return el;
 };
 
-},{"yo-yo":492}],585:[function(require,module,exports){
+},{"yo-yo":492}],584:[function(require,module,exports){
 "use strict";
 
-},{}],586:[function(require,module,exports){
+},{}],585:[function(require,module,exports){
 'use strict';
 
 var _templateObject = _taggedTemplateLiteral(['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  '], ['\n  <div class="subMenu" id="subMenu">\n    ', '\n  </div>\n  ']);
@@ -88053,9 +88295,13 @@ var _plantilla = require('./plantilla');
 
 var _plantilla2 = _interopRequireDefault(_plantilla);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
 
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+function _taggedTemplateLiteral(strings, raw) {
+  return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } }));
+}
 
 module.exports = function (secciones) {
   var el = (0, _yoYo2.default)(_templateObject, secciones.map(function (seccion) {
@@ -88065,4 +88311,4 @@ module.exports = function (secciones) {
   next();
 };
 
-},{"./plantilla":584,"yo-yo":492}]},{},[550]);
+},{"./plantilla":583,"yo-yo":492}]},{},[549]);

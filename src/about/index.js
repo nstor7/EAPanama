@@ -7,8 +7,9 @@ import backTop from '../backTop'
 import metaData from '../metaData'
 import aboutDatos from './metaData'
 
-page('/about', header, footer, backTop, function(){
+page('/about', header, backTop, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(aboutDatos.title, aboutDatos.description, aboutDatos.keywords)
-} )
+  next()
+}, footer )

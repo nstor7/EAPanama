@@ -1,7 +1,7 @@
 import yo from 'yo-yo'
 import texto from '../adminEditorTexto'
 import imagenes from '../adminEditorImagenes'
-import boton from '../adminEditorboton'
+import boton from '../adminEditorBoton'
 import portada from '../cabecera'
 import datos from '../cabecera/datos'
 

@@ -4,7 +4,8 @@ import header from '../header'
 import footer from '../footer'
 import template from './template'
 
-page('/error', header, footer, function(ctx, next){
+page('/error', header, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
-})
+  next()
+}, footer)

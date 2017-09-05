@@ -8,8 +8,9 @@ import metaData from '../metaData'
 import servicioDatos from './metaData'
 import scrollFunction from '../subMenu/scrollFunction'
 
-page('/servicio', header, backTop, footer, function(){
+page('/servicio', header, backTop, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template)
   metaData(servicioDatos.title, servicioDatos.description, servicioDatos.keywords)
-} )
+  next()
+}, footer )

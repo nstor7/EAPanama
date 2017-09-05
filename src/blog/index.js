@@ -8,8 +8,9 @@ import metaData from '../metaData'
 import blogDatos from './metaData'
 import articulos from './articulos'
 
-page('/blog', header, footer, backTop, articulos, function(ctx, next){
+page('/blog', header, backTop, articulos, function(ctx, next){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template(ctx.articulos))
   metaData(blogDatos.title, blogDatos.description, blogDatos.keywords)
-})
+  next()
+}, footer)
