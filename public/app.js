@@ -85376,10 +85376,11 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-(0, _page2.default)('/admin', _header2.default, _backTop2.default, _footer2.default, function () {
+(0, _page2.default)('/admin', _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
-});
+  next();
+}, _footer2.default);
 
 },{"../backTop":518,"../footer":540,"../header":542,"./template":499,"empty-element":275,"page":351}],499:[function(require,module,exports){
 'use strict';
@@ -85610,10 +85611,11 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-(0, _page2.default)('/admin/editor', _autenticar2.default.restrict, _header2.default, _backTop2.default, _footer2.default, function (ctx, next) {
+(0, _page2.default)('/admin/editor', _autenticar2.default.restrict, _header2.default, _backTop2.default, function (ctx, next) {
   var container = document.getElementById('main-container');
   (0, _emptyElement2.default)(container).appendChild(_template2.default);
-});
+  next();
+}, _footer2.default);
 
 },{"../admin/autenticar":497,"../backTop":518,"../footer":540,"../header":542,"./template":504,"empty-element":275,"page":351}],504:[function(require,module,exports){
 'use strict';
