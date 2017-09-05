@@ -85875,10 +85875,11 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
 }
 
-(0, _page2.default)('/admin/lista', _autenticar2.default.restrict, _header2.default, _footer2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
+(0, _page2.default)('/admin/lista', _autenticar2.default.restrict, _header2.default, _backTop2.default, _articulos2.default, function (ctx, next) {
   var main = document.getElementById('main-container');
   (0, _emptyElement2.default)(main).appendChild((0, _template2.default)(ctx.articulos));
-});
+  next();
+}, _footer2.default);
 
 },{"../admin/autenticar":497,"../backTop":518,"../blog/articulos":520,"../footer":540,"../header":542,"./template":513,"empty-element":275,"page":351}],511:[function(require,module,exports){
 'use strict';
