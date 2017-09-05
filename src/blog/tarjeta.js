@@ -1,5 +1,5 @@
 import yo from 'yo-yo'
-import social from './social'
+import social from '../articulo/social'
 
 module.exports  = function(articulo){
   var el = yo`
