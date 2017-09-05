@@ -10,7 +10,7 @@ module.exports = function(articulo){
     ${portada(articulo)}
     <section class='sectionArticulo'>
       <article class="articuloIzquierda">
-        ${social()}
+        ${social(articulo)}
         <h5>${articulo.fecha}</h5>
       </article>
       <article class="articuloContenido" id="articuloContenido">

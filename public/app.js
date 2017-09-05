@@ -86001,7 +86001,7 @@ function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defi
 
 module.exports = function (articulo) {
   console.log(articulo.contenido.valueof);
-  var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(articulo), (0, _social2.default)(), articulo.fecha, articulo.contenido.map(function (tag) {
+  var el = (0, _yoYo2.default)(_templateObject, (0, _cabecera2.default)(articulo), (0, _social2.default)(articulo), articulo.fecha, articulo.contenido.map(function (tag) {
     if (tag.name === 'H2') {
       return (0, _yoYo2.default)(_templateObject2, tag.content);
     }if (tag.name === 'P') {
@@ -86029,7 +86029,7 @@ module.exports = function (articulo) {
 },{"../cabecera":529,"../cabecera/datos":528,"./social":515,"yo-yo":492}],515:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -86043,8 +86043,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-module.exports = function () {
-  var el = (0, _yoYo2.default)(_templateObject, _socialFunctions2.default.compartirFace);
+module.exports = function (articulo) {
+  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo, _socialFunctions2.default.compartirFace);
   return el;
 };
 
@@ -86221,7 +86221,7 @@ module.exports = {
 },{}],523:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social">\n    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICI\xD3N-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.linkedin.com/company-beta/3824317/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://www.instagram.com/ea_panama/"><i class="fa fa-instagram" aria-hidden="true"></i></a>\n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -86235,8 +86235,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-module.exports = function () {
-  var el = (0, _yoYo2.default)(_templateObject);
+module.exports = function (articulo) {
+  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo);
   return el;
 };
 
@@ -86277,7 +86277,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 module.exports = function (articulo) {
-  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo.replace(/ /g, '-'), articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, (0, _social2.default)());
+  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo.replace(/ /g, '-'), articulo.imagen, articulo.titulo, articulo.fecha, articulo.descripcion, (0, _social2.default)(articulo));
   return el;
 };
 

@@ -10,7 +10,7 @@ module.exports  = function(articulo){
         <h5>${articulo.fecha}</h5>
         <p>${articulo.descripcion}</p>
       </div>
-      ${social()}
+      ${social(articulo)}
     </a>
   `
   return el

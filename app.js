@@ -29,7 +29,7 @@ app.get('/', function(req, res){
   title: 'EA Panamá - Home',
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description:'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.',
-  image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'
+  image: 'imagenes/logoRedes.jpg'
  })
 })
 
@@ -38,7 +38,7 @@ app.get('/about', function(req, res){
   title: 'EA Panamá - about',
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description:'Empresa Acústica con servicios únicos y de calidad en Panamá. EA Panamá fue creada en 2014.',
-  image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'
+  image: 'imagenes/logoRedes.jpg'
  })
 })
 
@@ -47,14 +47,14 @@ app.get('/productos', function(req, res){
   title: 'EA Panamá - Productos',
   keywords: 'Materiales acústicos, altavoces, foams, aislantes, cuadros acústicos, lana de roca',
   description: 'Productos acústicos de calidad y 100 % renovables para el acondicionamiento de salas. Venta de equipos de audio profesionales',
-  image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'
+  image: 'imagenes/logoRedes.jpg'
  })
 })
 
 app.get('/portafolio', function(req, res){
  res.render('index.pug', {
   title: 'EA Panamá - Portafolio',
-  image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'})
+  image: 'imagenes/logoRedes.jpg'})
 })
 
 app.get('/contactar', function(req, res){
@@ -62,7 +62,7 @@ app.get('/contactar', function(req, res){
   title: 'EA Panamá - Contacto',
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.',
-  image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'
+  image: 'imagenes/logoRedes.jpg'
  })
 })
 
@@ -71,7 +71,7 @@ app.get('/confirmacion', function(req, res){
   title: 'EA Panamá - Contacto',
   keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
   description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.',
-  image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'
+  image: 'imagenes/logoRedes.jpg'
  })
 })
 
@@ -80,7 +80,7 @@ app.get('/error', function(req, res){
    title: 'EA Panamá - Contacto',
    keywords: 'Panamá Acústica, Panamá ruido, Panamá aislamiento, Panamá eco, Panamá, acústica.',
    description: 'Consulta información, cotizaciones o pide cita con uno de nuestros comerciales para su problema acústico o problema de ruido.',
-   image: 'http://sumergidapro.com/imagenes/logoRedes.jpg'
+   image: 'imagenes/logoRedes.jpg'
  })
 })
 mailer.extend(app, {

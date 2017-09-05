@@ -1,10 +1,10 @@
 import yo from 'yo-yo'
 import social from './socialFunctions'
 
-module.exports = function(){
+module.exports = function(articulo){
   var el = yo`
   <div class="social" id="social">
-    <div class="fb-share-button" data-href="https://www.sumergidapro.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/EXPOSICIÓN-A-RUIDO-EN-LOS-CARNAVALES">compartir</a></div>
+    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/${articulo.titulo}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
     <a class="twitter-share-button"
     href="https://twitter.com/intent/tweet?text=Hello%20world">
     Tweet</a>
