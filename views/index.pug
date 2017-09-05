@@ -6,7 +6,6 @@ html(lang="en")
    title#metaTitle=title
    meta#metaDescription(name='description' content=description)
    meta#metaKeywords(name='keywords' content=keywords)
-   <link href="http://sumergidapro.com/imagenes/eapanama-logobox-big.png" rel="image_src" />
    link(rel='stylesheet' type='text/css' href='app.css')
    link(rel='apple-touch-icon', sizes='57x57', href='/imagenes/apple-icon-57x57.png')
    link(rel='apple-touch-icon', sizes='60x60', href='/imagenes/apple-icon-60x60.png')
@@ -26,12 +25,24 @@ html(lang="en")
    meta(name='msapplication-TileImage', content='/imagenes/ms-icon-144x144.png')
    meta(name='theme-color', content='#ffffff')
 
-   meta(property='og:url', content='http://www.sumergidapro.com')
-   meta(property='og:type', content='article')
-   meta(property='og:title', content='Your Website Title')
-   meta(property='og:description', content='Your description')
+   meta(name='twitter:title', content=title)
+   meta(property='og:title', content=title)
+   meta(property='og:description', content=description)
+   meta(name='twitter:description', content=description)
    meta(property='og:image', content='http://sumergidapro.com/imagenes/eapanama-logobox-big.png')
-
+   meta(name='twitter:image:src', content='https://sumergidapro.com/00testpage/images-web/servicios-ruido-industrial.png')
+   // los valores por defecto
+   meta(property='fb:app_id', content='1719095821714054')
+   meta(property='fb:admins', content='your_fb_admin_id')
+   meta(property='og:site_name', content='sumergidapro.com')
+   meta(property='og:type', content='website')
+   // Para Twitter Card
+   meta(name='twitter:card', content='product')
+   meta(name='twitter:site', content='@EAPanama')
+   meta(name='twitter:creator', content='@EAPanama')
+   // Para Google+
+   link(href='https://plus.google.com/104359926235166174096/posts', rel='author')
+   link(href='https://plus.google.com/104359926235166174096', rel='publisher')
   body#body
    #header
    #main-container
