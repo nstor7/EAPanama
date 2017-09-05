@@ -86091,7 +86091,7 @@ module.exports = function (articulo) {
 },{"../cabecera":529,"../cabecera/datos":528,"./social":515,"yo-yo":492}],515:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a class="twitter-share-button"\n    href="https://twitter.com/intent/tweet?text=Hello%20world">\n    Tweet</a>\n    <a onclick=', '><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://twitter.com/eapanama"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a target="_blank" href="https://plus.google.com/+Eapanama"><i class="fa fa-google-plus" aria-hidden="true"></i></a>\n  </div>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="http://twitter.com/home?status=http://sumergidapro.com/blog/', '"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a href="https://plus.google.com/share?url=https://sumergidapro.com/blog/', '" onclick="javascript:window.open(this.href,\n    \'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600\');return false;"><i class="fa fa-google-plus" aria-hidden="true"></i></a>  \n  </div>\n  '], ['\n  <div class="social" id="social">\n    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://sumergidapro.com/blog/', '"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n    <a target="_blank" href="http://twitter.com/home?status=http://sumergidapro.com/blog/', '"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n    <a href="https://plus.google.com/share?url=https://sumergidapro.com/blog/', '" onclick="javascript:window.open(this.href,\n    \'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600\');return false;"><i class="fa fa-google-plus" aria-hidden="true"></i></a>  \n  </div>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -86110,7 +86110,7 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (articulo) {
-  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo, _socialFunctions2.default.compartirFace);
+  var el = (0, _yoYo2.default)(_templateObject, articulo.titulo.replace(/ /g, '-'), articulo.titulo.replace(/ /g, '-'), articulo.titulo.replace(/ /g, '-'));
   return el;
 };
 
