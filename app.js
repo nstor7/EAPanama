@@ -122,7 +122,7 @@ app.post('/contactar/send', function (req, res, next) {
   });
 })
 app.get('/404', function(reg, res){
-  res.render('index.pug'{image: 'imagenes/logoRedes.jpg'})
+  res.render('index.pug', {image: 'imagenes/logoRedes.jpg'})
 })
 
 app.use(function(reg, res){
