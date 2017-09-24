@@ -13,8 +13,6 @@ admin.get('/auth', function(req, res){
   nombre: secret.nombre,
   contraseña: secret.contraseña
  }
- console.log(user.nombre)
- console.log(user.contraseña)
  res.send(user)
 })
 
