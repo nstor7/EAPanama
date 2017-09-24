@@ -26,7 +26,7 @@ app.use('/blog', blog)
 
 app.get('/', function(req, res){
  res.render('index.pug',{
-  title: 'EA Panamá - Home',
+  title: 'Noise Controling & Acoustics Designs',
   keywords: 'Acondicionamiento acústico, Aislamiento acústico, Control de ruido industrial, Instalaciones de audio, Venta de materiales acústicos.',
   description:'En EA Panamá ofrecemos todo tipo de soluciones acústicas de calidad en los campos de aislamiento en la edificación, acústica medioambiental, diseño y acondicionamiento de recintos, instalaciones audiovisuales así como venta de materiales acústicos, sonógrafos y equipos de audio.',
   image: 'imagenes/logoRedes.jpg',
@@ -122,7 +122,7 @@ app.post('/contactar/send', function (req, res, next) {
   });
 })
 app.get('/404', function(reg, res){
-  res.render('index.pug')
+  res.render('index.pug'{image: 'imagenes/logoRedes.jpg'})
 })
 
 app.use(function(reg, res){
