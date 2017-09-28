@@ -54,10 +54,5 @@ module.exports = [
     id: 'integracion',
     titulo: 'Integración de Audio y Video',
     elementos: []
-  },
-  {
-    id: 'productos',
-    titulo: 'Venta de Productos',
-    elementos: []
   }
 ]

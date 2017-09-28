@@ -14369,7 +14369,7 @@ function verificarDer(posicionActual) {
   var flechaDer = document.getElementById('flechaDer');
   var posicionesCantidad = carrousel.children.length;
   if (posicionActual == posicionesCantidad) flechaDer.style.display = 'none';else flechaDer.style.display = 'block';
-  setTimeout(moverAuto, 2000);
+  setTimeout(moverAuto, 5000);
 }
 function removerClasses(element, clase) {
   element.classList.remove(clase + '1');
@@ -14533,10 +14533,6 @@ module.exports = [{
 }, {
   id: 'integracion',
   titulo: 'Integración de Audio y Video',
-  elementos: []
-}, {
-  id: 'productos',
-  titulo: 'Venta de Productos',
   elementos: []
 }];
 

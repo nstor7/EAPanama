@@ -31,7 +31,7 @@ blog.get('/:titulo', cargarArticulo, function(req, res){
   title: req.params.titulo,
   description: articulo.descripcion,
   keywords: articulo.keywords,
-  image: articulo.imagen,
+  image: 'blog/' + articulo.imagen,
   url: '/blog/' + req.params.titulo
  })
 })
