@@ -89,12 +89,6 @@ module.exports = [
         descripcion: 'El lado inferior acanalado minimiza el contacto de la base entre los materiales terminados y el subsuelo. Reduce la rotura de la baldosa cerámica causada por el agrietamiento y la fisuración del hormigón. Excelente insonorización a ruido de impacto piso a piso.',
         interna: 'imagenes/producto-quiet.png',
         externa: 'imagenes/producto-quiet-floor-install.jpg'
-      },
-      {
-        titulo: 'QUIETFLOORNP',
-        descripcion: 'El lado inferior acanalado minimiza el contacto de la base entre los materiales terminados y el subsuelo. Reduce la rotura de la baldosa cerámica causada por el agrietamiento y la fisuración del hormigón. Excelente insonorización a ruido de impacto piso a piso.',
-        interna: 'imagenes/producto-quiet.png',
-        externa: 'imagenes/producto-quiet-floor-install.jpg'
       }
     ]
   }
