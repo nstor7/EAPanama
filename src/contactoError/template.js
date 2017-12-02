@@ -8,7 +8,7 @@ module.exports = yo`
   <section class="confirmacion">
     <div class="confirmacionError">
       <i class="fa fa-times" aria-hidden="true"></i>
-      <h2>Tu Mensaje ha no ha sido enviado</h2>
+      <h1>Tu Mensaje no ha sido enviado</h1>
       <h5>Puedes volver a intentar</h5>
       <a href="/contactar" class="callToAction">Contactar</a>
     </div>
