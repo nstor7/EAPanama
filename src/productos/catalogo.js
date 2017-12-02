@@ -16,13 +16,6 @@ module.exports = [
         ficha: 'pdf/rockwool.pdf'
       },
       {
-        titulo: 'CFAB PANEL DE CELULOSA',
-        descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
-        interna: 'imagenes/producto-cfab.png',
-        externa: 'imagenes/producto-cfab-install.jpg',
-        ficha: 'pdf/CFAB.pdf'
-      },
-      {
         titulo: 'POLYESTER ACOUSTIC CEILING',
         descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
         interna: 'imagenes/producto-pac.png',
