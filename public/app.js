@@ -13751,7 +13751,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 },{"../footer":68,"../header":70,"./template":65,"empty-element":5,"page":14}],65:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha no ha sido enviado</h2>\n      <h5>Puedes volver a intentar</h5>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n'], ['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h2>Tu Mensaje ha no ha sido enviado</h2>\n      <h5>Puedes volver a intentar</h5>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n']);
+var _templateObject = _taggedTemplateLiteral(['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h1>Tu Mensaje no ha sido enviado</h1>\n      <h2>Puedes volver a intentar pasados unos minutos</h2>\n      <h3>Disculpe por las molestias</h3>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n'], ['\n  <main>\n  ', '\n  <section class="confirmacion">\n    <div class="confirmacionError">\n      <i class="fa fa-times" aria-hidden="true"></i>\n      <h1>Tu Mensaje no ha sido enviado</h1>\n      <h2>Puedes volver a intentar pasados unos minutos</h2>\n      <h3>Disculpe por las molestias</h3>\n      <a href="/contactar" class="callToAction">Contactar</a>\n    </div>\n  </section>\n</main>\n']);
 
 var _yoYo = require('yo-yo');
 
@@ -14643,12 +14643,6 @@ module.exports = [{
     interna: 'imagenes/producto-lana.png',
     externa: 'imagenes/rockwool-install.png',
     ficha: 'pdf/rockwool.pdf'
-  }, {
-    titulo: 'CFAB PANEL DE CELULOSA',
-    descripcion: 'Producto reciclado de pasta de papel y periódico. Totalmente inocuo para el trabajador. No es fibra de vidrio. Excelente rendimiento acústico, NRC: 100 %.',
-    interna: 'imagenes/producto-cfab.png',
-    externa: 'imagenes/producto-cfab-install.jpg',
-    ficha: 'pdf/CFAB.pdf'
   }, {
     titulo: 'POLYESTER ACOUSTIC CEILING',
     descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
