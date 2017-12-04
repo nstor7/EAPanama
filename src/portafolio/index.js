@@ -12,5 +12,5 @@ page('/portafolio', header, backTop, killFooter, function(){
   var container = document.getElementById('main-container')
   empty(container).appendChild(template(portfolio))
   document.getElementsByClassName('tabEspacio')[0].classList.add('active')
-  setTimeout(ctrl.moverAuto, 2000)
+  setTimeout(ctrl.moverAuto, 4000)
 } )
