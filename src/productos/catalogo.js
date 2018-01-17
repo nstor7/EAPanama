@@ -16,6 +16,13 @@ module.exports = [
         ficha: 'pdf/rockwool.pdf'
       },
       {
+        titulo: 'CFAB',
+        descripcion: 'Material acústico de alto rendimiento compuesto de reciclados de celulosa. CFAB es utilizado en salas donde se requiere de un control acústico.',
+        interna: 'imagenes/producto-cfab.png',
+        externa: 'imagenes/cfab-install.png',
+        ficha: 'pdf/cfab.pdf'
+      },
+      {
         titulo: 'POLYESTER ACOUSTIC CEILING',
         descripcion: 'Techo acústico modular para estructuras de cielo raso. Totalmente sintético, inocuo para el trabajador. ',
         interna: 'imagenes/producto-pac.png',
