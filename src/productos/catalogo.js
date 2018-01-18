@@ -19,7 +19,7 @@ module.exports = [
         titulo: 'CFAB',
         descripcion: 'Material acústico de alto rendimiento compuesto de reciclados de celulosa. CFAB es utilizado en salas donde se requiere de un control acústico.',
         interna: 'imagenes/producto-cfab.png',
-        externa: 'imagenes/cfab-install.png',
+        externa: 'imagenes/cfab-install.jpg',
         ficha: 'pdf/cfab.pdf'
       },
       {
