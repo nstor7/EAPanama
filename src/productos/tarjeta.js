@@ -7,6 +7,7 @@ module.exports = function(producto){
       <div class="productoOver">
         <div class="productoOverImagen" style="background: url('${producto.externa}'); background-size: contain; background-repeat: no-repeat"></div>
         <p>${producto.descripcion}</p>
+        eo
       </div>
     </a>
   `
