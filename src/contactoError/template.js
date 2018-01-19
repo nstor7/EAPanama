@@ -10,7 +10,7 @@ module.exports = yo`
       <i class="fa fa-times" aria-hidden="true"></i>
       <h1>Tu Mensaje no ha sido enviado</h1>
       <h2>Puedes volver a intentar pasados unos minutos</h2>
-      <h3>Disculpe por las molestias</h3>
+      <h3>Disculpa por las molestias</h3>
       <a href="/contactar" class="callToAction">Contactar</a>
     </div>
   </section>

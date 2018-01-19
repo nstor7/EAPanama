@@ -9,7 +9,7 @@ module.exports= yo`
     <div class="confirmacionInfo">
       <i class="fa fa-check" aria-hidden="true"></i>
       <h2>Tu Mensaje ha sido enviado</h2>
-      <h5>Puedes hechar un vistazo a nuestros servicios</h5>
+      <h5>Puedes echar un vistazo a nuestros servicios</h5>
       <a href="/servicio" class="callToAction">Servicios</a>
     </div>
   </section>
