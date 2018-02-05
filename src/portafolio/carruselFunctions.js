@@ -45,7 +45,6 @@ function verificarDer(posicionActual){
  var posicionesCantidad = carrousel.children.length
  if(posicionActual == posicionesCantidad) flechaDer.style.display = 'none'
  else flechaDer.style.display = 'block'
-  setTimeout(moverAuto, 5000)
 }
 function removerClasses(element, clase){
  element.classList.remove(clase + '1')
@@ -53,6 +52,11 @@ function removerClasses(element, clase){
  element.classList.remove(clase + '3')
  element.classList.remove(clase + '4')
  element.classList.remove(clase + '5')
+ element.classList.remove(clase + '6')
+ element.classList.remove(clase + '7')
+ element.classList.remove(clase + '8')
+ element.classList.remove(clase + '9')
+ element.classList.remove(clase + '10')
 }
 function moverRiel(posicionActual){
  var viewer = document.getElementById('portafolioViewer') 
