@@ -15,7 +15,7 @@ module.exports = yo`
       <article class="horarios">
         <h2>ABRIR CON:</h2>
         <div class="mapLinks">
-          <a href="waze://?ll=9.0354163,-79.4638468" target="_blank"><div className="wazeImg"></div></a>
+          <a href="https://www.waze.com/es/livemap?zoom=17&lat=9.03533&lon=-79.46125" target="_blank"><div className="wazeImg"></div></a>
           <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>
         </div>
         <h2>HORARIOS:</h2>
