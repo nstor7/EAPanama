@@ -13,17 +13,17 @@ module.exports = yo`
     </section>
     <section class="noHomeSection arriba">
       <article class="horarios">
-        <h2>ABRIR CON:</h2>
+        <h2><b>ABRIR CON:</b></h2>
         <div class="mapLinks">
-          <a href="https://www.waze.com/es/livemap?zoom=17&lat=9.03533&lon=-79.46125" target="_blank"><div className="wazeImg"></div></a>
+          <a href="https://www.waze.com/es-419/livemap?zoom=17&lat=9.03547&lon=-79.46119" target="_blank"><div className="wazeImg"></div></a>
           <a href="http://goo.gl/maps/PJomt4sbS4M2" target="_blank"><div className="gmapsImg"></div></a>
         </div>
-        <h2>HORARIOS:</h2>
-        <p><i class="fa fa-clock-o" aria-hidden="true"></i> <b>Atención al Cliente</b> <br> Lunes a Viernes de 9:00 am a 4:00 pm <br>    Sábados de 8:00 am a 12:00 pm <br>
-<i class="fa fa-phone" aria-hidden="true"></i> <b>Llámanos:</b> 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> <b>WhatsApp:</b> 6144-2899</p>
+        <h2><b>HORARIOS:</b></h2>
+        <p><i class="fa fa-clock-o" aria-hidden="true"></i> Atención al Cliente <br> Lunes a Viernes de 9:00 am a 4:00 pm <br>    Sábados de 8:00 am a 12:00 pm <br>
+<i class="fa fa-phone" aria-hidden="true"></i> Llámanos: 390-9933 <br> <i class="fa fa-whatsapp" aria-hidden="true"></i> WhatsApp: 6144-2899</p>
       </article>
       <form method="post" action="contactar/send" class="formulario">
-        <h2>ENVÍANOS UN MENSAJE:</h2>
+        <h2><b>ENVÍANOS UN MENSAJE:</b></h2>
         <div class="formLine">
           <p>Nombre:</p>
           <input type="text" name="nombre" value="Nombre">
