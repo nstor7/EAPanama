@@ -14828,9 +14828,7 @@ module.exports = function () {
 },{}],97:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n      <section class="portafolio">\n        <article class="portafolioLibraries">\n          ', '\n        </article>\n        <article class="portafolioViewer position1" id="portafolioViewer">\n          <div>\n            <div class="portfolioRiel" id="portfolioRiel">\n                ', '\n            </div>\n            <a onclick=', ' class="controles imagenBackward" id="flechaIzq">\n              <i class="fa fa-angle-left" aria-hidden="true"></i>\n            </a>\n            <a onclick=', ' class="controles imagenFordward" id="flechaDer">\n                <i class="fa fa-angle-right" aria-hidden="true"></i>\n            </a>\n            <div class="portfolioPunto" id="portfolioPunto">\n              ', '\n            </div>\n          </div>    \n        </article>\n      </section>\n    </main>\n  ']),
-    _templateObject2 = _taggedTemplateLiteral(['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: cover;"></div>'], ['<div class="portfolioImagen" style="background: url(\'imagenes/', '\'); background-size: cover;"></div>']),
-    _templateObject3 = _taggedTemplateLiteral(['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>'], ['<a class="punto" id="posicion', '" onclick=', ' data-posicion="', '"></a>']);
+var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n    <section class="objetivo">\n    <img src="imagenes/website-coming-soon.png" alt="Descripci\xF3n de esta maravillosa imagen">\n  </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n    <section class="objetivo">\n    <img src="imagenes/website-coming-soon.png" alt="Descripci\xF3n de esta maravillosa imagen">\n  </section>\n    </main>\n  ']);
 
 var _yoYo = require('yo-yo');
 
@@ -14865,13 +14863,7 @@ function _taggedTemplateLiteral(strings, raw) {
 }
 
 module.exports = function (portfolio) {
-  var el = (0, _yoYo2.default)(_templateObject, portfolio.map(function (archivos) {
-    return (0, _tab2.default)(archivos);
-  }), portfolio[0].elementos[0].imagenes.map(function (imagen) {
-    return (0, _yoYo2.default)(_templateObject2, imagen);
-  }), _carruselFunctions2.default.moverIzquierda, _carruselFunctions2.default.moverDerecha, portfolio[0].elementos[0].imagenes.map(function (imagen, i) {
-    return (0, _yoYo2.default)(_templateObject3, i + 1, _carruselFunctions2.default.moverPunto, i + 1);
-  }));
+  var el = (0, _yoYo2.default)(_templateObject);
   return el;
 };
 
