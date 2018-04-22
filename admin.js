@@ -5,7 +5,7 @@ const secret = require('../.secret')
 admin.use(express.static('public'))
 
 admin.get('/', function(req, res){
- res.render('index.pug', {title: 'EA Panamá - Admin', image: 'imagenes/logoRedes.jpg', url: '/admin'})
+ res.render('index.pug', {title: 'EA Panamá - Admin', image: 'imagenes/img-logos/eapanama-logosq-text-1000x1000.png', url: '/admin'})
 })
 
 admin.get('/auth', function(req, res){
@@ -17,15 +17,15 @@ admin.get('/auth', function(req, res){
 })
 
 admin.get('/editor', function(req, res){
- res.render('index.pug', {title: 'EA Panamá - Editor', image: 'imagenes/logoRedes.jpg', url: '/admin/editor'})
+ res.render('index.pug', {title: 'EA Panamá - Editor', image: 'imagenes/img-logos/eapanama-logosq-text-1000x1000.png', url: '/admin/editor'})
 })
 
 admin.get('/lista', function(req, res){
- res.render('index.pug', {title: 'EA Panamá - Consola', image: 'imagenes/logoRedes.jpg', url: '/admin/lista'})
+ res.render('index.pug', {title: 'EA Panamá - Consola', image: 'imagenes/img-logos/eapanama-logosq-text-1000x1000.png', url: '/admin/lista'})
 })
 
 admin.get('/editor/:titulo', function(req, res){
- res.render('index.pug', {title: 'EA Panamá - Editor', image: 'imagenes/logoRedes.jpg', url: '/admin/titulo'})
+ res.render('index.pug', {title: 'EA Panamá - Editor', image: 'imagenes/img-logos/eapanama-logosq-text-1000x1000.png', url: '/admin/titulo'})
 })
 
 module.exports = admin
