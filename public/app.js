@@ -14828,7 +14828,7 @@ module.exports = function () {
 },{}],97:[function(require,module,exports){
 'use strict';
 
-var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n    <section class="objetivo">\n    <img src="imagenes/website-coming-soon.png" alt="Descripci\xF3n de esta maravillosa imagen">\n  </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n    <section class="objetivo">\n    <img src="imagenes/website-coming-soon.png" alt="Descripci\xF3n de esta maravillosa imagen">\n  </section>\n    </main>\n  ']);
+var _templateObject = _taggedTemplateLiteral(['\n    <main class="portfolio">\n    <div className="negro"></div>\n    <section class="objetivo">\n    <img src="imagenes/website-coming-soon.png" alt="Secci\xF3n portafolio en trabajo...">\n  </section>\n    </main>\n  '], ['\n    <main class="portfolio">\n    <div className="negro"></div>\n    <section class="objetivo">\n    <img src="imagenes/website-coming-soon.png" alt="Secci\xF3n portafolio en trabajo...">\n  </section>\n    </main>\n  ']);
 
 var _yoYo = require('yo-yo');
 
